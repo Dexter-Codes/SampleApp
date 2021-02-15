@@ -15,7 +15,7 @@ namespace Sample.Core
 
         protected override Task NavigateToFirstViewModel(object hint = null)
         {
-            return NavigationService.Navigate<MainViewModel>();
+            return NavigationService.Navigate<OrderListViewModel>();
         }
     }
 }

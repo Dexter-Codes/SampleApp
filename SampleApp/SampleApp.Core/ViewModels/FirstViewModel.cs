@@ -1,6 +1,10 @@
 //using MvvmCross.ViewModels;
 
 using System.Threading.Tasks;
+using System.Windows.Input;
+using MvvmCross;
+using MvvmCross.Commands;
+using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
 using Sample.Core.Services;
 
@@ -14,6 +18,29 @@ namespace Sample.Core.ViewModels
         public FirstViewModel(ICalculationService calculationService)
         {
             _calculationService = calculationService;
+        }
+        public string RegisterBtnTitle => "Click here";
+        private string _appVersion = "1.0";
+        public string AppVersion
+        {
+            get => _appVersion;
+            set => SetProperty(ref _appVersion, value);
+        }
+
+        private ICommand _clickCommand;
+        public ICommand ClickCommand
+        {
+            get
+            {
+                _clickCommand = _clickCommand ?? new MvxAsyncCommand(OnClickCommand);
+                return _clickCommand;
+            }
+        }
+
+        private async Task OnClickCommand()
+        {
+            var navigationService = Mvx.IoCProvider.Resolve<IMvxNavigationService>();
+            await navigationService.Navigate<OrderListViewModel>();
         }
         public override async Task Initialize()
         {

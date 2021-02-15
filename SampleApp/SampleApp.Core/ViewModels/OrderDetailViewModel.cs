@@ -1,0 +1,73 @@
+﻿using System;
+using Sample.Core.Models;
+
+namespace Sample.Core.ViewModels
+{
+    public class OrderDetailViewModel: BaseViewModel<ClientListModel, DestructionResult<ClientListModel>>
+    {
+        private string _status ;
+        public string Status
+        {
+            get => _status;
+            set => SetProperty(ref _status, value);
+        }
+        private string _orderNum;
+        public string OrderNum
+        {
+            get => _orderNum;
+            set => SetProperty(ref _orderNum, value);
+        }
+        private string _clientName;
+        public string ClientName
+        {
+            get => _clientName;
+            set => SetProperty(ref _clientName, value);
+        }
+        private string _propertyName;
+        public string PropertyName
+        {
+            get => _propertyName;
+            set => SetProperty(ref _propertyName, value);
+        }
+        private string _address;
+        public string Address
+        {
+            get => _address;
+            set => SetProperty(ref _address, value);
+        }
+        private string _note;
+        public string Note
+        {
+            get => _note;
+            set => SetProperty(ref _note, value);
+        }
+        private string _btn1;
+        public string Btn1
+        {
+            get => _btn1;
+            set => SetProperty(ref _btn1, value);
+        }
+        private string _btn2;
+        public string Btn2
+        {
+            get => _btn2;
+            set => SetProperty(ref _btn2, value);
+        }
+        public OrderDetailViewModel()
+        {
+        }
+
+        public override void Prepare(ClientListModel parameter)
+        {
+
+            Status = parameter.Status;
+            OrderNum = parameter.Date;
+            ClientName = parameter.ClientName;
+            PropertyName = parameter.PropertyNumber;
+            Address = parameter.Address;
+            Note = parameter.Note;
+            Btn1 = parameter.BtnPrev;
+            Btn2 = parameter.BtnNext;
+        }
+    }
+}
