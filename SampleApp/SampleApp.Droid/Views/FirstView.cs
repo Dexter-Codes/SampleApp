@@ -15,14 +15,8 @@ namespace SampleApp.Droid.Views
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.FirstView);
-
-           // InitView();
-          //  SetViewBinding();
         }
-        void InitView()
-        {
-            //btn1 = FindViewById<Button>(Resource.Id.btn1);
-        }
+        
         void SetViewBinding()
         {
             var set = this.CreateBindingSet<FirstView, FirstViewModel>();

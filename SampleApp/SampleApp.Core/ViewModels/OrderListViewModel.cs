@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using MvvmCross;
 using MvvmCross.Commands;
 using MvvmCross.Navigation;
@@ -9,7 +10,7 @@ using Sample.Core.Models;
 
 namespace Sample.Core.ViewModels
 {
-    public class OrderListViewModel:MvxViewModel
+    public class OrderListViewModel: BaseViewModel<ClientListModel, DestructionResult<ClientListModel>>
     {
         private ObservableCollection<ClientListModel> _onListClient = new ObservableCollection<ClientListModel>();
         public ObservableCollection<ClientListModel> OnListClient
@@ -17,11 +18,16 @@ namespace Sample.Core.ViewModels
             get => _onListClient;
             set => SetProperty(ref _onListClient, value);
         }
+
         public IMvxCommand<ClientListModel> ClickCommand { get; private set; }
+
+        private ICommand _backCommand;
+        public ICommand BackCommand { get; set; }
+
         public OrderListViewModel()
         {
-            SetData();
             ClickCommand = new MvxAsyncCommand<ClientListModel>(OrderItemSelected);
+            BackCommand = new MvxAsyncCommand(OnBackClick);
         }
 
         private async Task OrderItemSelected(ClientListModel arg)
@@ -30,18 +36,24 @@ namespace Sample.Core.ViewModels
             await navigationService.Navigate<OrderDetailViewModel, ClientListModel, DestructionResult<ClientListModel>>(arg);
         }
 
-        public void SetData()
+        private async Task OnBackClick()
         {
-            for (int i = 0; i < 5; i++)
+            var navigationService = Mvx.IoCProvider.Resolve<IMvxNavigationService>();
+            await navigationService.Close(this);
+        }
+
+        public void SetData(int total,string clientName)
+        {
+            for (int i = 0; i < total; i++)
             {
                 OnListClient.Add(new ClientListModel
                 {
                     ClientNumber = 123 + i,
-                    PropertyNumber = "XAEji-" + i.ToString(),
+                    PropertyNumber = clientName,
                     ClientName = "Sri Pada" + i.ToString(),
                     Date = "20/11/201" + i.ToString(),
                     PropertyId = "Lost2244" + i,
-                    Status = "Completed",
+                    Status = "Complete",
                     Address="JacksonVille newark"+i.ToString(),
                     Note="Important text",
                     BtnNext="Before Images",
@@ -49,9 +61,17 @@ namespace Sample.Core.ViewModels
                 });
             }
         }
+
         public override Task Initialize()
         {
             return base.Initialize();
+        }
+
+        public override void Prepare(ClientListModel parameter)
+        {
+            var total=parameter.ClientNumber;
+            var clientName = parameter.ClientName;
+            SetData(total,clientName);
         }
     }
 }

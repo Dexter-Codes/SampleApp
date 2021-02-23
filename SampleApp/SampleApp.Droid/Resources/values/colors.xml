@@ -4,4 +4,11 @@
     <color name="colorPrimaryDark">#1B3147</color>
     <color name="colorAccent">#3498db</color>
     <color name="light_gray">#EFF2F5</color>
+    <color name="login_text">#828282</color>
+    <color name="login_textbg">#BDBDBD</color>
+    <color name="card_border">#8C8C8C</color>
+    <color name="search_text">#848484</color>
+    <color name="text_bold">#4E3629</color>
+    <color name="text_green">#77A70F</color>
+    <color name="shadow_bg">#00000029</color>
 </resources>

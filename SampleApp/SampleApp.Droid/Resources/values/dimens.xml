@@ -1,4 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <dimen name="drawer_width">240dp</dimen>
+    <dimen name="logo_marginleft">80px</dimen>
+    <dimen name="logo_marginright">79px</dimen>
+    <dimen name="logo_margintop">166px</dimen>
+    <dimen name="logo_height">236px</dimen>
+    <dimen name="text_size">50px</dimen>
+    <dimen name="text_sizeMedium">35px</dimen>
+    <dimen name="edittext_size">40px</dimen>
+    <dimen name="text_sizeSmall">25px</dimen>
 </resources>

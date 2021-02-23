@@ -1,19 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
-<androidx.core.widget.NestedScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+﻿<?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:local="http://schemas.android.com/apk/res-auto"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent"
-	android:orientation="vertical"
-	>
-		 <View
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
         android:layout_alignParentTop="true"
-        android:id="@+id/View1"
+        android:id="@+id/imageView1"
         android:layout_width="match_parent"
         android:layout_height="376px"
         android:background="@drawable/foreground"/>
@@ -21,8 +17,7 @@
         android:id="@+id/imageView2"
         android:layout_width="118px"
         android:layout_height="118px"
-        android:src="@drawable/back"
-        local:MvxBind="Click BackCommand"
+        android:src="@drawable/hamburger"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="48px"
         android:layout_marginTop="128px"/>
@@ -30,25 +25,32 @@
         android:id="@+id/textView1"
         android:layout_width="207px"
         android:layout_height="69px"
-        android:textSize="@dimen/text_size"
+        android:textSize="50px"
         android:layout_marginTop="152px"
         android:layout_marginLeft="300px"
         android:layout_marginRight="300px"
         android:layout_toRightOf="@id/imageView2"
         android:textColor="@android:color/white"
         android:fontFamily="@font/poppins_medium"
-        android:text="ORDERS"/>
-
-
-        <com.google.android.material.card.MaterialCardView
+        android:text="CLIENTS"/>
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="118px"
+        android:layout_height="118px"
+        android:src="@drawable/logout_icon"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35px"
+        android:layout_marginTop="128px"/>
+      
+	<com.google.android.material.card.MaterialCardView
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:local="http://schemas.android.com/apk/res-auto"
         android:id="@+id/searchView1"
-        android:layout_below="@id/View1"
+        android:layout_below="@id/imageView1"
         android:layout_width="match_parent"
         android:layout_height="135px"
-        app:cardCornerRadius="20dp"       
+        app:cardCornerRadius="20dp"
         android:layout_marginTop="25px"
         app:cardElevation="2dp"
         app:strokeWidth="1.4px"
@@ -64,15 +66,14 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="left|center"
-                android:paddingLeft="50px"
-                android:paddingTop="13px"
-                android:paddingBottom="13px"
                 android:hint="Search"
                 android:textColor="@color/search_text"
                 android:textSize="@dimen/text_size"
+                android:gravity="left|center"
                 android:fontFamily="@font/poppins_regular"
-                android:focusedByDefault="false"
+                android:paddingLeft="50px"
+                android:paddingTop="13px"
+                android:paddingBottom="13px"
                 android:background="@drawable/rounded_edittextview"/>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -94,13 +95,12 @@
             </com.google.android.material.card.MaterialCardView>
 
 	<MvvmCross.DroidX.RecyclerView.MvxRecyclerView
-        android:layout_below="@id/searchView1"
-		android:id="@+id/recyclerView1"
         android:layout_marginLeft="56px"
         android:layout_marginRight="47px"
-        android:scrollbarAlwaysDrawHorizontalTrack="true"
-		local:MvxBind="ItemsSource OnListClient; ItemClick ClickCommand"
+		android:id="@+id/recyclerView1"
+        android:layout_below="@id/searchView1"
+		local:MvxBind="ItemsSource ClientList; ItemClick ClickCommand"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </RelativeLayout>
-</androidx.core.widget.NestedScrollView>
+   

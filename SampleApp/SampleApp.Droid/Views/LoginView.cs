@@ -1,21 +1,18 @@
 ﻿using System;
 using Android.App;
 using Android.OS;
-using Android.Widget;
 using MvvmCross.Platforms.Android.Views;
 using Sample.Core.ViewModels;
 
 namespace SampleApp.Droid.Views
 {
-    [Activity(Label = "FirstViewModel", Theme = "@style/AppMaterialTheme")]
-    public class OrderDetailView : MvxActivity<OrderDetailViewModel>
+    [Activity(Label = "LoginView", Theme = "@style/AppTheme")]
+    public class LoginView:MvxActivity<LoginViewModel>
     {
-        //ImageView imageView;
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.OrderDetail);
+            SetContentView(Resource.Layout.Login);
         }
-       
     }
 }
