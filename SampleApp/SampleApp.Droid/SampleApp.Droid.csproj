@@ -74,6 +74,12 @@
   <PackageReference Include="Refractored.Controls.CircleImageView">
     <Version>1.0.1</Version>
   </PackageReference>
+  <PackageReference Include="Xamarin.Android.Support.v7.CardView">
+    <Version>28.0.0.3</Version>
+  </PackageReference>
+  <PackageReference Include="MvvmCross.Plugin.Color">
+    <Version>7.1.2</Version>
+  </PackageReference>
 </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
@@ -102,7 +108,6 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png" />
-    <AndroidResource Include="Resources\layout\FirstView.axml" />
     <AndroidResource Include="Resources\layout\SplashScreen.axml" />
     <AndroidResource Include="Resources\values\arrays.xml" />
     <AndroidResource Include="Resources\values\colors.xml" />
@@ -110,31 +115,11 @@
     <AndroidResource Include="Resources\values\integers.xml" />
     <AndroidResource Include="Resources\values\strings.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
-    <AndroidResource Include="Resources\layout\MainView.xml">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\MenuView.xml">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\PeopleView.xml">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\PersonView.xml">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
     <AndroidResource Include="Resources\menu\navigation_drawer.xml">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\toolbar_actionbar.xml">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\navigation_header.xml">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
@@ -274,7 +259,19 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\btn_shadow.9.png">
+    <AndroidResource Include="Resources\drawable\rounded_buttonShadow.9.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\error.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\status_shadow.9.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\shadow_t.9.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
@@ -286,14 +283,8 @@
   <ItemGroup>
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\FirstView.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="MainApplication.cs" />
-    <Compile Include="Views\BaseFragment.cs" />
-    <Compile Include="Views\MainView.cs" />
-    <Compile Include="Views\MenuFragment.cs" />
-    <Compile Include="Views\PeopleView.cs" />
-    <Compile Include="Views\PersonView.cs" />
     <Compile Include="Views\OrderListView.cs" />
     <Compile Include="Views\OrderDetailView.cs" />
     <Compile Include="Views\LoginView.cs" />

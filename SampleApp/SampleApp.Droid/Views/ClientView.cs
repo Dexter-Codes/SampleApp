@@ -10,7 +10,7 @@ using SampleApp.Droid.Adapter;
 
 namespace SampleApp.Droid.Views
 {
-    [Activity(Label = "FirstViewModel", Theme = "@style/AppMaterialTheme")]
+    [Activity(Label = "ClientViewModel", Theme = "@style/AppMaterialTheme")]
     public class ClientView:MvxActivity
     {
         protected override void OnCreate(Bundle bundle)

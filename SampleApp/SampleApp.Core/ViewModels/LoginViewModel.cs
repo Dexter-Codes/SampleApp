@@ -24,8 +24,7 @@ namespace Sample.Core.ViewModels
             set => SetProperty(ref _password, value);
         }
 
-        private ICommand _loginCommand;
-        public ICommand LoginCommand { get; set; }
+        public IMvxCommand LoginCommand { get; set; }
        
         
         public LoginViewModel()

@@ -34,65 +34,9 @@ namespace SampleApp.Droid.Views
             recyclerView1.SetLayoutManager(new LinearLayoutManager(this));
             recyclerView1.Adapter = _adapter;
 
-
-            //     var set = this.CreateBindingSet<OrderListView, OrderListViewModel>();
-            //      set.Bind(recyclerView1).To(x => x.ClickCommand);
-            //      set.Bind(recyclerView1.Adapter).For(x => x.ItemsSource).To(x => x.OnListClient);
-            //     set.Apply();
         }
         
         
     }
-    //public class ClientViewAdapter : MvxRecyclerAdapter
-    //{
-    //    private readonly AssetManager _assetManager;
-    //    private readonly MvxViewModel _mvxViewModel;
-    //    public ClientViewAdapter(IMvxAndroidBindingContext bindingContext)
-    //        : base(bindingContext)
-    //    {s
-    //        //_assetManager = assetManager;
-    //    }
-
-    //    public override ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
-    //    {
-    //        var itemBindingContext = new MvxAndroidBindingContext(parent.Context, BindingContext.LayoutInflaterHolder);
-    //        var view = InflateViewForHolder(parent, viewType, itemBindingContext);
-
-    //        var peopleOnBoardHolder = new ClientViewHolder(view, itemBindingContext);
-    //        return peopleOnBoardHolder;
-    //    }
-    //}
-    //public class ClientViewHolder : MvxRecyclerViewHolder
-    //{
-    //    private readonly TextView _tvClientNum;
-    //    private readonly TextView _tvStatus;
-    //    private readonly TextView _tvClientName;
-    //    private readonly TextView _tvDate;
-    //    private readonly TextView _tvPropertyId;
-    //    private readonly TextView _tvPropertyNum;
-
-
-    //    public ClientViewHolder(Android.Views.View itemView, IMvxAndroidBindingContext context)
-    //       : base(itemView, context)
-    //    {
-    //        _tvClientNum = itemView.FindViewById<TextView>(Resource.Id.text_clientnum);
-    //        _tvStatus = itemView.FindViewById<TextView>(Resource.Id.text_status);
-    //        _tvClientName = itemView.FindViewById<TextView>(Resource.Id.text_clientname);
-    //        _tvDate = itemView.FindViewById<TextView>(Resource.Id.text_date);
-    //        _tvPropertyId = itemView.FindViewById<TextView>(Resource.Id.text_propid);
-    //        _tvPropertyNum = itemView.FindViewById<TextView>(Resource.Id.text_propnum);
-
-    //        this.DelayBind(() =>
-    //        {
-    //            var set = this.CreateBindingSet<ClientViewHolder, ClientListModel>();
-    //            set.Bind(_tvClientNum).To(x => x.ClientNumber);
-    //            set.Bind(_tvStatus).To(x => x.Status);
-    //            set.Bind(_tvClientName).To(x => x.ClientName);
-    //            set.Bind(_tvDate).To(x => x.Date);
-    //            set.Bind(_tvPropertyId).To(x => x.PropertyId);
-    //            set.Bind(_tvPropertyNum).To(x => x.PropertyNumber);
-    //            set.Apply();
-    //        });
-    //    }
-    //}
+    
 }

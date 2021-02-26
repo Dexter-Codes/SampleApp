@@ -4,11 +4,12 @@ using System.Windows.Input;
 using MvvmCross;
 using MvvmCross.Commands;
 using MvvmCross.Navigation;
+using MvvmCross.ViewModels;
 using Sample.Core.Models;
 
 namespace Sample.Core.ViewModels
 {
-    public class OrderDetailViewModel: BaseViewModel<ClientListModel, DestructionResult<ClientListModel>>
+    public class OrderDetailViewModel: MvxViewModel<ClientListModel>
     {
         private string _status;
         public string Status
@@ -65,8 +66,15 @@ namespace Sample.Core.ViewModels
             get => _btn2;
             set => SetProperty(ref _btn2, value);
         }
-        private ICommand _backCommand;
-        public ICommand BackCommand { get; set; }
+
+        private string _statusIcon;
+        public string StatusIcon
+        {
+            get => _statusIcon;
+            set => SetProperty(ref _statusIcon, value);
+        }
+
+        public IMvxCommand BackCommand { get; set; }
         
 
         public OrderDetailViewModel()
@@ -83,13 +91,14 @@ namespace Sample.Core.ViewModels
         public override void Prepare(ClientListModel parameter)
         {
             Status = parameter.Status;
-            OrderNum = parameter.Date;
+            OrderNum = parameter.ClientNumber.ToString();
             ClientName = parameter.ClientName;
             PropertyName = parameter.PropertyNumber;
             Address = parameter.Address;
             Note = parameter.Note;
             Btn1 = parameter.BtnPrev;
             Btn2 = parameter.BtnNext;
+            StatusIcon = Status == "Complete" ? "checkmark" : "error";
         }
     }
 }

@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using MvvmCross;
@@ -10,30 +12,41 @@ using Sample.Core.Models;
 
 namespace Sample.Core.ViewModels
 {
-    public class OrderListViewModel: BaseViewModel<ClientListModel, DestructionResult<ClientListModel>>
+    public class OrderListViewModel: MvxViewModel<ClientListModel>
     {
-        private ObservableCollection<ClientListModel> _onListClient = new ObservableCollection<ClientListModel>();
-        public ObservableCollection<ClientListModel> OnListClient
+        private List<ClientListModel> _clientOrderList = new List<ClientListModel>();
+        public List<ClientListModel> ClientOrderList
         {
-            get => _onListClient;
-            set => SetProperty(ref _onListClient, value);
+            get => _clientOrderList;
+            set => SetProperty(ref _clientOrderList, value);
         }
 
-        public IMvxCommand<ClientListModel> ClickCommand { get; private set; }
+        private List<ClientListModel> tempList = new List<ClientListModel>();
 
-        private ICommand _backCommand;
-        public ICommand BackCommand { get; set; }
+        private string _searchText;
+        public string searchText
+        {
+            get => _searchText;
+            set => SetProperty(ref _searchText, value);
+        }
+
+        public IMvxCommand<ClientListModel> ClickCommand { get;  set; }
+
+        public IMvxCommand SearchCommand { get; set; }
+
+        public IMvxCommand BackCommand { get; set; }
 
         public OrderListViewModel()
         {
             ClickCommand = new MvxAsyncCommand<ClientListModel>(OrderItemSelected);
             BackCommand = new MvxAsyncCommand(OnBackClick);
+            SearchCommand = new MvxCommand(OnSearchClick);
         }
 
         private async Task OrderItemSelected(ClientListModel arg)
         {
             var navigationService = Mvx.IoCProvider.Resolve<IMvxNavigationService>();
-            await navigationService.Navigate<OrderDetailViewModel, ClientListModel, DestructionResult<ClientListModel>>(arg);
+            await navigationService.Navigate<OrderDetailViewModel, ClientListModel>(arg);
         }
 
         private async Task OnBackClick()
@@ -42,24 +55,43 @@ namespace Sample.Core.ViewModels
             await navigationService.Close(this);
         }
 
+        private void OnSearchClick()
+        {
+            if (!string.IsNullOrEmpty(searchText) && searchText.Length > 4)
+            {
+                searchText.ToLower();
+                var filtered = tempList.Where(p => p.ClientName != null && p.ClientName.ToLower().Contains(searchText)
+                || p.Address != null && p.Address.ToLower().Contains(searchText) || p.Status.ToLower().Contains(searchText) || p.Date.ToLower().Contains(searchText)
+                ||p.PropertyNumber.ToLower().Contains(searchText));
+
+                ClientOrderList = filtered.ToList();
+            }
+            else if (string.IsNullOrEmpty(searchText))
+            {
+                ClientOrderList = tempList;
+            }
+        }
+
         public void SetData(int total,string clientName)
         {
             for (int i = 0; i < total; i++)
             {
-                OnListClient.Add(new ClientListModel
+                tempList.Add(new ClientListModel
                 {
-                    ClientNumber = 123 + i,
-                    PropertyNumber = clientName,
-                    ClientName = "Sri Pada" + i.ToString(),
+                    ClientNumber = 12953 + i,
+                    PropertyNumber = "667"+i,
+                    ClientName = clientName,
                     Date = "20/11/201" + i.ToString(),
-                    PropertyId = "Lost2244" + i,
-                    Status = "Complete",
+                    PropertyId = "PropertyId-13",
+                    Status = i%2==0?"Complete":"Pending",
                     Address="JacksonVille newark"+i.ToString(),
                     Note="Important text",
                     BtnNext="Before Images",
-                    BtnPrev="After Images"
+                    BtnPrev="After Images",
+                    StatusIcon=i%2==0?"checkmark":"error"
                 });
             }
+            ClientOrderList = tempList;
         }
 
         public override Task Initialize()

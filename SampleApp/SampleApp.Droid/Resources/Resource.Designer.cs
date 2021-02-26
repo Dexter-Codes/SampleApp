@@ -14192,6 +14192,2885 @@ namespace SampleApp.Droid
 			global::MvvmCross.DroidX.SwipeRefreshLayout.Resource.Styleable.View_paddingEnd = global::SampleApp.Droid.Resource.Styleable.View_paddingEnd;
 			global::MvvmCross.DroidX.SwipeRefreshLayout.Resource.Styleable.View_paddingStart = global::SampleApp.Droid.Resource.Styleable.View_paddingStart;
 			global::MvvmCross.DroidX.SwipeRefreshLayout.Resource.Styleable.View_theme = global::SampleApp.Droid.Resource.Styleable.View_theme;
+			global::MvvmCross.Plugin.Color.Resource.Animation.abc_fade_in = global::SampleApp.Droid.Resource.Animation.abc_fade_in;
+			global::MvvmCross.Plugin.Color.Resource.Animation.abc_fade_out = global::SampleApp.Droid.Resource.Animation.abc_fade_out;
+			global::MvvmCross.Plugin.Color.Resource.Animation.abc_grow_fade_in_from_bottom = global::SampleApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::MvvmCross.Plugin.Color.Resource.Animation.abc_popup_enter = global::SampleApp.Droid.Resource.Animation.abc_popup_enter;
+			global::MvvmCross.Plugin.Color.Resource.Animation.abc_popup_exit = global::SampleApp.Droid.Resource.Animation.abc_popup_exit;
+			global::MvvmCross.Plugin.Color.Resource.Animation.abc_shrink_fade_out_from_bottom = global::SampleApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::MvvmCross.Plugin.Color.Resource.Animation.abc_slide_in_bottom = global::SampleApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::MvvmCross.Plugin.Color.Resource.Animation.abc_slide_in_top = global::SampleApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::MvvmCross.Plugin.Color.Resource.Animation.abc_slide_out_bottom = global::SampleApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::MvvmCross.Plugin.Color.Resource.Animation.abc_slide_out_top = global::SampleApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::MvvmCross.Plugin.Color.Resource.Animation.abc_tooltip_enter = global::SampleApp.Droid.Resource.Animation.abc_tooltip_enter;
+			global::MvvmCross.Plugin.Color.Resource.Animation.abc_tooltip_exit = global::SampleApp.Droid.Resource.Animation.abc_tooltip_exit;
+			global::MvvmCross.Plugin.Color.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::SampleApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::MvvmCross.Plugin.Color.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::SampleApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::MvvmCross.Plugin.Color.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::SampleApp.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::MvvmCross.Plugin.Color.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::SampleApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::MvvmCross.Plugin.Color.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::SampleApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::MvvmCross.Plugin.Color.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::SampleApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::MvvmCross.Plugin.Color.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::SampleApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::MvvmCross.Plugin.Color.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::SampleApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::MvvmCross.Plugin.Color.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::SampleApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::MvvmCross.Plugin.Color.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::SampleApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::MvvmCross.Plugin.Color.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::SampleApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::MvvmCross.Plugin.Color.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::SampleApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::MvvmCross.Plugin.Color.Resource.Animation.design_bottom_sheet_slide_in = global::SampleApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::MvvmCross.Plugin.Color.Resource.Animation.design_bottom_sheet_slide_out = global::SampleApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::MvvmCross.Plugin.Color.Resource.Animation.design_snackbar_in = global::SampleApp.Droid.Resource.Animation.design_snackbar_in;
+			global::MvvmCross.Plugin.Color.Resource.Animation.design_snackbar_out = global::SampleApp.Droid.Resource.Animation.design_snackbar_out;
+			global::MvvmCross.Plugin.Color.Resource.Animation.fragment_close_enter = global::SampleApp.Droid.Resource.Animation.fragment_close_enter;
+			global::MvvmCross.Plugin.Color.Resource.Animation.fragment_close_exit = global::SampleApp.Droid.Resource.Animation.fragment_close_exit;
+			global::MvvmCross.Plugin.Color.Resource.Animation.fragment_fade_enter = global::SampleApp.Droid.Resource.Animation.fragment_fade_enter;
+			global::MvvmCross.Plugin.Color.Resource.Animation.fragment_fade_exit = global::SampleApp.Droid.Resource.Animation.fragment_fade_exit;
+			global::MvvmCross.Plugin.Color.Resource.Animation.fragment_fast_out_extra_slow_in = global::SampleApp.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::MvvmCross.Plugin.Color.Resource.Animation.fragment_open_enter = global::SampleApp.Droid.Resource.Animation.fragment_open_enter;
+			global::MvvmCross.Plugin.Color.Resource.Animation.fragment_open_exit = global::SampleApp.Droid.Resource.Animation.fragment_open_exit;
+			global::MvvmCross.Plugin.Color.Resource.Animator.design_appbar_state_list_animator = global::SampleApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::MvvmCross.Plugin.Color.Resource.Animator.design_fab_hide_motion_spec = global::SampleApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::MvvmCross.Plugin.Color.Resource.Animator.design_fab_show_motion_spec = global::SampleApp.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::MvvmCross.Plugin.Color.Resource.Animator.mtrl_btn_state_list_anim = global::SampleApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::MvvmCross.Plugin.Color.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::SampleApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::MvvmCross.Plugin.Color.Resource.Animator.mtrl_chip_state_list_anim = global::SampleApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::MvvmCross.Plugin.Color.Resource.Animator.mtrl_fab_hide_motion_spec = global::SampleApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::MvvmCross.Plugin.Color.Resource.Animator.mtrl_fab_show_motion_spec = global::SampleApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::MvvmCross.Plugin.Color.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::SampleApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::MvvmCross.Plugin.Color.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::SampleApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionBarDivider = global::SampleApp.Droid.Resource.Attribute.actionBarDivider;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionBarItemBackground = global::SampleApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionBarPopupTheme = global::SampleApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionBarSize = global::SampleApp.Droid.Resource.Attribute.actionBarSize;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionBarSplitStyle = global::SampleApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionBarStyle = global::SampleApp.Droid.Resource.Attribute.actionBarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionBarTabBarStyle = global::SampleApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionBarTabStyle = global::SampleApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionBarTabTextStyle = global::SampleApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionBarTheme = global::SampleApp.Droid.Resource.Attribute.actionBarTheme;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionBarWidgetTheme = global::SampleApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionButtonStyle = global::SampleApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionDropDownStyle = global::SampleApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionLayout = global::SampleApp.Droid.Resource.Attribute.actionLayout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionMenuTextAppearance = global::SampleApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionMenuTextColor = global::SampleApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionModeBackground = global::SampleApp.Droid.Resource.Attribute.actionModeBackground;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionModeCloseButtonStyle = global::SampleApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionModeCloseDrawable = global::SampleApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionModeCopyDrawable = global::SampleApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionModeCutDrawable = global::SampleApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionModeFindDrawable = global::SampleApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionModePasteDrawable = global::SampleApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionModePopupWindowStyle = global::SampleApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionModeSelectAllDrawable = global::SampleApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionModeShareDrawable = global::SampleApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionModeSplitBackground = global::SampleApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionModeStyle = global::SampleApp.Droid.Resource.Attribute.actionModeStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionModeWebSearchDrawable = global::SampleApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionOverflowButtonStyle = global::SampleApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionOverflowMenuStyle = global::SampleApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionProviderClass = global::SampleApp.Droid.Resource.Attribute.actionProviderClass;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.actionViewClass = global::SampleApp.Droid.Resource.Attribute.actionViewClass;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.activityChooserViewStyle = global::SampleApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.adjustable = global::SampleApp.Droid.Resource.Attribute.adjustable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.alertDialogButtonGroupStyle = global::SampleApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.alertDialogCenterButtons = global::SampleApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.alertDialogStyle = global::SampleApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.alertDialogTheme = global::SampleApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.allowDividerAbove = global::SampleApp.Droid.Resource.Attribute.allowDividerAbove;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.allowDividerAfterLastItem = global::SampleApp.Droid.Resource.Attribute.allowDividerAfterLastItem;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.allowDividerBelow = global::SampleApp.Droid.Resource.Attribute.allowDividerBelow;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.allowStacking = global::SampleApp.Droid.Resource.Attribute.allowStacking;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.alpha = global::SampleApp.Droid.Resource.Attribute.alpha;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.alphabeticModifiers = global::SampleApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.arrowHeadLength = global::SampleApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.arrowShaftLength = global::SampleApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.autoCompleteTextViewStyle = global::SampleApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.autoSizeMaxTextSize = global::SampleApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.autoSizeMinTextSize = global::SampleApp.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.autoSizePresetSizes = global::SampleApp.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.autoSizeStepGranularity = global::SampleApp.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.autoSizeTextType = global::SampleApp.Droid.Resource.Attribute.autoSizeTextType;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.background = global::SampleApp.Droid.Resource.Attribute.background;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.backgroundSplit = global::SampleApp.Droid.Resource.Attribute.backgroundSplit;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.backgroundStacked = global::SampleApp.Droid.Resource.Attribute.backgroundStacked;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.backgroundTint = global::SampleApp.Droid.Resource.Attribute.backgroundTint;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.backgroundTintMode = global::SampleApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.barLength = global::SampleApp.Droid.Resource.Attribute.barLength;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.behavior_autoHide = global::SampleApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.behavior_fitToContents = global::SampleApp.Droid.Resource.Attribute.behavior_fitToContents;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.behavior_hideable = global::SampleApp.Droid.Resource.Attribute.behavior_hideable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.behavior_overlapTop = global::SampleApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.behavior_peekHeight = global::SampleApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.behavior_skipCollapsed = global::SampleApp.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.borderlessButtonStyle = global::SampleApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.borderWidth = global::SampleApp.Droid.Resource.Attribute.borderWidth;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.bottomAppBarStyle = global::SampleApp.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.bottomNavigationStyle = global::SampleApp.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.bottomSheetDialogTheme = global::SampleApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.bottomSheetStyle = global::SampleApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.boxBackgroundColor = global::SampleApp.Droid.Resource.Attribute.boxBackgroundColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.boxBackgroundMode = global::SampleApp.Droid.Resource.Attribute.boxBackgroundMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.boxCollapsedPaddingTop = global::SampleApp.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.boxCornerRadiusBottomEnd = global::SampleApp.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.boxCornerRadiusBottomStart = global::SampleApp.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.boxCornerRadiusTopEnd = global::SampleApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.boxCornerRadiusTopStart = global::SampleApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.boxStrokeColor = global::SampleApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.boxStrokeWidth = global::SampleApp.Droid.Resource.Attribute.boxStrokeWidth;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.buttonBarButtonStyle = global::SampleApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.buttonBarNegativeButtonStyle = global::SampleApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.buttonBarNeutralButtonStyle = global::SampleApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.buttonBarPositiveButtonStyle = global::SampleApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.buttonBarStyle = global::SampleApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.buttonCompat = global::SampleApp.Droid.Resource.Attribute.buttonCompat;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.buttonGravity = global::SampleApp.Droid.Resource.Attribute.buttonGravity;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.buttonIconDimen = global::SampleApp.Droid.Resource.Attribute.buttonIconDimen;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.buttonPanelSideLayout = global::SampleApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.buttonStyle = global::SampleApp.Droid.Resource.Attribute.buttonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.buttonStyleSmall = global::SampleApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.buttonTint = global::SampleApp.Droid.Resource.Attribute.buttonTint;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.buttonTintMode = global::SampleApp.Droid.Resource.Attribute.buttonTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.cardBackgroundColor = global::SampleApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.cardCornerRadius = global::SampleApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.cardElevation = global::SampleApp.Droid.Resource.Attribute.cardElevation;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.cardMaxElevation = global::SampleApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.cardPreventCornerOverlap = global::SampleApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.cardUseCompatPadding = global::SampleApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.cardViewStyle = global::SampleApp.Droid.Resource.Attribute.cardViewStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.checkBoxPreferenceStyle = global::SampleApp.Droid.Resource.Attribute.checkBoxPreferenceStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.checkboxStyle = global::SampleApp.Droid.Resource.Attribute.checkboxStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.checkedChip = global::SampleApp.Droid.Resource.Attribute.checkedChip;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.checkedIcon = global::SampleApp.Droid.Resource.Attribute.checkedIcon;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.checkedIconEnabled = global::SampleApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.checkedIconVisible = global::SampleApp.Droid.Resource.Attribute.checkedIconVisible;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.checkedTextViewStyle = global::SampleApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipBackgroundColor = global::SampleApp.Droid.Resource.Attribute.chipBackgroundColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipCornerRadius = global::SampleApp.Droid.Resource.Attribute.chipCornerRadius;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipEndPadding = global::SampleApp.Droid.Resource.Attribute.chipEndPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipGroupStyle = global::SampleApp.Droid.Resource.Attribute.chipGroupStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipIcon = global::SampleApp.Droid.Resource.Attribute.chipIcon;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipIconEnabled = global::SampleApp.Droid.Resource.Attribute.chipIconEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipIconSize = global::SampleApp.Droid.Resource.Attribute.chipIconSize;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipIconTint = global::SampleApp.Droid.Resource.Attribute.chipIconTint;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipIconVisible = global::SampleApp.Droid.Resource.Attribute.chipIconVisible;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipMinHeight = global::SampleApp.Droid.Resource.Attribute.chipMinHeight;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipSpacing = global::SampleApp.Droid.Resource.Attribute.chipSpacing;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipSpacingHorizontal = global::SampleApp.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipSpacingVertical = global::SampleApp.Droid.Resource.Attribute.chipSpacingVertical;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipStandaloneStyle = global::SampleApp.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipStartPadding = global::SampleApp.Droid.Resource.Attribute.chipStartPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipStrokeColor = global::SampleApp.Droid.Resource.Attribute.chipStrokeColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipStrokeWidth = global::SampleApp.Droid.Resource.Attribute.chipStrokeWidth;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.chipStyle = global::SampleApp.Droid.Resource.Attribute.chipStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.closeIcon = global::SampleApp.Droid.Resource.Attribute.closeIcon;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.closeIconEnabled = global::SampleApp.Droid.Resource.Attribute.closeIconEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.closeIconEndPadding = global::SampleApp.Droid.Resource.Attribute.closeIconEndPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.closeIconSize = global::SampleApp.Droid.Resource.Attribute.closeIconSize;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.closeIconStartPadding = global::SampleApp.Droid.Resource.Attribute.closeIconStartPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.closeIconTint = global::SampleApp.Droid.Resource.Attribute.closeIconTint;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.closeIconVisible = global::SampleApp.Droid.Resource.Attribute.closeIconVisible;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.closeItemLayout = global::SampleApp.Droid.Resource.Attribute.closeItemLayout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.collapseContentDescription = global::SampleApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.collapsedTitleGravity = global::SampleApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.collapsedTitleTextAppearance = global::SampleApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.collapseIcon = global::SampleApp.Droid.Resource.Attribute.collapseIcon;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.color = global::SampleApp.Droid.Resource.Attribute.color;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.colorAccent = global::SampleApp.Droid.Resource.Attribute.colorAccent;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.colorBackgroundFloating = global::SampleApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.colorButtonNormal = global::SampleApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.colorControlActivated = global::SampleApp.Droid.Resource.Attribute.colorControlActivated;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.colorControlHighlight = global::SampleApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.colorControlNormal = global::SampleApp.Droid.Resource.Attribute.colorControlNormal;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.colorError = global::SampleApp.Droid.Resource.Attribute.colorError;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.colorPrimary = global::SampleApp.Droid.Resource.Attribute.colorPrimary;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.colorPrimaryDark = global::SampleApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.colorSecondary = global::SampleApp.Droid.Resource.Attribute.colorSecondary;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.colorSwitchThumbNormal = global::SampleApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.commitIcon = global::SampleApp.Droid.Resource.Attribute.commitIcon;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.contentDescription = global::SampleApp.Droid.Resource.Attribute.contentDescription;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.contentInsetEnd = global::SampleApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.contentInsetEndWithActions = global::SampleApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.contentInsetLeft = global::SampleApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.contentInsetRight = global::SampleApp.Droid.Resource.Attribute.contentInsetRight;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.contentInsetStart = global::SampleApp.Droid.Resource.Attribute.contentInsetStart;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.contentInsetStartWithNavigation = global::SampleApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.contentPadding = global::SampleApp.Droid.Resource.Attribute.contentPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.contentPaddingBottom = global::SampleApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.contentPaddingLeft = global::SampleApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.contentPaddingRight = global::SampleApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.contentPaddingTop = global::SampleApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.contentScrim = global::SampleApp.Droid.Resource.Attribute.contentScrim;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.controlBackground = global::SampleApp.Droid.Resource.Attribute.controlBackground;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.coordinatorLayoutStyle = global::SampleApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.cornerRadius = global::SampleApp.Droid.Resource.Attribute.cornerRadius;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.counterEnabled = global::SampleApp.Droid.Resource.Attribute.counterEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.counterMaxLength = global::SampleApp.Droid.Resource.Attribute.counterMaxLength;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.counterOverflowTextAppearance = global::SampleApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.counterTextAppearance = global::SampleApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.customNavigationLayout = global::SampleApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.defaultQueryHint = global::SampleApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.defaultValue = global::SampleApp.Droid.Resource.Attribute.defaultValue;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.dependency = global::SampleApp.Droid.Resource.Attribute.dependency;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.dialogCornerRadius = global::SampleApp.Droid.Resource.Attribute.dialogCornerRadius;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.dialogIcon = global::SampleApp.Droid.Resource.Attribute.dialogIcon;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.dialogLayout = global::SampleApp.Droid.Resource.Attribute.dialogLayout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.dialogMessage = global::SampleApp.Droid.Resource.Attribute.dialogMessage;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.dialogPreferenceStyle = global::SampleApp.Droid.Resource.Attribute.dialogPreferenceStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.dialogPreferredPadding = global::SampleApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.dialogTheme = global::SampleApp.Droid.Resource.Attribute.dialogTheme;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.dialogTitle = global::SampleApp.Droid.Resource.Attribute.dialogTitle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.disableDependentsState = global::SampleApp.Droid.Resource.Attribute.disableDependentsState;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.displayOptions = global::SampleApp.Droid.Resource.Attribute.displayOptions;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.divider = global::SampleApp.Droid.Resource.Attribute.divider;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.dividerHorizontal = global::SampleApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.dividerPadding = global::SampleApp.Droid.Resource.Attribute.dividerPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.dividerVertical = global::SampleApp.Droid.Resource.Attribute.dividerVertical;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.drawableBottomCompat = global::SampleApp.Droid.Resource.Attribute.drawableBottomCompat;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.drawableEndCompat = global::SampleApp.Droid.Resource.Attribute.drawableEndCompat;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.drawableLeftCompat = global::SampleApp.Droid.Resource.Attribute.drawableLeftCompat;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.drawableRightCompat = global::SampleApp.Droid.Resource.Attribute.drawableRightCompat;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.drawableSize = global::SampleApp.Droid.Resource.Attribute.drawableSize;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.drawableStartCompat = global::SampleApp.Droid.Resource.Attribute.drawableStartCompat;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.drawableTint = global::SampleApp.Droid.Resource.Attribute.drawableTint;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.drawableTintMode = global::SampleApp.Droid.Resource.Attribute.drawableTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.drawableTopCompat = global::SampleApp.Droid.Resource.Attribute.drawableTopCompat;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.drawerArrowStyle = global::SampleApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.dropdownListPreferredItemHeight = global::SampleApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.dropDownListViewStyle = global::SampleApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.dropdownPreferenceStyle = global::SampleApp.Droid.Resource.Attribute.dropdownPreferenceStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.editTextBackground = global::SampleApp.Droid.Resource.Attribute.editTextBackground;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.editTextColor = global::SampleApp.Droid.Resource.Attribute.editTextColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.editTextPreferenceStyle = global::SampleApp.Droid.Resource.Attribute.editTextPreferenceStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.editTextStyle = global::SampleApp.Droid.Resource.Attribute.editTextStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.elevation = global::SampleApp.Droid.Resource.Attribute.elevation;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.enableCopying = global::SampleApp.Droid.Resource.Attribute.enableCopying;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.enabled = global::SampleApp.Droid.Resource.Attribute.enabled;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.enforceMaterialTheme = global::SampleApp.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.enforceTextAppearance = global::SampleApp.Droid.Resource.Attribute.enforceTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.entries = global::SampleApp.Droid.Resource.Attribute.entries;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.entryValues = global::SampleApp.Droid.Resource.Attribute.entryValues;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.errorEnabled = global::SampleApp.Droid.Resource.Attribute.errorEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.errorTextAppearance = global::SampleApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.expandActivityOverflowButtonDrawable = global::SampleApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.expanded = global::SampleApp.Droid.Resource.Attribute.expanded;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.expandedTitleGravity = global::SampleApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.expandedTitleMargin = global::SampleApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.expandedTitleMarginBottom = global::SampleApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.expandedTitleMarginEnd = global::SampleApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.expandedTitleMarginStart = global::SampleApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.expandedTitleMarginTop = global::SampleApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.expandedTitleTextAppearance = global::SampleApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fabAlignmentMode = global::SampleApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fabCradleMargin = global::SampleApp.Droid.Resource.Attribute.fabCradleMargin;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fabCradleRoundedCornerRadius = global::SampleApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fabCradleVerticalOffset = global::SampleApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fabCustomSize = global::SampleApp.Droid.Resource.Attribute.fabCustomSize;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fabSize = global::SampleApp.Droid.Resource.Attribute.fabSize;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fastScrollEnabled = global::SampleApp.Droid.Resource.Attribute.fastScrollEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::SampleApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::SampleApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fastScrollVerticalThumbDrawable = global::SampleApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fastScrollVerticalTrackDrawable = global::SampleApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.firstBaselineToTopHeight = global::SampleApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.floatingActionButtonStyle = global::SampleApp.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.font = global::SampleApp.Droid.Resource.Attribute.font;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fontFamily = global::SampleApp.Droid.Resource.Attribute.fontFamily;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fontProviderAuthority = global::SampleApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fontProviderCerts = global::SampleApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fontProviderFetchStrategy = global::SampleApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fontProviderFetchTimeout = global::SampleApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fontProviderPackage = global::SampleApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fontProviderQuery = global::SampleApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fontStyle = global::SampleApp.Droid.Resource.Attribute.fontStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fontVariationSettings = global::SampleApp.Droid.Resource.Attribute.fontVariationSettings;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fontWeight = global::SampleApp.Droid.Resource.Attribute.fontWeight;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.foregroundInsidePadding = global::SampleApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.fragment = global::SampleApp.Droid.Resource.Attribute.fragment;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.gapBetweenBars = global::SampleApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.goIcon = global::SampleApp.Droid.Resource.Attribute.goIcon;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.headerLayout = global::SampleApp.Droid.Resource.Attribute.headerLayout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.height = global::SampleApp.Droid.Resource.Attribute.height;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.helperText = global::SampleApp.Droid.Resource.Attribute.helperText;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.helperTextEnabled = global::SampleApp.Droid.Resource.Attribute.helperTextEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.helperTextTextAppearance = global::SampleApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.hideMotionSpec = global::SampleApp.Droid.Resource.Attribute.hideMotionSpec;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.hideOnContentScroll = global::SampleApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.hideOnScroll = global::SampleApp.Droid.Resource.Attribute.hideOnScroll;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.hintAnimationEnabled = global::SampleApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.hintEnabled = global::SampleApp.Droid.Resource.Attribute.hintEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.hintTextAppearance = global::SampleApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.homeAsUpIndicator = global::SampleApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.homeLayout = global::SampleApp.Droid.Resource.Attribute.homeLayout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.hoveredFocusedTranslationZ = global::SampleApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.icon = global::SampleApp.Droid.Resource.Attribute.icon;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.iconEndPadding = global::SampleApp.Droid.Resource.Attribute.iconEndPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.iconGravity = global::SampleApp.Droid.Resource.Attribute.iconGravity;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.iconifiedByDefault = global::SampleApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.iconPadding = global::SampleApp.Droid.Resource.Attribute.iconPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.iconSize = global::SampleApp.Droid.Resource.Attribute.iconSize;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.iconSpaceReserved = global::SampleApp.Droid.Resource.Attribute.iconSpaceReserved;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.iconStartPadding = global::SampleApp.Droid.Resource.Attribute.iconStartPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.iconTint = global::SampleApp.Droid.Resource.Attribute.iconTint;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.iconTintMode = global::SampleApp.Droid.Resource.Attribute.iconTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.imageButtonStyle = global::SampleApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.indeterminateProgressStyle = global::SampleApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.initialActivityCount = global::SampleApp.Droid.Resource.Attribute.initialActivityCount;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.initialExpandedChildrenCount = global::SampleApp.Droid.Resource.Attribute.initialExpandedChildrenCount;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.insetForeground = global::SampleApp.Droid.Resource.Attribute.insetForeground;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.isLightTheme = global::SampleApp.Droid.Resource.Attribute.isLightTheme;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.isPreferenceVisible = global::SampleApp.Droid.Resource.Attribute.isPreferenceVisible;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.itemBackground = global::SampleApp.Droid.Resource.Attribute.itemBackground;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.itemHorizontalPadding = global::SampleApp.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.itemHorizontalTranslationEnabled = global::SampleApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.itemIconPadding = global::SampleApp.Droid.Resource.Attribute.itemIconPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.itemIconSize = global::SampleApp.Droid.Resource.Attribute.itemIconSize;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.itemIconTint = global::SampleApp.Droid.Resource.Attribute.itemIconTint;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.itemPadding = global::SampleApp.Droid.Resource.Attribute.itemPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.itemSpacing = global::SampleApp.Droid.Resource.Attribute.itemSpacing;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.itemTextAppearance = global::SampleApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.itemTextAppearanceActive = global::SampleApp.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.itemTextAppearanceInactive = global::SampleApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.itemTextColor = global::SampleApp.Droid.Resource.Attribute.itemTextColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.key = global::SampleApp.Droid.Resource.Attribute.key;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.keylines = global::SampleApp.Droid.Resource.Attribute.keylines;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.labelVisibilityMode = global::SampleApp.Droid.Resource.Attribute.labelVisibilityMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.lastBaselineToBottomHeight = global::SampleApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.layout = global::SampleApp.Droid.Resource.Attribute.layout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.layoutManager = global::SampleApp.Droid.Resource.Attribute.layoutManager;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.layout_anchor = global::SampleApp.Droid.Resource.Attribute.layout_anchor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.layout_anchorGravity = global::SampleApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.layout_behavior = global::SampleApp.Droid.Resource.Attribute.layout_behavior;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.layout_collapseMode = global::SampleApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.layout_collapseParallaxMultiplier = global::SampleApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.layout_dodgeInsetEdges = global::SampleApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.layout_insetEdge = global::SampleApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.layout_keyline = global::SampleApp.Droid.Resource.Attribute.layout_keyline;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.layout_scrollFlags = global::SampleApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.layout_scrollInterpolator = global::SampleApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.liftOnScroll = global::SampleApp.Droid.Resource.Attribute.liftOnScroll;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.lineHeight = global::SampleApp.Droid.Resource.Attribute.lineHeight;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.lineSpacing = global::SampleApp.Droid.Resource.Attribute.lineSpacing;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.listChoiceBackgroundIndicator = global::SampleApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::SampleApp.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::SampleApp.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.listDividerAlertDialog = global::SampleApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.listItemLayout = global::SampleApp.Droid.Resource.Attribute.listItemLayout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.listLayout = global::SampleApp.Droid.Resource.Attribute.listLayout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.listMenuViewStyle = global::SampleApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.listPopupWindowStyle = global::SampleApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.listPreferredItemHeight = global::SampleApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.listPreferredItemHeightLarge = global::SampleApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.listPreferredItemHeightSmall = global::SampleApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.listPreferredItemPaddingEnd = global::SampleApp.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.listPreferredItemPaddingLeft = global::SampleApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.listPreferredItemPaddingRight = global::SampleApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.listPreferredItemPaddingStart = global::SampleApp.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.logo = global::SampleApp.Droid.Resource.Attribute.logo;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.logoDescription = global::SampleApp.Droid.Resource.Attribute.logoDescription;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.materialButtonStyle = global::SampleApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.materialCardViewStyle = global::SampleApp.Droid.Resource.Attribute.materialCardViewStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.maxActionInlineWidth = global::SampleApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.maxButtonHeight = global::SampleApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.maxHeight = global::SampleApp.Droid.Resource.Attribute.maxHeight;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.maxImageSize = global::SampleApp.Droid.Resource.Attribute.maxImageSize;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.maxWidth = global::SampleApp.Droid.Resource.Attribute.maxWidth;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.measureWithLargestChild = global::SampleApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.menu = global::SampleApp.Droid.Resource.Attribute.menu;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.min = global::SampleApp.Droid.Resource.Attribute.min;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.multiChoiceItemLayout = global::SampleApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.MvxBind = global::SampleApp.Droid.Resource.Attribute.MvxBind;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.MvxDropDownItemTemplate = global::SampleApp.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.MvxGroupItemTemplate = global::SampleApp.Droid.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.MvxItemTemplate = global::SampleApp.Droid.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.MvxLang = global::SampleApp.Droid.Resource.Attribute.MvxLang;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.MvxTemplate = global::SampleApp.Droid.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.navigationContentDescription = global::SampleApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.navigationIcon = global::SampleApp.Droid.Resource.Attribute.navigationIcon;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.navigationMode = global::SampleApp.Droid.Resource.Attribute.navigationMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.navigationViewStyle = global::SampleApp.Droid.Resource.Attribute.navigationViewStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.negativeButtonText = global::SampleApp.Droid.Resource.Attribute.negativeButtonText;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.numericModifiers = global::SampleApp.Droid.Resource.Attribute.numericModifiers;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.order = global::SampleApp.Droid.Resource.Attribute.order;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.orderingFromXml = global::SampleApp.Droid.Resource.Attribute.orderingFromXml;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.overlapAnchor = global::SampleApp.Droid.Resource.Attribute.overlapAnchor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.paddingBottomNoButtons = global::SampleApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.paddingEnd = global::SampleApp.Droid.Resource.Attribute.paddingEnd;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.paddingStart = global::SampleApp.Droid.Resource.Attribute.paddingStart;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.paddingTopNoTitle = global::SampleApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.panelBackground = global::SampleApp.Droid.Resource.Attribute.panelBackground;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.panelMenuListTheme = global::SampleApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.panelMenuListWidth = global::SampleApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.passwordToggleContentDescription = global::SampleApp.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.passwordToggleDrawable = global::SampleApp.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.passwordToggleEnabled = global::SampleApp.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.passwordToggleTint = global::SampleApp.Droid.Resource.Attribute.passwordToggleTint;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.passwordToggleTintMode = global::SampleApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.persistent = global::SampleApp.Droid.Resource.Attribute.persistent;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.popupMenuStyle = global::SampleApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.popupTheme = global::SampleApp.Droid.Resource.Attribute.popupTheme;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.popupWindowStyle = global::SampleApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.positiveButtonText = global::SampleApp.Droid.Resource.Attribute.positiveButtonText;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.preferenceCategoryStyle = global::SampleApp.Droid.Resource.Attribute.preferenceCategoryStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.preferenceCategoryTitleTextAppearance = global::SampleApp.Droid.Resource.Attribute.preferenceCategoryTitleTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.preferenceFragmentCompatStyle = global::SampleApp.Droid.Resource.Attribute.preferenceFragmentCompatStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.preferenceFragmentListStyle = global::SampleApp.Droid.Resource.Attribute.preferenceFragmentListStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.preferenceFragmentStyle = global::SampleApp.Droid.Resource.Attribute.preferenceFragmentStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.preferenceInformationStyle = global::SampleApp.Droid.Resource.Attribute.preferenceInformationStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.preferenceScreenStyle = global::SampleApp.Droid.Resource.Attribute.preferenceScreenStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.preferenceStyle = global::SampleApp.Droid.Resource.Attribute.preferenceStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.preferenceTheme = global::SampleApp.Droid.Resource.Attribute.preferenceTheme;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.preserveIconSpacing = global::SampleApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.pressedTranslationZ = global::SampleApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.progressBarPadding = global::SampleApp.Droid.Resource.Attribute.progressBarPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.progressBarStyle = global::SampleApp.Droid.Resource.Attribute.progressBarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.queryBackground = global::SampleApp.Droid.Resource.Attribute.queryBackground;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.queryHint = global::SampleApp.Droid.Resource.Attribute.queryHint;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.radioButtonStyle = global::SampleApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.ratingBarStyle = global::SampleApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.ratingBarStyleIndicator = global::SampleApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.ratingBarStyleSmall = global::SampleApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.reverseLayout = global::SampleApp.Droid.Resource.Attribute.reverseLayout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.rippleColor = global::SampleApp.Droid.Resource.Attribute.rippleColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.scrimAnimationDuration = global::SampleApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.scrimBackground = global::SampleApp.Droid.Resource.Attribute.scrimBackground;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.scrimVisibleHeightTrigger = global::SampleApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.searchHintIcon = global::SampleApp.Droid.Resource.Attribute.searchHintIcon;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.searchIcon = global::SampleApp.Droid.Resource.Attribute.searchIcon;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.searchViewStyle = global::SampleApp.Droid.Resource.Attribute.searchViewStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.seekBarIncrement = global::SampleApp.Droid.Resource.Attribute.seekBarIncrement;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.seekBarPreferenceStyle = global::SampleApp.Droid.Resource.Attribute.seekBarPreferenceStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.seekBarStyle = global::SampleApp.Droid.Resource.Attribute.seekBarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.selectable = global::SampleApp.Droid.Resource.Attribute.selectable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.selectableItemBackground = global::SampleApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.selectableItemBackgroundBorderless = global::SampleApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.shouldDisableView = global::SampleApp.Droid.Resource.Attribute.shouldDisableView;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.showAsAction = global::SampleApp.Droid.Resource.Attribute.showAsAction;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.showDividers = global::SampleApp.Droid.Resource.Attribute.showDividers;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.showMotionSpec = global::SampleApp.Droid.Resource.Attribute.showMotionSpec;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.showSeekBarValue = global::SampleApp.Droid.Resource.Attribute.showSeekBarValue;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.showText = global::SampleApp.Droid.Resource.Attribute.showText;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.showTitle = global::SampleApp.Droid.Resource.Attribute.showTitle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.singleChoiceItemLayout = global::SampleApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.singleLine = global::SampleApp.Droid.Resource.Attribute.singleLine;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.singleLineTitle = global::SampleApp.Droid.Resource.Attribute.singleLineTitle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.singleSelection = global::SampleApp.Droid.Resource.Attribute.singleSelection;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.snackbarButtonStyle = global::SampleApp.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.snackbarStyle = global::SampleApp.Droid.Resource.Attribute.snackbarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.spanCount = global::SampleApp.Droid.Resource.Attribute.spanCount;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.spinBars = global::SampleApp.Droid.Resource.Attribute.spinBars;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.spinnerDropDownItemStyle = global::SampleApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.spinnerStyle = global::SampleApp.Droid.Resource.Attribute.spinnerStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.splitTrack = global::SampleApp.Droid.Resource.Attribute.splitTrack;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.srcCompat = global::SampleApp.Droid.Resource.Attribute.srcCompat;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.stackFromEnd = global::SampleApp.Droid.Resource.Attribute.stackFromEnd;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.state_above_anchor = global::SampleApp.Droid.Resource.Attribute.state_above_anchor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.state_collapsed = global::SampleApp.Droid.Resource.Attribute.state_collapsed;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.state_collapsible = global::SampleApp.Droid.Resource.Attribute.state_collapsible;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.state_liftable = global::SampleApp.Droid.Resource.Attribute.state_liftable;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.state_lifted = global::SampleApp.Droid.Resource.Attribute.state_lifted;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.statusBarBackground = global::SampleApp.Droid.Resource.Attribute.statusBarBackground;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.statusBarScrim = global::SampleApp.Droid.Resource.Attribute.statusBarScrim;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.strokeColor = global::SampleApp.Droid.Resource.Attribute.strokeColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.strokeWidth = global::SampleApp.Droid.Resource.Attribute.strokeWidth;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.subMenuArrow = global::SampleApp.Droid.Resource.Attribute.subMenuArrow;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.submitBackground = global::SampleApp.Droid.Resource.Attribute.submitBackground;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.subtitle = global::SampleApp.Droid.Resource.Attribute.subtitle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.subtitleTextAppearance = global::SampleApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.subtitleTextColor = global::SampleApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.subtitleTextStyle = global::SampleApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.suggestionRowLayout = global::SampleApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.summary = global::SampleApp.Droid.Resource.Attribute.summary;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.summaryOff = global::SampleApp.Droid.Resource.Attribute.summaryOff;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.summaryOn = global::SampleApp.Droid.Resource.Attribute.summaryOn;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.switchMinWidth = global::SampleApp.Droid.Resource.Attribute.switchMinWidth;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.switchPadding = global::SampleApp.Droid.Resource.Attribute.switchPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.switchPreferenceCompatStyle = global::SampleApp.Droid.Resource.Attribute.switchPreferenceCompatStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.switchPreferenceStyle = global::SampleApp.Droid.Resource.Attribute.switchPreferenceStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.switchStyle = global::SampleApp.Droid.Resource.Attribute.switchStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.switchTextAppearance = global::SampleApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.switchTextOff = global::SampleApp.Droid.Resource.Attribute.switchTextOff;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.switchTextOn = global::SampleApp.Droid.Resource.Attribute.switchTextOn;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabBackground = global::SampleApp.Droid.Resource.Attribute.tabBackground;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabContentStart = global::SampleApp.Droid.Resource.Attribute.tabContentStart;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabGravity = global::SampleApp.Droid.Resource.Attribute.tabGravity;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabIconTint = global::SampleApp.Droid.Resource.Attribute.tabIconTint;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabIconTintMode = global::SampleApp.Droid.Resource.Attribute.tabIconTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabIndicator = global::SampleApp.Droid.Resource.Attribute.tabIndicator;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabIndicatorAnimationDuration = global::SampleApp.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabIndicatorColor = global::SampleApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabIndicatorFullWidth = global::SampleApp.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabIndicatorGravity = global::SampleApp.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabIndicatorHeight = global::SampleApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabInlineLabel = global::SampleApp.Droid.Resource.Attribute.tabInlineLabel;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabMaxWidth = global::SampleApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabMinWidth = global::SampleApp.Droid.Resource.Attribute.tabMinWidth;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabMode = global::SampleApp.Droid.Resource.Attribute.tabMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabPadding = global::SampleApp.Droid.Resource.Attribute.tabPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabPaddingBottom = global::SampleApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabPaddingEnd = global::SampleApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabPaddingStart = global::SampleApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabPaddingTop = global::SampleApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabRippleColor = global::SampleApp.Droid.Resource.Attribute.tabRippleColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabSelectedTextColor = global::SampleApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabStyle = global::SampleApp.Droid.Resource.Attribute.tabStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabTextAppearance = global::SampleApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabTextColor = global::SampleApp.Droid.Resource.Attribute.tabTextColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tabUnboundedRipple = global::SampleApp.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAllCaps = global::SampleApp.Droid.Resource.Attribute.textAllCaps;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceBody1 = global::SampleApp.Droid.Resource.Attribute.textAppearanceBody1;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceBody2 = global::SampleApp.Droid.Resource.Attribute.textAppearanceBody2;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceButton = global::SampleApp.Droid.Resource.Attribute.textAppearanceButton;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceCaption = global::SampleApp.Droid.Resource.Attribute.textAppearanceCaption;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceHeadline1 = global::SampleApp.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceHeadline2 = global::SampleApp.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceHeadline3 = global::SampleApp.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceHeadline4 = global::SampleApp.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceHeadline5 = global::SampleApp.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceHeadline6 = global::SampleApp.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceLargePopupMenu = global::SampleApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceListItem = global::SampleApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceListItemSecondary = global::SampleApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceListItemSmall = global::SampleApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceOverline = global::SampleApp.Droid.Resource.Attribute.textAppearanceOverline;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearancePopupMenuHeader = global::SampleApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceSearchResultSubtitle = global::SampleApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceSearchResultTitle = global::SampleApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceSmallPopupMenu = global::SampleApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceSubtitle1 = global::SampleApp.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textAppearanceSubtitle2 = global::SampleApp.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textColorAlertDialogListItem = global::SampleApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textColorSearchUrl = global::SampleApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textEndPadding = global::SampleApp.Droid.Resource.Attribute.textEndPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textInputStyle = global::SampleApp.Droid.Resource.Attribute.textInputStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textLocale = global::SampleApp.Droid.Resource.Attribute.textLocale;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.textStartPadding = global::SampleApp.Droid.Resource.Attribute.textStartPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.theme = global::SampleApp.Droid.Resource.Attribute.theme;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.thickness = global::SampleApp.Droid.Resource.Attribute.thickness;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.thumbTextPadding = global::SampleApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.thumbTint = global::SampleApp.Droid.Resource.Attribute.thumbTint;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.thumbTintMode = global::SampleApp.Droid.Resource.Attribute.thumbTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tickMark = global::SampleApp.Droid.Resource.Attribute.tickMark;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tickMarkTint = global::SampleApp.Droid.Resource.Attribute.tickMarkTint;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tickMarkTintMode = global::SampleApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tint = global::SampleApp.Droid.Resource.Attribute.tint;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tintMode = global::SampleApp.Droid.Resource.Attribute.tintMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.title = global::SampleApp.Droid.Resource.Attribute.title;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.titleEnabled = global::SampleApp.Droid.Resource.Attribute.titleEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.titleMargin = global::SampleApp.Droid.Resource.Attribute.titleMargin;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.titleMarginBottom = global::SampleApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.titleMarginEnd = global::SampleApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.titleMargins = global::SampleApp.Droid.Resource.Attribute.titleMargins;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.titleMarginStart = global::SampleApp.Droid.Resource.Attribute.titleMarginStart;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.titleMarginTop = global::SampleApp.Droid.Resource.Attribute.titleMarginTop;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.titleTextAppearance = global::SampleApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.titleTextColor = global::SampleApp.Droid.Resource.Attribute.titleTextColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.titleTextStyle = global::SampleApp.Droid.Resource.Attribute.titleTextStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.toolbarId = global::SampleApp.Droid.Resource.Attribute.toolbarId;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.toolbarNavigationButtonStyle = global::SampleApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.toolbarStyle = global::SampleApp.Droid.Resource.Attribute.toolbarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tooltipForegroundColor = global::SampleApp.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tooltipFrameBackground = global::SampleApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.tooltipText = global::SampleApp.Droid.Resource.Attribute.tooltipText;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.track = global::SampleApp.Droid.Resource.Attribute.track;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.trackTint = global::SampleApp.Droid.Resource.Attribute.trackTint;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.trackTintMode = global::SampleApp.Droid.Resource.Attribute.trackTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.ttcIndex = global::SampleApp.Droid.Resource.Attribute.ttcIndex;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.updatesContinuously = global::SampleApp.Droid.Resource.Attribute.updatesContinuously;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.useCompatPadding = global::SampleApp.Droid.Resource.Attribute.useCompatPadding;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.useSimpleSummaryProvider = global::SampleApp.Droid.Resource.Attribute.useSimpleSummaryProvider;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.viewInflaterClass = global::SampleApp.Droid.Resource.Attribute.viewInflaterClass;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.voiceIcon = global::SampleApp.Droid.Resource.Attribute.voiceIcon;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.widgetLayout = global::SampleApp.Droid.Resource.Attribute.widgetLayout;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.windowActionBar = global::SampleApp.Droid.Resource.Attribute.windowActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.windowActionBarOverlay = global::SampleApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.windowActionModeOverlay = global::SampleApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.windowFixedHeightMajor = global::SampleApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.windowFixedHeightMinor = global::SampleApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.windowFixedWidthMajor = global::SampleApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.windowFixedWidthMinor = global::SampleApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.windowMinWidthMajor = global::SampleApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.windowMinWidthMinor = global::SampleApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::MvvmCross.Plugin.Color.Resource.Attribute.windowNoTitle = global::SampleApp.Droid.Resource.Attribute.windowNoTitle;
+			global::MvvmCross.Plugin.Color.Resource.Boolean.abc_action_bar_embed_tabs = global::SampleApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::MvvmCross.Plugin.Color.Resource.Boolean.abc_allow_stacked_button_bar = global::SampleApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::MvvmCross.Plugin.Color.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::SampleApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::MvvmCross.Plugin.Color.Resource.Boolean.config_materialPreferenceIconSpaceReserved = global::SampleApp.Droid.Resource.Boolean.config_materialPreferenceIconSpaceReserved;
+			global::MvvmCross.Plugin.Color.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::SampleApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_background_cache_hint_selector_material_dark = global::SampleApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_background_cache_hint_selector_material_light = global::SampleApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_btn_colored_borderless_text_material = global::SampleApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_btn_colored_text_material = global::SampleApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_color_highlight_material = global::SampleApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_decor_view_status_guard = global::SampleApp.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_decor_view_status_guard_light = global::SampleApp.Droid.Resource.Color.abc_decor_view_status_guard_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_hint_foreground_material_dark = global::SampleApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_hint_foreground_material_light = global::SampleApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_primary_text_disable_only_material_dark = global::SampleApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_primary_text_disable_only_material_light = global::SampleApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_primary_text_material_dark = global::SampleApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_primary_text_material_light = global::SampleApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_search_url_text = global::SampleApp.Droid.Resource.Color.abc_search_url_text;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_search_url_text_normal = global::SampleApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_search_url_text_pressed = global::SampleApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_search_url_text_selected = global::SampleApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_secondary_text_material_dark = global::SampleApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_secondary_text_material_light = global::SampleApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_tint_btn_checkable = global::SampleApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_tint_default = global::SampleApp.Droid.Resource.Color.abc_tint_default;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_tint_edittext = global::SampleApp.Droid.Resource.Color.abc_tint_edittext;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_tint_seek_thumb = global::SampleApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_tint_spinner = global::SampleApp.Droid.Resource.Color.abc_tint_spinner;
+			global::MvvmCross.Plugin.Color.Resource.Color.abc_tint_switch_track = global::SampleApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::MvvmCross.Plugin.Color.Resource.Color.accent_material_dark = global::SampleApp.Droid.Resource.Color.accent_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.accent_material_light = global::SampleApp.Droid.Resource.Color.accent_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.androidx_core_ripple_material_light = global::SampleApp.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.androidx_core_secondary_text_default_material_light = global::SampleApp.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.background_floating_material_dark = global::SampleApp.Droid.Resource.Color.background_floating_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.background_floating_material_light = global::SampleApp.Droid.Resource.Color.background_floating_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.background_material_dark = global::SampleApp.Droid.Resource.Color.background_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.background_material_light = global::SampleApp.Droid.Resource.Color.background_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.bright_foreground_disabled_material_dark = global::SampleApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.bright_foreground_disabled_material_light = global::SampleApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.bright_foreground_inverse_material_dark = global::SampleApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.bright_foreground_inverse_material_light = global::SampleApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.bright_foreground_material_dark = global::SampleApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.bright_foreground_material_light = global::SampleApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.button_material_dark = global::SampleApp.Droid.Resource.Color.button_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.button_material_light = global::SampleApp.Droid.Resource.Color.button_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.cardview_dark_background = global::SampleApp.Droid.Resource.Color.cardview_dark_background;
+			global::MvvmCross.Plugin.Color.Resource.Color.cardview_light_background = global::SampleApp.Droid.Resource.Color.cardview_light_background;
+			global::MvvmCross.Plugin.Color.Resource.Color.cardview_shadow_end_color = global::SampleApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.cardview_shadow_start_color = global::SampleApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.design_bottom_navigation_shadow_color = global::SampleApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.design_default_color_primary = global::SampleApp.Droid.Resource.Color.design_default_color_primary;
+			global::MvvmCross.Plugin.Color.Resource.Color.design_default_color_primary_dark = global::SampleApp.Droid.Resource.Color.design_default_color_primary_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.design_error = global::SampleApp.Droid.Resource.Color.design_error;
+			global::MvvmCross.Plugin.Color.Resource.Color.design_fab_shadow_end_color = global::SampleApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.design_fab_shadow_mid_color = global::SampleApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.design_fab_shadow_start_color = global::SampleApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.design_fab_stroke_end_inner_color = global::SampleApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.design_fab_stroke_end_outer_color = global::SampleApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.design_fab_stroke_top_inner_color = global::SampleApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.design_fab_stroke_top_outer_color = global::SampleApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.design_snackbar_background_color = global::SampleApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.dim_foreground_disabled_material_dark = global::SampleApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.dim_foreground_disabled_material_light = global::SampleApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.dim_foreground_material_dark = global::SampleApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.dim_foreground_material_light = global::SampleApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.error_color_material_dark = global::SampleApp.Droid.Resource.Color.error_color_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.error_color_material_light = global::SampleApp.Droid.Resource.Color.error_color_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.foreground_material_dark = global::SampleApp.Droid.Resource.Color.foreground_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.foreground_material_light = global::SampleApp.Droid.Resource.Color.foreground_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.highlighted_text_material_dark = global::SampleApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.highlighted_text_material_light = global::SampleApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.material_blue_grey_800 = global::SampleApp.Droid.Resource.Color.material_blue_grey_800;
+			global::MvvmCross.Plugin.Color.Resource.Color.material_blue_grey_900 = global::SampleApp.Droid.Resource.Color.material_blue_grey_900;
+			global::MvvmCross.Plugin.Color.Resource.Color.material_blue_grey_950 = global::SampleApp.Droid.Resource.Color.material_blue_grey_950;
+			global::MvvmCross.Plugin.Color.Resource.Color.material_deep_teal_200 = global::SampleApp.Droid.Resource.Color.material_deep_teal_200;
+			global::MvvmCross.Plugin.Color.Resource.Color.material_deep_teal_500 = global::SampleApp.Droid.Resource.Color.material_deep_teal_500;
+			global::MvvmCross.Plugin.Color.Resource.Color.material_grey_100 = global::SampleApp.Droid.Resource.Color.material_grey_100;
+			global::MvvmCross.Plugin.Color.Resource.Color.material_grey_300 = global::SampleApp.Droid.Resource.Color.material_grey_300;
+			global::MvvmCross.Plugin.Color.Resource.Color.material_grey_50 = global::SampleApp.Droid.Resource.Color.material_grey_50;
+			global::MvvmCross.Plugin.Color.Resource.Color.material_grey_600 = global::SampleApp.Droid.Resource.Color.material_grey_600;
+			global::MvvmCross.Plugin.Color.Resource.Color.material_grey_800 = global::SampleApp.Droid.Resource.Color.material_grey_800;
+			global::MvvmCross.Plugin.Color.Resource.Color.material_grey_850 = global::SampleApp.Droid.Resource.Color.material_grey_850;
+			global::MvvmCross.Plugin.Color.Resource.Color.material_grey_900 = global::SampleApp.Droid.Resource.Color.material_grey_900;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::SampleApp.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_bottom_nav_item_tint = global::SampleApp.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_btn_bg_color_selector = global::SampleApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_btn_ripple_color = global::SampleApp.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_btn_stroke_color_selector = global::SampleApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_btn_text_btn_ripple_color = global::SampleApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_btn_text_color_disabled = global::SampleApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_btn_text_color_selector = global::SampleApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_btn_transparent_bg_color = global::SampleApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_chip_background_color = global::SampleApp.Droid.Resource.Color.mtrl_chip_background_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_chip_close_icon_tint = global::SampleApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_chip_text_color = global::SampleApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_fab_ripple_color = global::SampleApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_scrim_color = global::SampleApp.Droid.Resource.Color.mtrl_scrim_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_tabs_colored_ripple_color = global::SampleApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_tabs_icon_color_selector = global::SampleApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::SampleApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::SampleApp.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_tabs_ripple_color = global::SampleApp.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_textinput_default_box_stroke_color = global::SampleApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_textinput_disabled_color = global::SampleApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::SampleApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::SampleApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.mtrl_text_btn_text_color_selector = global::SampleApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::MvvmCross.Plugin.Color.Resource.Color.notification_action_color_filter = global::SampleApp.Droid.Resource.Color.notification_action_color_filter;
+			global::MvvmCross.Plugin.Color.Resource.Color.notification_icon_bg_color = global::SampleApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.preference_fallback_accent_color = global::SampleApp.Droid.Resource.Color.preference_fallback_accent_color;
+			global::MvvmCross.Plugin.Color.Resource.Color.primary_dark_material_dark = global::SampleApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.primary_dark_material_light = global::SampleApp.Droid.Resource.Color.primary_dark_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.primary_material_dark = global::SampleApp.Droid.Resource.Color.primary_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.primary_material_light = global::SampleApp.Droid.Resource.Color.primary_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.primary_text_default_material_dark = global::SampleApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.primary_text_default_material_light = global::SampleApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.primary_text_disabled_material_dark = global::SampleApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.primary_text_disabled_material_light = global::SampleApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.ripple_material_dark = global::SampleApp.Droid.Resource.Color.ripple_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.ripple_material_light = global::SampleApp.Droid.Resource.Color.ripple_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.secondary_text_default_material_dark = global::SampleApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.secondary_text_default_material_light = global::SampleApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.secondary_text_disabled_material_dark = global::SampleApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.secondary_text_disabled_material_light = global::SampleApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.switch_thumb_disabled_material_dark = global::SampleApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.switch_thumb_disabled_material_light = global::SampleApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.switch_thumb_material_dark = global::SampleApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.switch_thumb_material_light = global::SampleApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.switch_thumb_normal_material_dark = global::SampleApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.switch_thumb_normal_material_light = global::SampleApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Color.tooltip_background_dark = global::SampleApp.Droid.Resource.Color.tooltip_background_dark;
+			global::MvvmCross.Plugin.Color.Resource.Color.tooltip_background_light = global::SampleApp.Droid.Resource.Color.tooltip_background_light;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_bar_content_inset_material = global::SampleApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::SampleApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_bar_default_height_material = global::SampleApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_bar_default_padding_end_material = global::SampleApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_bar_default_padding_start_material = global::SampleApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_bar_elevation_material = global::SampleApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::SampleApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::SampleApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::SampleApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_bar_stacked_max_height = global::SampleApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::SampleApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::SampleApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::SampleApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_button_min_height_material = global::SampleApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_button_min_width_material = global::SampleApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_action_button_min_width_overflow_material = global::SampleApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_alert_dialog_button_bar_height = global::SampleApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_alert_dialog_button_dimen = global::SampleApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_button_inset_horizontal_material = global::SampleApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_button_inset_vertical_material = global::SampleApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_button_padding_horizontal_material = global::SampleApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_button_padding_vertical_material = global::SampleApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::SampleApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_config_prefDialogWidth = global::SampleApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_control_corner_material = global::SampleApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_control_inset_material = global::SampleApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_control_padding_material = global::SampleApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_dialog_corner_radius_material = global::SampleApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_dialog_fixed_height_major = global::SampleApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_dialog_fixed_height_minor = global::SampleApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_dialog_fixed_width_major = global::SampleApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_dialog_fixed_width_minor = global::SampleApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::SampleApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::SampleApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_dialog_min_width_major = global::SampleApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_dialog_min_width_minor = global::SampleApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_dialog_padding_material = global::SampleApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_dialog_padding_top_material = global::SampleApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_dialog_title_divider_material = global::SampleApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_disabled_alpha_material_dark = global::SampleApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_disabled_alpha_material_light = global::SampleApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_dropdownitem_icon_width = global::SampleApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_dropdownitem_text_padding_left = global::SampleApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_dropdownitem_text_padding_right = global::SampleApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_edit_text_inset_bottom_material = global::SampleApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::SampleApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_edit_text_inset_top_material = global::SampleApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_floating_window_z = global::SampleApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_list_item_height_large_material = global::SampleApp.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_list_item_height_material = global::SampleApp.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_list_item_height_small_material = global::SampleApp.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_list_item_padding_horizontal_material = global::SampleApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_panel_menu_list_width = global::SampleApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_progress_bar_height_material = global::SampleApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_search_view_preferred_height = global::SampleApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_search_view_preferred_width = global::SampleApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_seekbar_track_background_height_material = global::SampleApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_seekbar_track_progress_height_material = global::SampleApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_select_dialog_padding_start_material = global::SampleApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_switch_padding = global::SampleApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_body_1_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_body_2_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_button_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_caption_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_display_1_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_display_2_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_display_3_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_display_4_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_headline_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_large_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_medium_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_menu_header_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_menu_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_small_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_subhead_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::SampleApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_title_material = global::SampleApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.abc_text_size_title_material_toolbar = global::SampleApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.cardview_compat_inset_shadow = global::SampleApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.cardview_default_elevation = global::SampleApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.cardview_default_radius = global::SampleApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.compat_button_inset_horizontal_material = global::SampleApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.compat_button_inset_vertical_material = global::SampleApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.compat_button_padding_horizontal_material = global::SampleApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.compat_button_padding_vertical_material = global::SampleApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.compat_control_corner_material = global::SampleApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.compat_notification_large_icon_max_height = global::SampleApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.compat_notification_large_icon_max_width = global::SampleApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_appbar_elevation = global::SampleApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::SampleApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::SampleApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_bottom_navigation_active_text_size = global::SampleApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_bottom_navigation_elevation = global::SampleApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_bottom_navigation_height = global::SampleApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_bottom_navigation_icon_size = global::SampleApp.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_bottom_navigation_item_max_width = global::SampleApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_bottom_navigation_item_min_width = global::SampleApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_bottom_navigation_margin = global::SampleApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_bottom_navigation_shadow_height = global::SampleApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_bottom_navigation_text_size = global::SampleApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_bottom_sheet_modal_elevation = global::SampleApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_bottom_sheet_peek_height_min = global::SampleApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_fab_border_width = global::SampleApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_fab_elevation = global::SampleApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_fab_image_size = global::SampleApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_fab_size_mini = global::SampleApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_fab_size_normal = global::SampleApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_fab_translation_z_hovered_focused = global::SampleApp.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_fab_translation_z_pressed = global::SampleApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_navigation_elevation = global::SampleApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_navigation_icon_padding = global::SampleApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_navigation_icon_size = global::SampleApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_navigation_item_horizontal_padding = global::SampleApp.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_navigation_item_icon_padding = global::SampleApp.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_navigation_max_width = global::SampleApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_navigation_padding_bottom = global::SampleApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_navigation_separator_vertical_padding = global::SampleApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_snackbar_action_inline_max_width = global::SampleApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_snackbar_background_corner_radius = global::SampleApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_snackbar_elevation = global::SampleApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::SampleApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_snackbar_max_width = global::SampleApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_snackbar_min_width = global::SampleApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_snackbar_padding_horizontal = global::SampleApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_snackbar_padding_vertical = global::SampleApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::SampleApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_snackbar_text_size = global::SampleApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_tab_max_width = global::SampleApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_tab_scrollable_min_width = global::SampleApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_tab_text_size = global::SampleApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_tab_text_size_2line = global::SampleApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.design_textinput_caption_translate_y = global::SampleApp.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.disabled_alpha_material_dark = global::SampleApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.disabled_alpha_material_light = global::SampleApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.fastscroll_default_thickness = global::SampleApp.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.fastscroll_margin = global::SampleApp.Droid.Resource.Dimension.fastscroll_margin;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.fastscroll_minimum_range = global::SampleApp.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.highlight_alpha_material_colored = global::SampleApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.highlight_alpha_material_dark = global::SampleApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.highlight_alpha_material_light = global::SampleApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.hint_alpha_material_dark = global::SampleApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.hint_alpha_material_light = global::SampleApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.hint_pressed_alpha_material_dark = global::SampleApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.hint_pressed_alpha_material_light = global::SampleApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::SampleApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::SampleApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::SampleApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::SampleApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::SampleApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::SampleApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::SampleApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_bottomappbar_height = global::SampleApp.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_corner_radius = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_disabled_elevation = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_disabled_z = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_elevation = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_focused_z = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_hovered_z = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_icon_padding = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_inset = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_letter_spacing = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_padding_bottom = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_padding_left = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_padding_right = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_padding_top = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_pressed_z = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_stroke_size = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_text_size = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_btn_z = global::SampleApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_card_elevation = global::SampleApp.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_card_spacing = global::SampleApp.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_chip_pressed_translation_z = global::SampleApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_chip_text_size = global::SampleApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_fab_elevation = global::SampleApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::SampleApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_fab_translation_z_pressed = global::SampleApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_navigation_elevation = global::SampleApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::SampleApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_navigation_item_icon_padding = global::SampleApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::SampleApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_snackbar_margin = global::SampleApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::SampleApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::SampleApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::SampleApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::SampleApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::SampleApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::SampleApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.mtrl_toolbar_default_height = global::SampleApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.notification_action_icon_size = global::SampleApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.notification_action_text_size = global::SampleApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.notification_big_circle_margin = global::SampleApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.notification_content_margin_start = global::SampleApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.notification_large_icon_height = global::SampleApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.notification_large_icon_width = global::SampleApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.notification_main_column_padding_top = global::SampleApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.notification_media_narrow_margin = global::SampleApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.notification_right_icon_size = global::SampleApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.notification_right_side_padding_top = global::SampleApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.notification_small_icon_background_padding = global::SampleApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.notification_small_icon_size_as_large = global::SampleApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.notification_subtext_size = global::SampleApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.notification_top_pad = global::SampleApp.Droid.Resource.Dimension.notification_top_pad;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.notification_top_pad_large_text = global::SampleApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.preference_dropdown_padding_start = global::SampleApp.Droid.Resource.Dimension.preference_dropdown_padding_start;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.preference_icon_minWidth = global::SampleApp.Droid.Resource.Dimension.preference_icon_minWidth;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.preference_seekbar_padding_horizontal = global::SampleApp.Droid.Resource.Dimension.preference_seekbar_padding_horizontal;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.preference_seekbar_padding_vertical = global::SampleApp.Droid.Resource.Dimension.preference_seekbar_padding_vertical;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.preference_seekbar_value_minWidth = global::SampleApp.Droid.Resource.Dimension.preference_seekbar_value_minWidth;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.tooltip_corner_radius = global::SampleApp.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.tooltip_horizontal_padding = global::SampleApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.tooltip_margin = global::SampleApp.Droid.Resource.Dimension.tooltip_margin;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::SampleApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.tooltip_precise_anchor_threshold = global::SampleApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.tooltip_vertical_padding = global::SampleApp.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.tooltip_y_offset_non_touch = global::SampleApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::MvvmCross.Plugin.Color.Resource.Dimension.tooltip_y_offset_touch = global::SampleApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_action_bar_item_background_material = global::SampleApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_btn_borderless_material = global::SampleApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_btn_check_material = global::SampleApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_btn_check_material_anim = global::SampleApp.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::SampleApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::SampleApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_btn_colored_material = global::SampleApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_btn_default_mtrl_shape = global::SampleApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_btn_radio_material = global::SampleApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_btn_radio_material_anim = global::SampleApp.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::SampleApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::SampleApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::SampleApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::SampleApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_cab_background_internal_bg = global::SampleApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_cab_background_top_material = global::SampleApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_control_background_material = global::SampleApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_dialog_material_background = global::SampleApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_edit_text_material = global::SampleApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_ab_back_material = global::SampleApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::SampleApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_clear_material = global::SampleApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_go_search_api_material = global::SampleApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::SampleApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_menu_overflow_material = global::SampleApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::SampleApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_search_api_material = global::SampleApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_star_black_16dp = global::SampleApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_star_black_36dp = global::SampleApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_star_black_48dp = global::SampleApp.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_star_half_black_16dp = global::SampleApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_star_half_black_36dp = global::SampleApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_star_half_black_48dp = global::SampleApp.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ic_voice_search_api_material = global::SampleApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_item_background_holo_dark = global::SampleApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_item_background_holo_light = global::SampleApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_list_divider_material = global::SampleApp.Droid.Resource.Drawable.abc_list_divider_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_list_divider_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_list_focused_holo = global::SampleApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_list_longpressed_holo = global::SampleApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_list_pressed_holo_dark = global::SampleApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_list_pressed_holo_light = global::SampleApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::SampleApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::SampleApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::SampleApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_list_selector_disabled_holo_light = global::SampleApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_list_selector_holo_dark = global::SampleApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_list_selector_holo_light = global::SampleApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::SampleApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_popup_background_mtrl_mult = global::SampleApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ratingbar_indicator_material = global::SampleApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ratingbar_material = global::SampleApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_ratingbar_small_material = global::SampleApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::SampleApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::SampleApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_seekbar_thumb_material = global::SampleApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_seekbar_tick_mark_material = global::SampleApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_seekbar_track_material = global::SampleApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::SampleApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_spinner_textfield_background_material = global::SampleApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_switch_thumb_material = global::SampleApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_switch_track_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_tab_indicator_material = global::SampleApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::SampleApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_textfield_search_material = global::SampleApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_text_cursor_material = global::SampleApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::SampleApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::SampleApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::SampleApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::SampleApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::SampleApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::SampleApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.abc_vector_test = global::SampleApp.Droid.Resource.Drawable.abc_vector_test;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.avd_hide_password = global::SampleApp.Droid.Resource.Drawable.avd_hide_password;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.avd_show_password = global::SampleApp.Droid.Resource.Drawable.avd_show_password;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.btn_checkbox_checked_mtrl = global::SampleApp.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::SampleApp.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::SampleApp.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::SampleApp.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.btn_radio_off_mtrl = global::SampleApp.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::SampleApp.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.btn_radio_on_mtrl = global::SampleApp.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::SampleApp.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.design_bottom_navigation_item_background = global::SampleApp.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.design_fab_background = global::SampleApp.Droid.Resource.Drawable.design_fab_background;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.design_ic_visibility = global::SampleApp.Droid.Resource.Drawable.design_ic_visibility;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.design_ic_visibility_off = global::SampleApp.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.design_password_eye = global::SampleApp.Droid.Resource.Drawable.design_password_eye;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.design_snackbar_background = global::SampleApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.ic_arrow_down_24dp = global::SampleApp.Droid.Resource.Drawable.ic_arrow_down_24dp;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.ic_mtrl_chip_checked_black = global::SampleApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.ic_mtrl_chip_checked_circle = global::SampleApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.ic_mtrl_chip_close_circle = global::SampleApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.mtrl_tabs_default_indicator = global::SampleApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.navigation_empty_icon = global::SampleApp.Droid.Resource.Drawable.navigation_empty_icon;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.notification_action_background = global::SampleApp.Droid.Resource.Drawable.notification_action_background;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.notification_bg = global::SampleApp.Droid.Resource.Drawable.notification_bg;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.notification_bg_low = global::SampleApp.Droid.Resource.Drawable.notification_bg_low;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.notification_bg_low_normal = global::SampleApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.notification_bg_low_pressed = global::SampleApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.notification_bg_normal = global::SampleApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.notification_bg_normal_pressed = global::SampleApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.notification_icon_background = global::SampleApp.Droid.Resource.Drawable.notification_icon_background;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.notification_template_icon_bg = global::SampleApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.notification_template_icon_low_bg = global::SampleApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.notification_tile_bg = global::SampleApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.notify_panel_notification_icon_bg = global::SampleApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.preference_list_divider_material = global::SampleApp.Droid.Resource.Drawable.preference_list_divider_material;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.tooltip_frame_dark = global::SampleApp.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::MvvmCross.Plugin.Color.Resource.Drawable.tooltip_frame_light = global::SampleApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_action_clickable_span = global::SampleApp.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_0 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_0;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_1 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_1;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_10 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_10;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_11 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_11;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_12 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_12;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_13 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_13;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_14 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_14;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_15 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_15;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_16 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_16;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_17 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_17;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_18 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_18;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_19 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_19;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_2 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_2;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_20 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_20;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_21 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_21;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_22 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_22;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_23 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_23;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_24 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_24;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_25 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_25;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_26 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_26;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_27 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_27;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_28 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_28;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_29 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_29;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_3 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_3;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_30 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_30;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_31 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_31;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_4 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_4;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_5 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_5;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_6 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_6;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_7 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_7;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_8 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_8;
+			global::MvvmCross.Plugin.Color.Resource.Id.accessibility_custom_action_9 = global::SampleApp.Droid.Resource.Id.accessibility_custom_action_9;
+			global::MvvmCross.Plugin.Color.Resource.Id.actions = global::SampleApp.Droid.Resource.Id.actions;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_bar = global::SampleApp.Droid.Resource.Id.action_bar;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_bar_activity_content = global::SampleApp.Droid.Resource.Id.action_bar_activity_content;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_bar_container = global::SampleApp.Droid.Resource.Id.action_bar_container;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_bar_root = global::SampleApp.Droid.Resource.Id.action_bar_root;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_bar_spinner = global::SampleApp.Droid.Resource.Id.action_bar_spinner;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_bar_subtitle = global::SampleApp.Droid.Resource.Id.action_bar_subtitle;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_bar_title = global::SampleApp.Droid.Resource.Id.action_bar_title;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_container = global::SampleApp.Droid.Resource.Id.action_container;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_context_bar = global::SampleApp.Droid.Resource.Id.action_context_bar;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_divider = global::SampleApp.Droid.Resource.Id.action_divider;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_image = global::SampleApp.Droid.Resource.Id.action_image;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_menu_divider = global::SampleApp.Droid.Resource.Id.action_menu_divider;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_menu_presenter = global::SampleApp.Droid.Resource.Id.action_menu_presenter;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_mode_bar = global::SampleApp.Droid.Resource.Id.action_mode_bar;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_mode_bar_stub = global::SampleApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_mode_close_button = global::SampleApp.Droid.Resource.Id.action_mode_close_button;
+			global::MvvmCross.Plugin.Color.Resource.Id.action_text = global::SampleApp.Droid.Resource.Id.action_text;
+			global::MvvmCross.Plugin.Color.Resource.Id.activity_chooser_view_content = global::SampleApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::MvvmCross.Plugin.Color.Resource.Id.add = global::SampleApp.Droid.Resource.Id.add;
+			global::MvvmCross.Plugin.Color.Resource.Id.alertTitle = global::SampleApp.Droid.Resource.Id.alertTitle;
+			global::MvvmCross.Plugin.Color.Resource.Id.all = global::SampleApp.Droid.Resource.Id.all;
+			global::MvvmCross.Plugin.Color.Resource.Id.ALT = global::SampleApp.Droid.Resource.Id.ALT;
+			global::MvvmCross.Plugin.Color.Resource.Id.always = global::SampleApp.Droid.Resource.Id.always;
+			global::MvvmCross.Plugin.Color.Resource.Id.async = global::SampleApp.Droid.Resource.Id.async;
+			global::MvvmCross.Plugin.Color.Resource.Id.auto = global::SampleApp.Droid.Resource.Id.auto;
+			global::MvvmCross.Plugin.Color.Resource.Id.beginning = global::SampleApp.Droid.Resource.Id.beginning;
+			global::MvvmCross.Plugin.Color.Resource.Id.blocking = global::SampleApp.Droid.Resource.Id.blocking;
+			global::MvvmCross.Plugin.Color.Resource.Id.bottom = global::SampleApp.Droid.Resource.Id.bottom;
+			global::MvvmCross.Plugin.Color.Resource.Id.buttonPanel = global::SampleApp.Droid.Resource.Id.buttonPanel;
+			global::MvvmCross.Plugin.Color.Resource.Id.center = global::SampleApp.Droid.Resource.Id.center;
+			global::MvvmCross.Plugin.Color.Resource.Id.center_horizontal = global::SampleApp.Droid.Resource.Id.center_horizontal;
+			global::MvvmCross.Plugin.Color.Resource.Id.center_vertical = global::SampleApp.Droid.Resource.Id.center_vertical;
+			global::MvvmCross.Plugin.Color.Resource.Id.checkbox = global::SampleApp.Droid.Resource.Id.checkbox;
+			global::MvvmCross.Plugin.Color.Resource.Id.@checked = global::SampleApp.Droid.Resource.Id.@checked;
+			global::MvvmCross.Plugin.Color.Resource.Id.chronometer = global::SampleApp.Droid.Resource.Id.chronometer;
+			global::MvvmCross.Plugin.Color.Resource.Id.clip_horizontal = global::SampleApp.Droid.Resource.Id.clip_horizontal;
+			global::MvvmCross.Plugin.Color.Resource.Id.clip_vertical = global::SampleApp.Droid.Resource.Id.clip_vertical;
+			global::MvvmCross.Plugin.Color.Resource.Id.collapseActionView = global::SampleApp.Droid.Resource.Id.collapseActionView;
+			global::MvvmCross.Plugin.Color.Resource.Id.container = global::SampleApp.Droid.Resource.Id.container;
+			global::MvvmCross.Plugin.Color.Resource.Id.content = global::SampleApp.Droid.Resource.Id.content;
+			global::MvvmCross.Plugin.Color.Resource.Id.contentPanel = global::SampleApp.Droid.Resource.Id.contentPanel;
+			global::MvvmCross.Plugin.Color.Resource.Id.coordinator = global::SampleApp.Droid.Resource.Id.coordinator;
+			global::MvvmCross.Plugin.Color.Resource.Id.CTRL = global::SampleApp.Droid.Resource.Id.CTRL;
+			global::MvvmCross.Plugin.Color.Resource.Id.custom = global::SampleApp.Droid.Resource.Id.custom;
+			global::MvvmCross.Plugin.Color.Resource.Id.customPanel = global::SampleApp.Droid.Resource.Id.customPanel;
+			global::MvvmCross.Plugin.Color.Resource.Id.decor_content_parent = global::SampleApp.Droid.Resource.Id.decor_content_parent;
+			global::MvvmCross.Plugin.Color.Resource.Id.default_activity_button = global::SampleApp.Droid.Resource.Id.default_activity_button;
+			global::MvvmCross.Plugin.Color.Resource.Id.design_bottom_sheet = global::SampleApp.Droid.Resource.Id.design_bottom_sheet;
+			global::MvvmCross.Plugin.Color.Resource.Id.design_menu_item_action_area = global::SampleApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::MvvmCross.Plugin.Color.Resource.Id.design_menu_item_action_area_stub = global::SampleApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::MvvmCross.Plugin.Color.Resource.Id.design_menu_item_text = global::SampleApp.Droid.Resource.Id.design_menu_item_text;
+			global::MvvmCross.Plugin.Color.Resource.Id.design_navigation_view = global::SampleApp.Droid.Resource.Id.design_navigation_view;
+			global::MvvmCross.Plugin.Color.Resource.Id.dialog_button = global::SampleApp.Droid.Resource.Id.dialog_button;
+			global::MvvmCross.Plugin.Color.Resource.Id.disableHome = global::SampleApp.Droid.Resource.Id.disableHome;
+			global::MvvmCross.Plugin.Color.Resource.Id.edit_query = global::SampleApp.Droid.Resource.Id.edit_query;
+			global::MvvmCross.Plugin.Color.Resource.Id.end = global::SampleApp.Droid.Resource.Id.end;
+			global::MvvmCross.Plugin.Color.Resource.Id.enterAlways = global::SampleApp.Droid.Resource.Id.enterAlways;
+			global::MvvmCross.Plugin.Color.Resource.Id.enterAlwaysCollapsed = global::SampleApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::MvvmCross.Plugin.Color.Resource.Id.exitUntilCollapsed = global::SampleApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::MvvmCross.Plugin.Color.Resource.Id.expanded_menu = global::SampleApp.Droid.Resource.Id.expanded_menu;
+			global::MvvmCross.Plugin.Color.Resource.Id.expand_activities_button = global::SampleApp.Droid.Resource.Id.expand_activities_button;
+			global::MvvmCross.Plugin.Color.Resource.Id.fill = global::SampleApp.Droid.Resource.Id.fill;
+			global::MvvmCross.Plugin.Color.Resource.Id.filled = global::SampleApp.Droid.Resource.Id.filled;
+			global::MvvmCross.Plugin.Color.Resource.Id.fill_horizontal = global::SampleApp.Droid.Resource.Id.fill_horizontal;
+			global::MvvmCross.Plugin.Color.Resource.Id.fill_vertical = global::SampleApp.Droid.Resource.Id.fill_vertical;
+			global::MvvmCross.Plugin.Color.Resource.Id.@fixed = global::SampleApp.Droid.Resource.Id.@fixed;
+			global::MvvmCross.Plugin.Color.Resource.Id.forever = global::SampleApp.Droid.Resource.Id.forever;
+			global::MvvmCross.Plugin.Color.Resource.Id.fragment_container_view_tag = global::SampleApp.Droid.Resource.Id.fragment_container_view_tag;
+			global::MvvmCross.Plugin.Color.Resource.Id.FUNCTION = global::SampleApp.Droid.Resource.Id.FUNCTION;
+			global::MvvmCross.Plugin.Color.Resource.Id.ghost_view = global::SampleApp.Droid.Resource.Id.ghost_view;
+			global::MvvmCross.Plugin.Color.Resource.Id.group_divider = global::SampleApp.Droid.Resource.Id.group_divider;
+			global::MvvmCross.Plugin.Color.Resource.Id.home = global::SampleApp.Droid.Resource.Id.home;
+			global::MvvmCross.Plugin.Color.Resource.Id.homeAsUp = global::SampleApp.Droid.Resource.Id.homeAsUp;
+			global::MvvmCross.Plugin.Color.Resource.Id.icon = global::SampleApp.Droid.Resource.Id.icon;
+			global::MvvmCross.Plugin.Color.Resource.Id.icon_frame = global::SampleApp.Droid.Resource.Id.icon_frame;
+			global::MvvmCross.Plugin.Color.Resource.Id.icon_group = global::SampleApp.Droid.Resource.Id.icon_group;
+			global::MvvmCross.Plugin.Color.Resource.Id.ifRoom = global::SampleApp.Droid.Resource.Id.ifRoom;
+			global::MvvmCross.Plugin.Color.Resource.Id.image = global::SampleApp.Droid.Resource.Id.image;
+			global::MvvmCross.Plugin.Color.Resource.Id.info = global::SampleApp.Droid.Resource.Id.info;
+			global::MvvmCross.Plugin.Color.Resource.Id.italic = global::SampleApp.Droid.Resource.Id.italic;
+			global::MvvmCross.Plugin.Color.Resource.Id.item_touch_helper_previous_elevation = global::SampleApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Id.labeled = global::SampleApp.Droid.Resource.Id.labeled;
+			global::MvvmCross.Plugin.Color.Resource.Id.largeLabel = global::SampleApp.Droid.Resource.Id.largeLabel;
+			global::MvvmCross.Plugin.Color.Resource.Id.left = global::SampleApp.Droid.Resource.Id.left;
+			global::MvvmCross.Plugin.Color.Resource.Id.line1 = global::SampleApp.Droid.Resource.Id.line1;
+			global::MvvmCross.Plugin.Color.Resource.Id.line3 = global::SampleApp.Droid.Resource.Id.line3;
+			global::MvvmCross.Plugin.Color.Resource.Id.listMode = global::SampleApp.Droid.Resource.Id.listMode;
+			global::MvvmCross.Plugin.Color.Resource.Id.list_item = global::SampleApp.Droid.Resource.Id.list_item;
+			global::MvvmCross.Plugin.Color.Resource.Id.masked = global::SampleApp.Droid.Resource.Id.masked;
+			global::MvvmCross.Plugin.Color.Resource.Id.message = global::SampleApp.Droid.Resource.Id.message;
+			global::MvvmCross.Plugin.Color.Resource.Id.META = global::SampleApp.Droid.Resource.Id.META;
+			global::MvvmCross.Plugin.Color.Resource.Id.middle = global::SampleApp.Droid.Resource.Id.middle;
+			global::MvvmCross.Plugin.Color.Resource.Id.mini = global::SampleApp.Droid.Resource.Id.mini;
+			global::MvvmCross.Plugin.Color.Resource.Id.mtrl_child_content_container = global::SampleApp.Droid.Resource.Id.mtrl_child_content_container;
+			global::MvvmCross.Plugin.Color.Resource.Id.mtrl_internal_children_alpha_tag = global::SampleApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::MvvmCross.Plugin.Color.Resource.Id.multiply = global::SampleApp.Droid.Resource.Id.multiply;
+			global::MvvmCross.Plugin.Color.Resource.Id.MvvmCrossTagId = global::SampleApp.Droid.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Plugin.Color.Resource.Id.MvxBindingTagUnique = global::SampleApp.Droid.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Plugin.Color.Resource.Id.navigation_header_container = global::SampleApp.Droid.Resource.Id.navigation_header_container;
+			global::MvvmCross.Plugin.Color.Resource.Id.never = global::SampleApp.Droid.Resource.Id.never;
+			global::MvvmCross.Plugin.Color.Resource.Id.none = global::SampleApp.Droid.Resource.Id.none;
+			global::MvvmCross.Plugin.Color.Resource.Id.normal = global::SampleApp.Droid.Resource.Id.normal;
+			global::MvvmCross.Plugin.Color.Resource.Id.notification_background = global::SampleApp.Droid.Resource.Id.notification_background;
+			global::MvvmCross.Plugin.Color.Resource.Id.notification_main_column = global::SampleApp.Droid.Resource.Id.notification_main_column;
+			global::MvvmCross.Plugin.Color.Resource.Id.notification_main_column_container = global::SampleApp.Droid.Resource.Id.notification_main_column_container;
+			global::MvvmCross.Plugin.Color.Resource.Id.off = global::SampleApp.Droid.Resource.Id.off;
+			global::MvvmCross.Plugin.Color.Resource.Id.on = global::SampleApp.Droid.Resource.Id.on;
+			global::MvvmCross.Plugin.Color.Resource.Id.outline = global::SampleApp.Droid.Resource.Id.outline;
+			global::MvvmCross.Plugin.Color.Resource.Id.parallax = global::SampleApp.Droid.Resource.Id.parallax;
+			global::MvvmCross.Plugin.Color.Resource.Id.parentPanel = global::SampleApp.Droid.Resource.Id.parentPanel;
+			global::MvvmCross.Plugin.Color.Resource.Id.parent_matrix = global::SampleApp.Droid.Resource.Id.parent_matrix;
+			global::MvvmCross.Plugin.Color.Resource.Id.pin = global::SampleApp.Droid.Resource.Id.pin;
+			global::MvvmCross.Plugin.Color.Resource.Id.progress_circular = global::SampleApp.Droid.Resource.Id.progress_circular;
+			global::MvvmCross.Plugin.Color.Resource.Id.progress_horizontal = global::SampleApp.Droid.Resource.Id.progress_horizontal;
+			global::MvvmCross.Plugin.Color.Resource.Id.radio = global::SampleApp.Droid.Resource.Id.radio;
+			global::MvvmCross.Plugin.Color.Resource.Id.recycler_view = global::SampleApp.Droid.Resource.Id.recycler_view;
+			global::MvvmCross.Plugin.Color.Resource.Id.right = global::SampleApp.Droid.Resource.Id.right;
+			global::MvvmCross.Plugin.Color.Resource.Id.right_icon = global::SampleApp.Droid.Resource.Id.right_icon;
+			global::MvvmCross.Plugin.Color.Resource.Id.right_side = global::SampleApp.Droid.Resource.Id.right_side;
+			global::MvvmCross.Plugin.Color.Resource.Id.save_non_transition_alpha = global::SampleApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Id.screen = global::SampleApp.Droid.Resource.Id.screen;
+			global::MvvmCross.Plugin.Color.Resource.Id.scroll = global::SampleApp.Droid.Resource.Id.scroll;
+			global::MvvmCross.Plugin.Color.Resource.Id.scrollable = global::SampleApp.Droid.Resource.Id.scrollable;
+			global::MvvmCross.Plugin.Color.Resource.Id.scrollIndicatorDown = global::SampleApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::MvvmCross.Plugin.Color.Resource.Id.scrollIndicatorUp = global::SampleApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::MvvmCross.Plugin.Color.Resource.Id.scrollView = global::SampleApp.Droid.Resource.Id.scrollView;
+			global::MvvmCross.Plugin.Color.Resource.Id.search_badge = global::SampleApp.Droid.Resource.Id.search_badge;
+			global::MvvmCross.Plugin.Color.Resource.Id.search_bar = global::SampleApp.Droid.Resource.Id.search_bar;
+			global::MvvmCross.Plugin.Color.Resource.Id.search_button = global::SampleApp.Droid.Resource.Id.search_button;
+			global::MvvmCross.Plugin.Color.Resource.Id.search_close_btn = global::SampleApp.Droid.Resource.Id.search_close_btn;
+			global::MvvmCross.Plugin.Color.Resource.Id.search_edit_frame = global::SampleApp.Droid.Resource.Id.search_edit_frame;
+			global::MvvmCross.Plugin.Color.Resource.Id.search_go_btn = global::SampleApp.Droid.Resource.Id.search_go_btn;
+			global::MvvmCross.Plugin.Color.Resource.Id.search_mag_icon = global::SampleApp.Droid.Resource.Id.search_mag_icon;
+			global::MvvmCross.Plugin.Color.Resource.Id.search_plate = global::SampleApp.Droid.Resource.Id.search_plate;
+			global::MvvmCross.Plugin.Color.Resource.Id.search_src_text = global::SampleApp.Droid.Resource.Id.search_src_text;
+			global::MvvmCross.Plugin.Color.Resource.Id.search_voice_btn = global::SampleApp.Droid.Resource.Id.search_voice_btn;
+			global::MvvmCross.Plugin.Color.Resource.Id.seekbar = global::SampleApp.Droid.Resource.Id.seekbar;
+			global::MvvmCross.Plugin.Color.Resource.Id.seekbar_value = global::SampleApp.Droid.Resource.Id.seekbar_value;
+			global::MvvmCross.Plugin.Color.Resource.Id.selected = global::SampleApp.Droid.Resource.Id.selected;
+			global::MvvmCross.Plugin.Color.Resource.Id.select_dialog_listview = global::SampleApp.Droid.Resource.Id.select_dialog_listview;
+			global::MvvmCross.Plugin.Color.Resource.Id.SHIFT = global::SampleApp.Droid.Resource.Id.SHIFT;
+			global::MvvmCross.Plugin.Color.Resource.Id.shortcut = global::SampleApp.Droid.Resource.Id.shortcut;
+			global::MvvmCross.Plugin.Color.Resource.Id.showCustom = global::SampleApp.Droid.Resource.Id.showCustom;
+			global::MvvmCross.Plugin.Color.Resource.Id.showHome = global::SampleApp.Droid.Resource.Id.showHome;
+			global::MvvmCross.Plugin.Color.Resource.Id.showTitle = global::SampleApp.Droid.Resource.Id.showTitle;
+			global::MvvmCross.Plugin.Color.Resource.Id.smallLabel = global::SampleApp.Droid.Resource.Id.smallLabel;
+			global::MvvmCross.Plugin.Color.Resource.Id.snackbar_action = global::SampleApp.Droid.Resource.Id.snackbar_action;
+			global::MvvmCross.Plugin.Color.Resource.Id.snackbar_text = global::SampleApp.Droid.Resource.Id.snackbar_text;
+			global::MvvmCross.Plugin.Color.Resource.Id.snap = global::SampleApp.Droid.Resource.Id.snap;
+			global::MvvmCross.Plugin.Color.Resource.Id.snapMargins = global::SampleApp.Droid.Resource.Id.snapMargins;
+			global::MvvmCross.Plugin.Color.Resource.Id.spacer = global::SampleApp.Droid.Resource.Id.spacer;
+			global::MvvmCross.Plugin.Color.Resource.Id.spinner = global::SampleApp.Droid.Resource.Id.spinner;
+			global::MvvmCross.Plugin.Color.Resource.Id.split_action_bar = global::SampleApp.Droid.Resource.Id.split_action_bar;
+			global::MvvmCross.Plugin.Color.Resource.Id.src_atop = global::SampleApp.Droid.Resource.Id.src_atop;
+			global::MvvmCross.Plugin.Color.Resource.Id.src_in = global::SampleApp.Droid.Resource.Id.src_in;
+			global::MvvmCross.Plugin.Color.Resource.Id.src_over = global::SampleApp.Droid.Resource.Id.src_over;
+			global::MvvmCross.Plugin.Color.Resource.Id.start = global::SampleApp.Droid.Resource.Id.start;
+			global::MvvmCross.Plugin.Color.Resource.Id.stretch = global::SampleApp.Droid.Resource.Id.stretch;
+			global::MvvmCross.Plugin.Color.Resource.Id.submenuarrow = global::SampleApp.Droid.Resource.Id.submenuarrow;
+			global::MvvmCross.Plugin.Color.Resource.Id.submit_area = global::SampleApp.Droid.Resource.Id.submit_area;
+			global::MvvmCross.Plugin.Color.Resource.Id.switchWidget = global::SampleApp.Droid.Resource.Id.switchWidget;
+			global::MvvmCross.Plugin.Color.Resource.Id.SYM = global::SampleApp.Droid.Resource.Id.SYM;
+			global::MvvmCross.Plugin.Color.Resource.Id.tabMode = global::SampleApp.Droid.Resource.Id.tabMode;
+			global::MvvmCross.Plugin.Color.Resource.Id.tag_accessibility_actions = global::SampleApp.Droid.Resource.Id.tag_accessibility_actions;
+			global::MvvmCross.Plugin.Color.Resource.Id.tag_accessibility_clickable_spans = global::SampleApp.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::MvvmCross.Plugin.Color.Resource.Id.tag_accessibility_heading = global::SampleApp.Droid.Resource.Id.tag_accessibility_heading;
+			global::MvvmCross.Plugin.Color.Resource.Id.tag_accessibility_pane_title = global::SampleApp.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::MvvmCross.Plugin.Color.Resource.Id.tag_screen_reader_focusable = global::SampleApp.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::MvvmCross.Plugin.Color.Resource.Id.tag_transition_group = global::SampleApp.Droid.Resource.Id.tag_transition_group;
+			global::MvvmCross.Plugin.Color.Resource.Id.tag_unhandled_key_event_manager = global::SampleApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::MvvmCross.Plugin.Color.Resource.Id.tag_unhandled_key_listeners = global::SampleApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::MvvmCross.Plugin.Color.Resource.Id.text = global::SampleApp.Droid.Resource.Id.text;
+			global::MvvmCross.Plugin.Color.Resource.Id.text2 = global::SampleApp.Droid.Resource.Id.text2;
+			global::MvvmCross.Plugin.Color.Resource.Id.textinput_counter = global::SampleApp.Droid.Resource.Id.textinput_counter;
+			global::MvvmCross.Plugin.Color.Resource.Id.textinput_error = global::SampleApp.Droid.Resource.Id.textinput_error;
+			global::MvvmCross.Plugin.Color.Resource.Id.textinput_helper_text = global::SampleApp.Droid.Resource.Id.textinput_helper_text;
+			global::MvvmCross.Plugin.Color.Resource.Id.textSpacerNoButtons = global::SampleApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::MvvmCross.Plugin.Color.Resource.Id.textSpacerNoTitle = global::SampleApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::MvvmCross.Plugin.Color.Resource.Id.textStart = global::SampleApp.Droid.Resource.Id.textStart;
+			global::MvvmCross.Plugin.Color.Resource.Id.time = global::SampleApp.Droid.Resource.Id.time;
+			global::MvvmCross.Plugin.Color.Resource.Id.title = global::SampleApp.Droid.Resource.Id.title;
+			global::MvvmCross.Plugin.Color.Resource.Id.titleDividerNoCustom = global::SampleApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::MvvmCross.Plugin.Color.Resource.Id.title_template = global::SampleApp.Droid.Resource.Id.title_template;
+			global::MvvmCross.Plugin.Color.Resource.Id.top = global::SampleApp.Droid.Resource.Id.top;
+			global::MvvmCross.Plugin.Color.Resource.Id.topPanel = global::SampleApp.Droid.Resource.Id.topPanel;
+			global::MvvmCross.Plugin.Color.Resource.Id.touch_outside = global::SampleApp.Droid.Resource.Id.touch_outside;
+			global::MvvmCross.Plugin.Color.Resource.Id.transition_current_scene = global::SampleApp.Droid.Resource.Id.transition_current_scene;
+			global::MvvmCross.Plugin.Color.Resource.Id.transition_layout_save = global::SampleApp.Droid.Resource.Id.transition_layout_save;
+			global::MvvmCross.Plugin.Color.Resource.Id.transition_position = global::SampleApp.Droid.Resource.Id.transition_position;
+			global::MvvmCross.Plugin.Color.Resource.Id.transition_scene_layoutid_cache = global::SampleApp.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::MvvmCross.Plugin.Color.Resource.Id.transition_transform = global::SampleApp.Droid.Resource.Id.transition_transform;
+			global::MvvmCross.Plugin.Color.Resource.Id.@unchecked = global::SampleApp.Droid.Resource.Id.@unchecked;
+			global::MvvmCross.Plugin.Color.Resource.Id.uniform = global::SampleApp.Droid.Resource.Id.uniform;
+			global::MvvmCross.Plugin.Color.Resource.Id.unlabeled = global::SampleApp.Droid.Resource.Id.unlabeled;
+			global::MvvmCross.Plugin.Color.Resource.Id.up = global::SampleApp.Droid.Resource.Id.up;
+			global::MvvmCross.Plugin.Color.Resource.Id.useLogo = global::SampleApp.Droid.Resource.Id.useLogo;
+			global::MvvmCross.Plugin.Color.Resource.Id.view_offset_helper = global::SampleApp.Droid.Resource.Id.view_offset_helper;
+			global::MvvmCross.Plugin.Color.Resource.Id.view_tree_saved_state_registry_owner = global::SampleApp.Droid.Resource.Id.view_tree_saved_state_registry_owner;
+			global::MvvmCross.Plugin.Color.Resource.Id.visible = global::SampleApp.Droid.Resource.Id.visible;
+			global::MvvmCross.Plugin.Color.Resource.Id.visible_removing_fragment_view_tag = global::SampleApp.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::MvvmCross.Plugin.Color.Resource.Id.withText = global::SampleApp.Droid.Resource.Id.withText;
+			global::MvvmCross.Plugin.Color.Resource.Id.wrap_content = global::SampleApp.Droid.Resource.Id.wrap_content;
+			global::MvvmCross.Plugin.Color.Resource.Integer.abc_config_activityDefaultDur = global::SampleApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::MvvmCross.Plugin.Color.Resource.Integer.abc_config_activityShortDur = global::SampleApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::MvvmCross.Plugin.Color.Resource.Integer.app_bar_elevation_anim_duration = global::SampleApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::MvvmCross.Plugin.Color.Resource.Integer.bottom_sheet_slide_duration = global::SampleApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::MvvmCross.Plugin.Color.Resource.Integer.cancel_button_image_alpha = global::SampleApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Integer.config_tooltipAnimTime = global::SampleApp.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::MvvmCross.Plugin.Color.Resource.Integer.design_snackbar_text_max_lines = global::SampleApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::MvvmCross.Plugin.Color.Resource.Integer.design_tab_indicator_anim_duration_ms = global::SampleApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::MvvmCross.Plugin.Color.Resource.Integer.hide_password_duration = global::SampleApp.Droid.Resource.Integer.hide_password_duration;
+			global::MvvmCross.Plugin.Color.Resource.Integer.mtrl_btn_anim_delay_ms = global::SampleApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::MvvmCross.Plugin.Color.Resource.Integer.mtrl_btn_anim_duration_ms = global::SampleApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::MvvmCross.Plugin.Color.Resource.Integer.mtrl_chip_anim_duration = global::SampleApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::MvvmCross.Plugin.Color.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::SampleApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::MvvmCross.Plugin.Color.Resource.Integer.show_password_duration = global::SampleApp.Droid.Resource.Integer.show_password_duration;
+			global::MvvmCross.Plugin.Color.Resource.Integer.status_bar_notification_info_maxnum = global::SampleApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::MvvmCross.Plugin.Color.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::SampleApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::MvvmCross.Plugin.Color.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::SampleApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::MvvmCross.Plugin.Color.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::SampleApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::MvvmCross.Plugin.Color.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::SampleApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::MvvmCross.Plugin.Color.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::SampleApp.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::MvvmCross.Plugin.Color.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::SampleApp.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::MvvmCross.Plugin.Color.Resource.Interpolator.fast_out_slow_in = global::SampleApp.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::MvvmCross.Plugin.Color.Resource.Interpolator.mtrl_fast_out_linear_in = global::SampleApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::MvvmCross.Plugin.Color.Resource.Interpolator.mtrl_fast_out_slow_in = global::SampleApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::MvvmCross.Plugin.Color.Resource.Interpolator.mtrl_linear = global::SampleApp.Droid.Resource.Interpolator.mtrl_linear;
+			global::MvvmCross.Plugin.Color.Resource.Interpolator.mtrl_linear_out_slow_in = global::SampleApp.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_action_bar_title_item = global::SampleApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_action_bar_up_container = global::SampleApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_action_menu_item_layout = global::SampleApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_action_menu_layout = global::SampleApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_action_mode_bar = global::SampleApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_action_mode_close_item_material = global::SampleApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_activity_chooser_view = global::SampleApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_activity_chooser_view_list_item = global::SampleApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_alert_dialog_button_bar_material = global::SampleApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_alert_dialog_material = global::SampleApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_alert_dialog_title_material = global::SampleApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_cascading_menu_item_layout = global::SampleApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_dialog_title_material = global::SampleApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_expanded_menu_layout = global::SampleApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_list_menu_item_checkbox = global::SampleApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_list_menu_item_icon = global::SampleApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_list_menu_item_layout = global::SampleApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_list_menu_item_radio = global::SampleApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_popup_menu_header_item_layout = global::SampleApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_popup_menu_item_layout = global::SampleApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_screen_content_include = global::SampleApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_screen_simple = global::SampleApp.Droid.Resource.Layout.abc_screen_simple;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_screen_simple_overlay_action_mode = global::SampleApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_screen_toolbar = global::SampleApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_search_dropdown_item_icons_2line = global::SampleApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_search_view = global::SampleApp.Droid.Resource.Layout.abc_search_view;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_select_dialog_material = global::SampleApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::MvvmCross.Plugin.Color.Resource.Layout.abc_tooltip = global::SampleApp.Droid.Resource.Layout.abc_tooltip;
+			global::MvvmCross.Plugin.Color.Resource.Layout.custom_dialog = global::SampleApp.Droid.Resource.Layout.custom_dialog;
+			global::MvvmCross.Plugin.Color.Resource.Layout.design_bottom_navigation_item = global::SampleApp.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::MvvmCross.Plugin.Color.Resource.Layout.design_bottom_sheet_dialog = global::SampleApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::MvvmCross.Plugin.Color.Resource.Layout.design_layout_snackbar = global::SampleApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::MvvmCross.Plugin.Color.Resource.Layout.design_layout_snackbar_include = global::SampleApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::MvvmCross.Plugin.Color.Resource.Layout.design_layout_tab_icon = global::SampleApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::MvvmCross.Plugin.Color.Resource.Layout.design_layout_tab_text = global::SampleApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::MvvmCross.Plugin.Color.Resource.Layout.design_menu_item_action_area = global::SampleApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::MvvmCross.Plugin.Color.Resource.Layout.design_navigation_item = global::SampleApp.Droid.Resource.Layout.design_navigation_item;
+			global::MvvmCross.Plugin.Color.Resource.Layout.design_navigation_item_header = global::SampleApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::MvvmCross.Plugin.Color.Resource.Layout.design_navigation_item_separator = global::SampleApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::MvvmCross.Plugin.Color.Resource.Layout.design_navigation_item_subheader = global::SampleApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::MvvmCross.Plugin.Color.Resource.Layout.design_navigation_menu = global::SampleApp.Droid.Resource.Layout.design_navigation_menu;
+			global::MvvmCross.Plugin.Color.Resource.Layout.design_navigation_menu_item = global::SampleApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::MvvmCross.Plugin.Color.Resource.Layout.expand_button = global::SampleApp.Droid.Resource.Layout.expand_button;
+			global::MvvmCross.Plugin.Color.Resource.Layout.image_frame = global::SampleApp.Droid.Resource.Layout.image_frame;
+			global::MvvmCross.Plugin.Color.Resource.Layout.mtrl_layout_snackbar = global::SampleApp.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::MvvmCross.Plugin.Color.Resource.Layout.mtrl_layout_snackbar_include = global::SampleApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::MvvmCross.Plugin.Color.Resource.Layout.notification_action = global::SampleApp.Droid.Resource.Layout.notification_action;
+			global::MvvmCross.Plugin.Color.Resource.Layout.notification_action_tombstone = global::SampleApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::MvvmCross.Plugin.Color.Resource.Layout.notification_template_custom_big = global::SampleApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::MvvmCross.Plugin.Color.Resource.Layout.notification_template_icon_group = global::SampleApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::MvvmCross.Plugin.Color.Resource.Layout.notification_template_part_chronometer = global::SampleApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::MvvmCross.Plugin.Color.Resource.Layout.notification_template_part_time = global::SampleApp.Droid.Resource.Layout.notification_template_part_time;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference = global::SampleApp.Droid.Resource.Layout.preference;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference_category = global::SampleApp.Droid.Resource.Layout.preference_category;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference_category_material = global::SampleApp.Droid.Resource.Layout.preference_category_material;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference_dialog_edittext = global::SampleApp.Droid.Resource.Layout.preference_dialog_edittext;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference_dropdown = global::SampleApp.Droid.Resource.Layout.preference_dropdown;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference_dropdown_material = global::SampleApp.Droid.Resource.Layout.preference_dropdown_material;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference_information = global::SampleApp.Droid.Resource.Layout.preference_information;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference_information_material = global::SampleApp.Droid.Resource.Layout.preference_information_material;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference_list_fragment = global::SampleApp.Droid.Resource.Layout.preference_list_fragment;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference_material = global::SampleApp.Droid.Resource.Layout.preference_material;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference_recyclerview = global::SampleApp.Droid.Resource.Layout.preference_recyclerview;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference_widget_checkbox = global::SampleApp.Droid.Resource.Layout.preference_widget_checkbox;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference_widget_seekbar = global::SampleApp.Droid.Resource.Layout.preference_widget_seekbar;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference_widget_seekbar_material = global::SampleApp.Droid.Resource.Layout.preference_widget_seekbar_material;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference_widget_switch = global::SampleApp.Droid.Resource.Layout.preference_widget_switch;
+			global::MvvmCross.Plugin.Color.Resource.Layout.preference_widget_switch_compat = global::SampleApp.Droid.Resource.Layout.preference_widget_switch_compat;
+			global::MvvmCross.Plugin.Color.Resource.Layout.select_dialog_item_material = global::SampleApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::MvvmCross.Plugin.Color.Resource.Layout.select_dialog_multichoice_material = global::SampleApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::MvvmCross.Plugin.Color.Resource.Layout.select_dialog_singlechoice_material = global::SampleApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::MvvmCross.Plugin.Color.Resource.Layout.support_simple_spinner_dropdown_item = global::SampleApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_action_bar_home_description = global::SampleApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_action_bar_up_description = global::SampleApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_action_menu_overflow_description = global::SampleApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_action_mode_done = global::SampleApp.Droid.Resource.String.abc_action_mode_done;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_activitychooserview_choose_application = global::SampleApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_activity_chooser_view_see_all = global::SampleApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_capital_off = global::SampleApp.Droid.Resource.String.abc_capital_off;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_capital_on = global::SampleApp.Droid.Resource.String.abc_capital_on;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_menu_alt_shortcut_label = global::SampleApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_menu_ctrl_shortcut_label = global::SampleApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_menu_delete_shortcut_label = global::SampleApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_menu_enter_shortcut_label = global::SampleApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_menu_function_shortcut_label = global::SampleApp.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_menu_meta_shortcut_label = global::SampleApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_menu_shift_shortcut_label = global::SampleApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_menu_space_shortcut_label = global::SampleApp.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_menu_sym_shortcut_label = global::SampleApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_prepend_shortcut_label = global::SampleApp.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_searchview_description_clear = global::SampleApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_searchview_description_query = global::SampleApp.Droid.Resource.String.abc_searchview_description_query;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_searchview_description_search = global::SampleApp.Droid.Resource.String.abc_searchview_description_search;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_searchview_description_submit = global::SampleApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_searchview_description_voice = global::SampleApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_search_hint = global::SampleApp.Droid.Resource.String.abc_search_hint;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_shareactionprovider_share_with = global::SampleApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_shareactionprovider_share_with_application = global::SampleApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::MvvmCross.Plugin.Color.Resource.String.abc_toolbar_collapse_description = global::SampleApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::MvvmCross.Plugin.Color.Resource.String.appbar_scrolling_view_behavior = global::SampleApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::MvvmCross.Plugin.Color.Resource.String.bottom_sheet_behavior = global::SampleApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::MvvmCross.Plugin.Color.Resource.String.character_counter_content_description = global::SampleApp.Droid.Resource.String.character_counter_content_description;
+			global::MvvmCross.Plugin.Color.Resource.String.character_counter_pattern = global::SampleApp.Droid.Resource.String.character_counter_pattern;
+			global::MvvmCross.Plugin.Color.Resource.String.copy = global::SampleApp.Droid.Resource.String.copy;
+			global::MvvmCross.Plugin.Color.Resource.String.expand_button_title = global::SampleApp.Droid.Resource.String.expand_button_title;
+			global::MvvmCross.Plugin.Color.Resource.String.fab_transformation_scrim_behavior = global::SampleApp.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::MvvmCross.Plugin.Color.Resource.String.fab_transformation_sheet_behavior = global::SampleApp.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::MvvmCross.Plugin.Color.Resource.String.hide_bottom_view_on_scroll_behavior = global::SampleApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::MvvmCross.Plugin.Color.Resource.String.mtrl_chip_close_icon_content_description = global::SampleApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::MvvmCross.Plugin.Color.Resource.String.not_set = global::SampleApp.Droid.Resource.String.not_set;
+			global::MvvmCross.Plugin.Color.Resource.String.password_toggle_content_description = global::SampleApp.Droid.Resource.String.password_toggle_content_description;
+			global::MvvmCross.Plugin.Color.Resource.String.path_password_eye = global::SampleApp.Droid.Resource.String.path_password_eye;
+			global::MvvmCross.Plugin.Color.Resource.String.path_password_eye_mask_strike_through = global::SampleApp.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::MvvmCross.Plugin.Color.Resource.String.path_password_eye_mask_visible = global::SampleApp.Droid.Resource.String.path_password_eye_mask_visible;
+			global::MvvmCross.Plugin.Color.Resource.String.path_password_strike_through = global::SampleApp.Droid.Resource.String.path_password_strike_through;
+			global::MvvmCross.Plugin.Color.Resource.String.preference_copied = global::SampleApp.Droid.Resource.String.preference_copied;
+			global::MvvmCross.Plugin.Color.Resource.String.search_menu_title = global::SampleApp.Droid.Resource.String.search_menu_title;
+			global::MvvmCross.Plugin.Color.Resource.String.status_bar_notification_info_overflow = global::SampleApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::MvvmCross.Plugin.Color.Resource.String.summary_collapsed_preference_list = global::SampleApp.Droid.Resource.String.summary_collapsed_preference_list;
+			global::MvvmCross.Plugin.Color.Resource.String.v7_preference_off = global::SampleApp.Droid.Resource.String.v7_preference_off;
+			global::MvvmCross.Plugin.Color.Resource.String.v7_preference_on = global::SampleApp.Droid.Resource.String.v7_preference_on;
+			global::MvvmCross.Plugin.Color.Resource.Style.AlertDialog_AppCompat = global::SampleApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.AlertDialog_AppCompat_Light = global::SampleApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Animation_AppCompat_Dialog = global::SampleApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Animation_AppCompat_DropDownUp = global::SampleApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::MvvmCross.Plugin.Color.Resource.Style.Animation_AppCompat_Tooltip = global::SampleApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::MvvmCross.Plugin.Color.Resource.Style.Animation_Design_BottomSheetDialog = global::SampleApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_AlertDialog_AppCompat = global::SampleApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_AlertDialog_AppCompat_Light = global::SampleApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Animation_AppCompat_Dialog = global::SampleApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::SampleApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Animation_AppCompat_Tooltip = global::SampleApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_CardView = global::SampleApp.Droid.Resource.Style.Base_CardView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::SampleApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_DialogWindowTitle_AppCompat = global::SampleApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Button = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Large = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Small = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Title = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::SampleApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_ThemeOverlay_AppCompat = global::SampleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::SampleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::SampleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::SampleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::SampleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::SampleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::SampleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::SampleApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::SampleApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_AppCompat = global::SampleApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_AppCompat_Dialog = global::SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_AppCompat_Light = global::SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_Light = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::SampleApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::SampleApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::SampleApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V14_Theme_MaterialComponents = global::SampleApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::SampleApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::SampleApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::SampleApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::SampleApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::SampleApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::SampleApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::SampleApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V21_Theme_AppCompat = global::SampleApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::SampleApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V21_Theme_AppCompat_Light = global::SampleApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::SampleApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V22_Theme_AppCompat = global::SampleApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V22_Theme_AppCompat_Light = global::SampleApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V23_Theme_AppCompat = global::SampleApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V23_Theme_AppCompat_Light = global::SampleApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V26_Theme_AppCompat = global::SampleApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V26_Theme_AppCompat_Light = global::SampleApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::SampleApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V28_Theme_AppCompat = global::SampleApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V28_Theme_AppCompat_Light = global::SampleApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::SampleApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V7_Theme_AppCompat = global::SampleApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::SampleApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V7_Theme_AppCompat_Light = global::SampleApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::SampleApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::SampleApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::SampleApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::SampleApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ActionBar = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ActionButton = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ActionMode = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Button = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Button_Small = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_EditText = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ImageButton = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ListView = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_RatingBar = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_SearchView = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_SeekBar = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Spinner = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_TextView = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Toolbar = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_Design_TabLayout = global::SampleApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_MaterialComponents_Chip = global::SampleApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::SampleApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::MvvmCross.Plugin.Color.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::SampleApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::MvvmCross.Plugin.Color.Resource.Style.CardView = global::SampleApp.Droid.Resource.Style.CardView;
+			global::MvvmCross.Plugin.Color.Resource.Style.CardView_Dark = global::SampleApp.Droid.Resource.Style.CardView_Dark;
+			global::MvvmCross.Plugin.Color.Resource.Style.CardView_Light = global::SampleApp.Droid.Resource.Style.CardView_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Platform_AppCompat = global::SampleApp.Droid.Resource.Style.Platform_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Platform_AppCompat_Light = global::SampleApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Platform_MaterialComponents = global::SampleApp.Droid.Resource.Style.Platform_MaterialComponents;
+			global::MvvmCross.Plugin.Color.Resource.Style.Platform_MaterialComponents_Dialog = global::SampleApp.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Platform_MaterialComponents_Light = global::SampleApp.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::SampleApp.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Platform_ThemeOverlay_AppCompat = global::SampleApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::SampleApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Plugin.Color.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::SampleApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Platform_V21_AppCompat = global::SampleApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Platform_V21_AppCompat_Light = global::SampleApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Platform_V25_AppCompat = global::SampleApp.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Platform_V25_AppCompat_Light = global::SampleApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Platform_Widget_AppCompat_Spinner = global::SampleApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference = global::SampleApp.Droid.Resource.Style.Preference;
+			global::MvvmCross.Plugin.Color.Resource.Style.PreferenceCategoryTitleTextStyle = global::SampleApp.Droid.Resource.Style.PreferenceCategoryTitleTextStyle;
+			global::MvvmCross.Plugin.Color.Resource.Style.PreferenceFragment = global::SampleApp.Droid.Resource.Style.PreferenceFragment;
+			global::MvvmCross.Plugin.Color.Resource.Style.PreferenceFragmentList = global::SampleApp.Droid.Resource.Style.PreferenceFragmentList;
+			global::MvvmCross.Plugin.Color.Resource.Style.PreferenceFragmentList_Material = global::SampleApp.Droid.Resource.Style.PreferenceFragmentList_Material;
+			global::MvvmCross.Plugin.Color.Resource.Style.PreferenceFragment_Material = global::SampleApp.Droid.Resource.Style.PreferenceFragment_Material;
+			global::MvvmCross.Plugin.Color.Resource.Style.PreferenceSummaryTextStyle = global::SampleApp.Droid.Resource.Style.PreferenceSummaryTextStyle;
+			global::MvvmCross.Plugin.Color.Resource.Style.PreferenceThemeOverlay = global::SampleApp.Droid.Resource.Style.PreferenceThemeOverlay;
+			global::MvvmCross.Plugin.Color.Resource.Style.PreferenceThemeOverlay_v14 = global::SampleApp.Droid.Resource.Style.PreferenceThemeOverlay_v14;
+			global::MvvmCross.Plugin.Color.Resource.Style.PreferenceThemeOverlay_v14_Material = global::SampleApp.Droid.Resource.Style.PreferenceThemeOverlay_v14_Material;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_Category = global::SampleApp.Droid.Resource.Style.Preference_Category;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_Category_Material = global::SampleApp.Droid.Resource.Style.Preference_Category_Material;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_CheckBoxPreference = global::SampleApp.Droid.Resource.Style.Preference_CheckBoxPreference;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_CheckBoxPreference_Material = global::SampleApp.Droid.Resource.Style.Preference_CheckBoxPreference_Material;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_DialogPreference = global::SampleApp.Droid.Resource.Style.Preference_DialogPreference;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_DialogPreference_EditTextPreference = global::SampleApp.Droid.Resource.Style.Preference_DialogPreference_EditTextPreference;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_DialogPreference_EditTextPreference_Material = global::SampleApp.Droid.Resource.Style.Preference_DialogPreference_EditTextPreference_Material;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_DialogPreference_Material = global::SampleApp.Droid.Resource.Style.Preference_DialogPreference_Material;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_DropDown = global::SampleApp.Droid.Resource.Style.Preference_DropDown;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_DropDown_Material = global::SampleApp.Droid.Resource.Style.Preference_DropDown_Material;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_Information = global::SampleApp.Droid.Resource.Style.Preference_Information;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_Information_Material = global::SampleApp.Droid.Resource.Style.Preference_Information_Material;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_Material = global::SampleApp.Droid.Resource.Style.Preference_Material;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_PreferenceScreen = global::SampleApp.Droid.Resource.Style.Preference_PreferenceScreen;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_PreferenceScreen_Material = global::SampleApp.Droid.Resource.Style.Preference_PreferenceScreen_Material;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_SeekBarPreference = global::SampleApp.Droid.Resource.Style.Preference_SeekBarPreference;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_SeekBarPreference_Material = global::SampleApp.Droid.Resource.Style.Preference_SeekBarPreference_Material;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_SwitchPreference = global::SampleApp.Droid.Resource.Style.Preference_SwitchPreference;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_SwitchPreferenceCompat = global::SampleApp.Droid.Resource.Style.Preference_SwitchPreferenceCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_SwitchPreferenceCompat_Material = global::SampleApp.Droid.Resource.Style.Preference_SwitchPreferenceCompat_Material;
+			global::MvvmCross.Plugin.Color.Resource.Style.Preference_SwitchPreference_Material = global::SampleApp.Droid.Resource.Style.Preference_SwitchPreference_Material;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::SampleApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::SampleApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::MvvmCross.Plugin.Color.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::SampleApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Body1 = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Body2 = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Button = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Caption = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Display1 = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Display2 = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Display3 = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Display4 = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Headline = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Inverse = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Large = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Medium = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Menu = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Small = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Subhead = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Title = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Tooltip = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Compat_Notification = global::SampleApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Compat_Notification_Info = global::SampleApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::SampleApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Compat_Notification_Time = global::SampleApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Compat_Notification_Title = global::SampleApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::SampleApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Design_Counter = global::SampleApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Design_Counter_Overflow = global::SampleApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Design_Error = global::SampleApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Design_HelperText = global::SampleApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Design_Hint = global::SampleApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Design_Snackbar_Message = global::SampleApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Design_Tab = global::SampleApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::SampleApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::SampleApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_MaterialComponents_Button = global::SampleApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_MaterialComponents_Caption = global::SampleApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_MaterialComponents_Chip = global::SampleApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::SampleApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::SampleApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::SampleApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::SampleApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::SampleApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::SampleApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_MaterialComponents_Overline = global::SampleApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::SampleApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::SampleApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::SampleApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::SampleApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::MvvmCross.Plugin.Color.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::SampleApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_AppCompat = global::SampleApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::SampleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_AppCompat_Dark = global::SampleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::SampleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::SampleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::SampleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::SampleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::SampleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_AppCompat_Light = global::SampleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_MaterialComponents = global::SampleApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::SampleApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::SampleApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::SampleApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::SampleApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::SampleApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::SampleApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::SampleApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::SampleApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::SampleApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::SampleApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::MvvmCross.Plugin.Color.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::SampleApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat = global::SampleApp.Droid.Resource.Style.Theme_AppCompat;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_CompactMenu = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_DayNight = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_Dialog = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_Dialog_Alert = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_Empty = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_Empty;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_Light = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_Light_Dialog = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_AppCompat_NoActionBar = global::SampleApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_Design = global::SampleApp.Droid.Resource.Style.Theme_Design;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_Design_BottomSheetDialog = global::SampleApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_Design_Light = global::SampleApp.Droid.Resource.Style.Theme_Design_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::SampleApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_Design_Light_NoActionBar = global::SampleApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_Design_NoActionBar = global::SampleApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_Bridge = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_CompactMenu = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_Dialog = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_Light = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_NoActionBar = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::SampleApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ActionBar = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ActionButton = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ActionMode = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ActivityChooserView = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Button = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ButtonBar = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Button_Borderless = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Button_Colored = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Button_Small = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_EditText = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ImageButton = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ActionBar = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ActionButton = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_SearchView = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ListMenuView = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ListPopupWindow = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ListView = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ListView_DropDown = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ListView_Menu = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_PopupMenu = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_PopupWindow = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ProgressBar = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_RatingBar = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_RatingBar_Small = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_SearchView = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_SeekBar = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Spinner = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_TextView = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Toolbar = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::SampleApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_Compat_NotificationActionContainer = global::SampleApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_Compat_NotificationActionText = global::SampleApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_Design_AppBarLayout = global::SampleApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_Design_BottomNavigationView = global::SampleApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_Design_BottomSheet_Modal = global::SampleApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_Design_CollapsingToolbar = global::SampleApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_Design_FloatingActionButton = global::SampleApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_Design_NavigationView = global::SampleApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::SampleApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_Design_Snackbar = global::SampleApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_Design_TabLayout = global::SampleApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_Design_TextInputLayout = global::SampleApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Button = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Button_Icon = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_CardView = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_ChipGroup = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Chip_Action = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_NavigationView = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Snackbar = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_TabLayout = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_MaterialComponents_Toolbar = global::SampleApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::MvvmCross.Plugin.Color.Resource.Style.Widget_Support_CoordinatorLayout = global::SampleApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar = global::SampleApp.Droid.Resource.Styleable.ActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBarLayout = global::SampleApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::SampleApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_background = global::SampleApp.Droid.Resource.Styleable.ActionBar_background;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_backgroundSplit = global::SampleApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_backgroundStacked = global::SampleApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_contentInsetEnd = global::SampleApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::SampleApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_contentInsetLeft = global::SampleApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_contentInsetRight = global::SampleApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_contentInsetStart = global::SampleApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::SampleApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_customNavigationLayout = global::SampleApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_displayOptions = global::SampleApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_divider = global::SampleApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_elevation = global::SampleApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_height = global::SampleApp.Droid.Resource.Styleable.ActionBar_height;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_hideOnContentScroll = global::SampleApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_homeAsUpIndicator = global::SampleApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_homeLayout = global::SampleApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_icon = global::SampleApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::SampleApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_itemPadding = global::SampleApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_logo = global::SampleApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_navigationMode = global::SampleApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_popupTheme = global::SampleApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_progressBarPadding = global::SampleApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_progressBarStyle = global::SampleApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_subtitle = global::SampleApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_subtitleTextStyle = global::SampleApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_title = global::SampleApp.Droid.Resource.Styleable.ActionBar_title;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionBar_titleTextStyle = global::SampleApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionMenuItemView = global::SampleApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionMenuItemView_android_minWidth = global::SampleApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionMenuView = global::SampleApp.Droid.Resource.Styleable.ActionMenuView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionMode = global::SampleApp.Droid.Resource.Styleable.ActionMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionMode_background = global::SampleApp.Droid.Resource.Styleable.ActionMode_background;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionMode_backgroundSplit = global::SampleApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionMode_closeItemLayout = global::SampleApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionMode_height = global::SampleApp.Droid.Resource.Styleable.ActionMode_height;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionMode_subtitleTextStyle = global::SampleApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActionMode_titleTextStyle = global::SampleApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActivityChooserView = global::SampleApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::SampleApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ActivityChooserView_initialActivityCount = global::SampleApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AlertDialog = global::SampleApp.Droid.Resource.Styleable.AlertDialog;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AlertDialog_android_layout = global::SampleApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AlertDialog_buttonIconDimen = global::SampleApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::SampleApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AlertDialog_listItemLayout = global::SampleApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AlertDialog_listLayout = global::SampleApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::SampleApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AlertDialog_showTitle = global::SampleApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::SampleApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AnimatedStateListDrawableCompat = global::SampleApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::SampleApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::SampleApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::SampleApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::SampleApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::SampleApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::SampleApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AnimatedStateListDrawableItem = global::SampleApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::SampleApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::SampleApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AnimatedStateListDrawableTransition = global::SampleApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::SampleApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::SampleApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::SampleApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::SampleApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppBarLayout = global::SampleApp.Droid.Resource.Styleable.AppBarLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppBarLayoutStates = global::SampleApp.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::SampleApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::SampleApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppBarLayoutStates_state_liftable = global::SampleApp.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppBarLayoutStates_state_lifted = global::SampleApp.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppBarLayout_android_background = global::SampleApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::SampleApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::SampleApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppBarLayout_elevation = global::SampleApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppBarLayout_expanded = global::SampleApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppBarLayout_Layout = global::SampleApp.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::SampleApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::SampleApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppBarLayout_liftOnScroll = global::SampleApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatImageView = global::SampleApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatImageView_android_src = global::SampleApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatImageView_srcCompat = global::SampleApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatImageView_tint = global::SampleApp.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatImageView_tintMode = global::SampleApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatSeekBar = global::SampleApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatSeekBar_android_thumb = global::SampleApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatSeekBar_tickMark = global::SampleApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::SampleApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::SampleApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextHelper = global::SampleApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::SampleApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::SampleApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::SampleApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::SampleApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::SampleApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::SampleApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::SampleApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_android_textAppearance = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_drawableTint = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_drawableTintMode = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_fontFamily = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_lineHeight = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_textAllCaps = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTextView_textLocale = global::SampleApp.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionBarDivider = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionBarSize = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionBarStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionBarTheme = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionModeBackground = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionModeStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_buttonStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_checkboxStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_colorAccent = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_colorControlActivated = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_colorControlNormal = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_colorError = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_colorPrimary = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_controlBackground = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_dialogTheme = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_dividerVertical = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_editTextBackground = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_editTextColor = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_editTextStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_panelBackground = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_searchViewStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_seekBarStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_spinnerStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_switchStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_toolbarStyle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_windowActionBar = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.AppCompatTheme_windowNoTitle = global::SampleApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BackgroundStyle = global::SampleApp.Droid.Resource.Styleable.BackgroundStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BackgroundStyle_android_selectableItemBackground = global::SampleApp.Droid.Resource.Styleable.BackgroundStyle_android_selectableItemBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BackgroundStyle_selectableItemBackground = global::SampleApp.Droid.Resource.Styleable.BackgroundStyle_selectableItemBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomAppBar = global::SampleApp.Droid.Resource.Styleable.BottomAppBar;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomAppBar_backgroundTint = global::SampleApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::SampleApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomAppBar_fabCradleMargin = global::SampleApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::SampleApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::SampleApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomAppBar_hideOnScroll = global::SampleApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomNavigationView = global::SampleApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomNavigationView_elevation = global::SampleApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomNavigationView_itemBackground = global::SampleApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::SampleApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomNavigationView_itemIconSize = global::SampleApp.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomNavigationView_itemIconTint = global::SampleApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::SampleApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::SampleApp.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomNavigationView_itemTextColor = global::SampleApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::SampleApp.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomNavigationView_menu = global::SampleApp.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomSheetBehavior_Layout = global::SampleApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::SampleApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::SampleApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::SampleApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::SampleApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ButtonBarLayout = global::SampleApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ButtonBarLayout_allowStacking = global::SampleApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CardView = global::SampleApp.Droid.Resource.Styleable.CardView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CardView_android_minHeight = global::SampleApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CardView_android_minWidth = global::SampleApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CardView_cardBackgroundColor = global::SampleApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CardView_cardCornerRadius = global::SampleApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CardView_cardElevation = global::SampleApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CardView_cardMaxElevation = global::SampleApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CardView_cardPreventCornerOverlap = global::SampleApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CardView_cardUseCompatPadding = global::SampleApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CardView_contentPadding = global::SampleApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CardView_contentPaddingBottom = global::SampleApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CardView_contentPaddingLeft = global::SampleApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CardView_contentPaddingRight = global::SampleApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CardView_contentPaddingTop = global::SampleApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CheckBoxPreference = global::SampleApp.Droid.Resource.Styleable.CheckBoxPreference;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CheckBoxPreference_android_disableDependentsState = global::SampleApp.Droid.Resource.Styleable.CheckBoxPreference_android_disableDependentsState;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CheckBoxPreference_android_summaryOff = global::SampleApp.Droid.Resource.Styleable.CheckBoxPreference_android_summaryOff;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CheckBoxPreference_android_summaryOn = global::SampleApp.Droid.Resource.Styleable.CheckBoxPreference_android_summaryOn;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CheckBoxPreference_disableDependentsState = global::SampleApp.Droid.Resource.Styleable.CheckBoxPreference_disableDependentsState;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CheckBoxPreference_summaryOff = global::SampleApp.Droid.Resource.Styleable.CheckBoxPreference_summaryOff;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CheckBoxPreference_summaryOn = global::SampleApp.Droid.Resource.Styleable.CheckBoxPreference_summaryOn;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip = global::SampleApp.Droid.Resource.Styleable.Chip;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ChipGroup = global::SampleApp.Droid.Resource.Styleable.ChipGroup;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ChipGroup_checkedChip = global::SampleApp.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ChipGroup_chipSpacing = global::SampleApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::SampleApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ChipGroup_chipSpacingVertical = global::SampleApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ChipGroup_singleLine = global::SampleApp.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ChipGroup_singleSelection = global::SampleApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_android_checkable = global::SampleApp.Droid.Resource.Styleable.Chip_android_checkable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_android_ellipsize = global::SampleApp.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_android_maxWidth = global::SampleApp.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_android_text = global::SampleApp.Droid.Resource.Styleable.Chip_android_text;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_android_textAppearance = global::SampleApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_checkedIcon = global::SampleApp.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_checkedIconEnabled = global::SampleApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_checkedIconVisible = global::SampleApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_chipBackgroundColor = global::SampleApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_chipCornerRadius = global::SampleApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_chipEndPadding = global::SampleApp.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_chipIcon = global::SampleApp.Droid.Resource.Styleable.Chip_chipIcon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_chipIconEnabled = global::SampleApp.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_chipIconSize = global::SampleApp.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_chipIconTint = global::SampleApp.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_chipIconVisible = global::SampleApp.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_chipMinHeight = global::SampleApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_chipStartPadding = global::SampleApp.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_chipStrokeColor = global::SampleApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_chipStrokeWidth = global::SampleApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_closeIcon = global::SampleApp.Droid.Resource.Styleable.Chip_closeIcon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_closeIconEnabled = global::SampleApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_closeIconEndPadding = global::SampleApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_closeIconSize = global::SampleApp.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_closeIconStartPadding = global::SampleApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_closeIconTint = global::SampleApp.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_closeIconVisible = global::SampleApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_hideMotionSpec = global::SampleApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_iconEndPadding = global::SampleApp.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_iconStartPadding = global::SampleApp.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_rippleColor = global::SampleApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_showMotionSpec = global::SampleApp.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_textEndPadding = global::SampleApp.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Chip_textStartPadding = global::SampleApp.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_Layout = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_title = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ColorStateListItem = global::SampleApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ColorStateListItem_alpha = global::SampleApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ColorStateListItem_android_alpha = global::SampleApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ColorStateListItem_android_color = global::SampleApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CompoundButton = global::SampleApp.Droid.Resource.Styleable.CompoundButton;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CompoundButton_android_button = global::SampleApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CompoundButton_buttonCompat = global::SampleApp.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CompoundButton_buttonTint = global::SampleApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CompoundButton_buttonTintMode = global::SampleApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CoordinatorLayout = global::SampleApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CoordinatorLayout_keylines = global::SampleApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CoordinatorLayout_Layout = global::SampleApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::SampleApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::SampleApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::SampleApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::SampleApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::SampleApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::SampleApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::SampleApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::SampleApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DialogPreference = global::SampleApp.Droid.Resource.Styleable.DialogPreference;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DialogPreference_android_dialogIcon = global::SampleApp.Droid.Resource.Styleable.DialogPreference_android_dialogIcon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DialogPreference_android_dialogLayout = global::SampleApp.Droid.Resource.Styleable.DialogPreference_android_dialogLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DialogPreference_android_dialogMessage = global::SampleApp.Droid.Resource.Styleable.DialogPreference_android_dialogMessage;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DialogPreference_android_dialogTitle = global::SampleApp.Droid.Resource.Styleable.DialogPreference_android_dialogTitle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DialogPreference_android_negativeButtonText = global::SampleApp.Droid.Resource.Styleable.DialogPreference_android_negativeButtonText;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DialogPreference_android_positiveButtonText = global::SampleApp.Droid.Resource.Styleable.DialogPreference_android_positiveButtonText;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DialogPreference_dialogIcon = global::SampleApp.Droid.Resource.Styleable.DialogPreference_dialogIcon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DialogPreference_dialogLayout = global::SampleApp.Droid.Resource.Styleable.DialogPreference_dialogLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DialogPreference_dialogMessage = global::SampleApp.Droid.Resource.Styleable.DialogPreference_dialogMessage;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DialogPreference_dialogTitle = global::SampleApp.Droid.Resource.Styleable.DialogPreference_dialogTitle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DialogPreference_negativeButtonText = global::SampleApp.Droid.Resource.Styleable.DialogPreference_negativeButtonText;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DialogPreference_positiveButtonText = global::SampleApp.Droid.Resource.Styleable.DialogPreference_positiveButtonText;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DrawerArrowToggle = global::SampleApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DrawerArrowToggle_barLength = global::SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DrawerArrowToggle_color = global::SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DrawerArrowToggle_drawableSize = global::SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DrawerArrowToggle_spinBars = global::SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.DrawerArrowToggle_thickness = global::SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.EditTextPreference = global::SampleApp.Droid.Resource.Styleable.EditTextPreference;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider = global::SampleApp.Droid.Resource.Styleable.EditTextPreference_useSimpleSummaryProvider;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton_backgroundTint = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton_borderWidth = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton_elevation = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton_fabCustomSize = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton_fabSize = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton_maxImageSize = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton_rippleColor = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton_showMotionSpec = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FloatingActionButton_useCompatPadding = global::SampleApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FlowLayout = global::SampleApp.Droid.Resource.Styleable.FlowLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FlowLayout_itemSpacing = global::SampleApp.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FlowLayout_lineSpacing = global::SampleApp.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamily = global::SampleApp.Droid.Resource.Styleable.FontFamily;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamilyFont = global::SampleApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamilyFont_android_font = global::SampleApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamilyFont_android_fontStyle = global::SampleApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::SampleApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamilyFont_android_fontWeight = global::SampleApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::SampleApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamilyFont_font = global::SampleApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamilyFont_fontStyle = global::SampleApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::SampleApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamilyFont_fontWeight = global::SampleApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamilyFont_ttcIndex = global::SampleApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamily_fontProviderAuthority = global::SampleApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamily_fontProviderCerts = global::SampleApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::SampleApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::SampleApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamily_fontProviderPackage = global::SampleApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FontFamily_fontProviderQuery = global::SampleApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ForegroundLinearLayout = global::SampleApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::SampleApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::SampleApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::SampleApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Fragment = global::SampleApp.Droid.Resource.Styleable.Fragment;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FragmentContainerView = global::SampleApp.Droid.Resource.Styleable.FragmentContainerView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FragmentContainerView_android_name = global::SampleApp.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.FragmentContainerView_android_tag = global::SampleApp.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Fragment_android_id = global::SampleApp.Droid.Resource.Styleable.Fragment_android_id;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Fragment_android_name = global::SampleApp.Droid.Resource.Styleable.Fragment_android_name;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Fragment_android_tag = global::SampleApp.Droid.Resource.Styleable.Fragment_android_tag;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColor = global::SampleApp.Droid.Resource.Styleable.GradientColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColorItem = global::SampleApp.Droid.Resource.Styleable.GradientColorItem;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColorItem_android_color = global::SampleApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColorItem_android_offset = global::SampleApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColor_android_centerColor = global::SampleApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColor_android_centerX = global::SampleApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColor_android_centerY = global::SampleApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColor_android_endColor = global::SampleApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColor_android_endX = global::SampleApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColor_android_endY = global::SampleApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColor_android_gradientRadius = global::SampleApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColor_android_startColor = global::SampleApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColor_android_startX = global::SampleApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColor_android_startY = global::SampleApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColor_android_tileMode = global::SampleApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.GradientColor_android_type = global::SampleApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.LinearLayoutCompat = global::SampleApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.LinearLayoutCompat_android_gravity = global::SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.LinearLayoutCompat_android_orientation = global::SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.LinearLayoutCompat_divider = global::SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.LinearLayoutCompat_Layout = global::SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.LinearLayoutCompat_showDividers = global::SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ListPopupWindow = global::SampleApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::SampleApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::SampleApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ListPreference = global::SampleApp.Droid.Resource.Styleable.ListPreference;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ListPreference_android_entries = global::SampleApp.Droid.Resource.Styleable.ListPreference_android_entries;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ListPreference_android_entryValues = global::SampleApp.Droid.Resource.Styleable.ListPreference_android_entryValues;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ListPreference_entries = global::SampleApp.Droid.Resource.Styleable.ListPreference_entries;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ListPreference_entryValues = global::SampleApp.Droid.Resource.Styleable.ListPreference_entryValues;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ListPreference_useSimpleSummaryProvider = global::SampleApp.Droid.Resource.Styleable.ListPreference_useSimpleSummaryProvider;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton = global::SampleApp.Droid.Resource.Styleable.MaterialButton;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_android_insetBottom = global::SampleApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_android_insetLeft = global::SampleApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_android_insetRight = global::SampleApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_android_insetTop = global::SampleApp.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_backgroundTint = global::SampleApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_backgroundTintMode = global::SampleApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_cornerRadius = global::SampleApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_icon = global::SampleApp.Droid.Resource.Styleable.MaterialButton_icon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_iconGravity = global::SampleApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_iconPadding = global::SampleApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_iconSize = global::SampleApp.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_iconTint = global::SampleApp.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_iconTintMode = global::SampleApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_rippleColor = global::SampleApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_strokeColor = global::SampleApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialButton_strokeWidth = global::SampleApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialCardView = global::SampleApp.Droid.Resource.Styleable.MaterialCardView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialCardView_strokeColor = global::SampleApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MaterialCardView_strokeWidth = global::SampleApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuGroup = global::SampleApp.Droid.Resource.Styleable.MenuGroup;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuGroup_android_checkableBehavior = global::SampleApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuGroup_android_enabled = global::SampleApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuGroup_android_id = global::SampleApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuGroup_android_menuCategory = global::SampleApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuGroup_android_orderInCategory = global::SampleApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuGroup_android_visible = global::SampleApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem = global::SampleApp.Droid.Resource.Styleable.MenuItem;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_actionLayout = global::SampleApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_actionProviderClass = global::SampleApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_actionViewClass = global::SampleApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_alphabeticModifiers = global::SampleApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::SampleApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_android_checkable = global::SampleApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_android_checked = global::SampleApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_android_enabled = global::SampleApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_android_icon = global::SampleApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_android_id = global::SampleApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_android_menuCategory = global::SampleApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_android_numericShortcut = global::SampleApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_android_onClick = global::SampleApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_android_orderInCategory = global::SampleApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_android_title = global::SampleApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_android_titleCondensed = global::SampleApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_android_visible = global::SampleApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_contentDescription = global::SampleApp.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_iconTint = global::SampleApp.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_iconTintMode = global::SampleApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_numericModifiers = global::SampleApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_showAsAction = global::SampleApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuItem_tooltipText = global::SampleApp.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuView = global::SampleApp.Droid.Resource.Styleable.MenuView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuView_android_headerBackground = global::SampleApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuView_android_horizontalDivider = global::SampleApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuView_android_itemBackground = global::SampleApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::SampleApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuView_android_itemTextAppearance = global::SampleApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuView_android_verticalDivider = global::SampleApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuView_android_windowAnimationStyle = global::SampleApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuView_preserveIconSpacing = global::SampleApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MenuView_subMenuArrow = global::SampleApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MultiSelectListPreference = global::SampleApp.Droid.Resource.Styleable.MultiSelectListPreference;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MultiSelectListPreference_android_entries = global::SampleApp.Droid.Resource.Styleable.MultiSelectListPreference_android_entries;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MultiSelectListPreference_android_entryValues = global::SampleApp.Droid.Resource.Styleable.MultiSelectListPreference_android_entryValues;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MultiSelectListPreference_entries = global::SampleApp.Droid.Resource.Styleable.MultiSelectListPreference_entries;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MultiSelectListPreference_entryValues = global::SampleApp.Droid.Resource.Styleable.MultiSelectListPreference_entryValues;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MvxBinding = global::SampleApp.Droid.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MvxBinding_MvxBind = global::SampleApp.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MvxBinding_MvxLang = global::SampleApp.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MvxControl = global::SampleApp.Droid.Resource.Styleable.MvxControl;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MvxControl_MvxTemplate = global::SampleApp.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MvxExpandableListView = global::SampleApp.Droid.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::SampleApp.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MvxListView = global::SampleApp.Droid.Resource.Styleable.MvxListView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::SampleApp.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.MvxListView_MvxItemTemplate = global::SampleApp.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.NavigationView = global::SampleApp.Droid.Resource.Styleable.NavigationView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.NavigationView_android_background = global::SampleApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::SampleApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.NavigationView_android_maxWidth = global::SampleApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.NavigationView_elevation = global::SampleApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.NavigationView_headerLayout = global::SampleApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.NavigationView_itemBackground = global::SampleApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.NavigationView_itemHorizontalPadding = global::SampleApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.NavigationView_itemIconPadding = global::SampleApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.NavigationView_itemIconTint = global::SampleApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.NavigationView_itemTextAppearance = global::SampleApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.NavigationView_itemTextColor = global::SampleApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.NavigationView_menu = global::SampleApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PopupWindow = global::SampleApp.Droid.Resource.Styleable.PopupWindow;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PopupWindowBackgroundState = global::SampleApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::SampleApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::SampleApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PopupWindow_android_popupBackground = global::SampleApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PopupWindow_overlapAnchor = global::SampleApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference = global::SampleApp.Droid.Resource.Styleable.Preference;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceFragment = global::SampleApp.Droid.Resource.Styleable.PreferenceFragment;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceFragmentCompat = global::SampleApp.Droid.Resource.Styleable.PreferenceFragmentCompat;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem = global::SampleApp.Droid.Resource.Styleable.PreferenceFragmentCompat_allowDividerAfterLastItem;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceFragmentCompat_android_divider = global::SampleApp.Droid.Resource.Styleable.PreferenceFragmentCompat_android_divider;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight = global::SampleApp.Droid.Resource.Styleable.PreferenceFragmentCompat_android_dividerHeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceFragmentCompat_android_layout = global::SampleApp.Droid.Resource.Styleable.PreferenceFragmentCompat_android_layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem = global::SampleApp.Droid.Resource.Styleable.PreferenceFragment_allowDividerAfterLastItem;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceFragment_android_divider = global::SampleApp.Droid.Resource.Styleable.PreferenceFragment_android_divider;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceFragment_android_dividerHeight = global::SampleApp.Droid.Resource.Styleable.PreferenceFragment_android_dividerHeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceFragment_android_layout = global::SampleApp.Droid.Resource.Styleable.PreferenceFragment_android_layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceGroup = global::SampleApp.Droid.Resource.Styleable.PreferenceGroup;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceGroup_android_orderingFromXml = global::SampleApp.Droid.Resource.Styleable.PreferenceGroup_android_orderingFromXml;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount = global::SampleApp.Droid.Resource.Styleable.PreferenceGroup_initialExpandedChildrenCount;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceGroup_orderingFromXml = global::SampleApp.Droid.Resource.Styleable.PreferenceGroup_orderingFromXml;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceImageView = global::SampleApp.Droid.Resource.Styleable.PreferenceImageView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceImageView_android_maxHeight = global::SampleApp.Droid.Resource.Styleable.PreferenceImageView_android_maxHeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceImageView_android_maxWidth = global::SampleApp.Droid.Resource.Styleable.PreferenceImageView_android_maxWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceImageView_maxHeight = global::SampleApp.Droid.Resource.Styleable.PreferenceImageView_maxHeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceImageView_maxWidth = global::SampleApp.Droid.Resource.Styleable.PreferenceImageView_maxWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_checkBoxPreferenceStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_dialogPreferenceStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_dropdownPreferenceStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_editTextPreferenceStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_preferenceCategoryStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_preferenceCategoryTitleTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentCompatStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentListStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_preferenceFragmentStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_preferenceInformationStyle = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_preferenceInformationStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_preferenceScreenStyle = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_preferenceScreenStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_preferenceStyle = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_preferenceStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_preferenceTheme = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_preferenceTheme;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_seekBarPreferenceStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_switchPreferenceCompatStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.PreferenceTheme_switchPreferenceStyle = global::SampleApp.Droid.Resource.Styleable.PreferenceTheme_switchPreferenceStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_allowDividerAbove = global::SampleApp.Droid.Resource.Styleable.Preference_allowDividerAbove;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_allowDividerBelow = global::SampleApp.Droid.Resource.Styleable.Preference_allowDividerBelow;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_defaultValue = global::SampleApp.Droid.Resource.Styleable.Preference_android_defaultValue;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_dependency = global::SampleApp.Droid.Resource.Styleable.Preference_android_dependency;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_enabled = global::SampleApp.Droid.Resource.Styleable.Preference_android_enabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_fragment = global::SampleApp.Droid.Resource.Styleable.Preference_android_fragment;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_icon = global::SampleApp.Droid.Resource.Styleable.Preference_android_icon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_iconSpaceReserved = global::SampleApp.Droid.Resource.Styleable.Preference_android_iconSpaceReserved;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_key = global::SampleApp.Droid.Resource.Styleable.Preference_android_key;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_layout = global::SampleApp.Droid.Resource.Styleable.Preference_android_layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_order = global::SampleApp.Droid.Resource.Styleable.Preference_android_order;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_persistent = global::SampleApp.Droid.Resource.Styleable.Preference_android_persistent;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_selectable = global::SampleApp.Droid.Resource.Styleable.Preference_android_selectable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_shouldDisableView = global::SampleApp.Droid.Resource.Styleable.Preference_android_shouldDisableView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_singleLineTitle = global::SampleApp.Droid.Resource.Styleable.Preference_android_singleLineTitle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_summary = global::SampleApp.Droid.Resource.Styleable.Preference_android_summary;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_title = global::SampleApp.Droid.Resource.Styleable.Preference_android_title;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_android_widgetLayout = global::SampleApp.Droid.Resource.Styleable.Preference_android_widgetLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_defaultValue = global::SampleApp.Droid.Resource.Styleable.Preference_defaultValue;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_dependency = global::SampleApp.Droid.Resource.Styleable.Preference_dependency;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_enableCopying = global::SampleApp.Droid.Resource.Styleable.Preference_enableCopying;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_enabled = global::SampleApp.Droid.Resource.Styleable.Preference_enabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_fragment = global::SampleApp.Droid.Resource.Styleable.Preference_fragment;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_icon = global::SampleApp.Droid.Resource.Styleable.Preference_icon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_iconSpaceReserved = global::SampleApp.Droid.Resource.Styleable.Preference_iconSpaceReserved;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_isPreferenceVisible = global::SampleApp.Droid.Resource.Styleable.Preference_isPreferenceVisible;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_key = global::SampleApp.Droid.Resource.Styleable.Preference_key;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_layout = global::SampleApp.Droid.Resource.Styleable.Preference_layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_order = global::SampleApp.Droid.Resource.Styleable.Preference_order;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_persistent = global::SampleApp.Droid.Resource.Styleable.Preference_persistent;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_selectable = global::SampleApp.Droid.Resource.Styleable.Preference_selectable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_shouldDisableView = global::SampleApp.Droid.Resource.Styleable.Preference_shouldDisableView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_singleLineTitle = global::SampleApp.Droid.Resource.Styleable.Preference_singleLineTitle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_summary = global::SampleApp.Droid.Resource.Styleable.Preference_summary;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_title = global::SampleApp.Droid.Resource.Styleable.Preference_title;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Preference_widgetLayout = global::SampleApp.Droid.Resource.Styleable.Preference_widgetLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.RecycleListView = global::SampleApp.Droid.Resource.Styleable.RecycleListView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::SampleApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::SampleApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.RecyclerView = global::SampleApp.Droid.Resource.Styleable.RecyclerView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.RecyclerView_android_descendantFocusability = global::SampleApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.RecyclerView_android_orientation = global::SampleApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.RecyclerView_fastScrollEnabled = global::SampleApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::SampleApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::SampleApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::SampleApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::SampleApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.RecyclerView_layoutManager = global::SampleApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.RecyclerView_reverseLayout = global::SampleApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.RecyclerView_spanCount = global::SampleApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.RecyclerView_stackFromEnd = global::SampleApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ScrimInsetsFrameLayout = global::SampleApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::SampleApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ScrollingViewBehavior_Layout = global::SampleApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::SampleApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView = global::SampleApp.Droid.Resource.Styleable.SearchView;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_android_focusable = global::SampleApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_android_imeOptions = global::SampleApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_android_inputType = global::SampleApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_android_maxWidth = global::SampleApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_closeIcon = global::SampleApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_commitIcon = global::SampleApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_defaultQueryHint = global::SampleApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_goIcon = global::SampleApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_iconifiedByDefault = global::SampleApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_layout = global::SampleApp.Droid.Resource.Styleable.SearchView_layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_queryBackground = global::SampleApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_queryHint = global::SampleApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_searchHintIcon = global::SampleApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_searchIcon = global::SampleApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_submitBackground = global::SampleApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_suggestionRowLayout = global::SampleApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SearchView_voiceIcon = global::SampleApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SeekBarPreference = global::SampleApp.Droid.Resource.Styleable.SeekBarPreference;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SeekBarPreference_adjustable = global::SampleApp.Droid.Resource.Styleable.SeekBarPreference_adjustable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SeekBarPreference_android_layout = global::SampleApp.Droid.Resource.Styleable.SeekBarPreference_android_layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SeekBarPreference_android_max = global::SampleApp.Droid.Resource.Styleable.SeekBarPreference_android_max;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SeekBarPreference_min = global::SampleApp.Droid.Resource.Styleable.SeekBarPreference_min;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SeekBarPreference_seekBarIncrement = global::SampleApp.Droid.Resource.Styleable.SeekBarPreference_seekBarIncrement;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SeekBarPreference_showSeekBarValue = global::SampleApp.Droid.Resource.Styleable.SeekBarPreference_showSeekBarValue;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SeekBarPreference_updatesContinuously = global::SampleApp.Droid.Resource.Styleable.SeekBarPreference_updatesContinuously;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Snackbar = global::SampleApp.Droid.Resource.Styleable.Snackbar;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SnackbarLayout = global::SampleApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SnackbarLayout_android_maxWidth = global::SampleApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SnackbarLayout_elevation = global::SampleApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::SampleApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Snackbar_snackbarButtonStyle = global::SampleApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Snackbar_snackbarStyle = global::SampleApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Spinner = global::SampleApp.Droid.Resource.Styleable.Spinner;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Spinner_android_dropDownWidth = global::SampleApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Spinner_android_entries = global::SampleApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Spinner_android_popupBackground = global::SampleApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Spinner_android_prompt = global::SampleApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Spinner_popupTheme = global::SampleApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.StateListDrawable = global::SampleApp.Droid.Resource.Styleable.StateListDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.StateListDrawableItem = global::SampleApp.Droid.Resource.Styleable.StateListDrawableItem;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.StateListDrawableItem_android_drawable = global::SampleApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.StateListDrawable_android_constantSize = global::SampleApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.StateListDrawable_android_dither = global::SampleApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::SampleApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::SampleApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.StateListDrawable_android_variablePadding = global::SampleApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.StateListDrawable_android_visible = global::SampleApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchCompat = global::SampleApp.Droid.Resource.Styleable.SwitchCompat;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchCompat_android_textOff = global::SampleApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchCompat_android_textOn = global::SampleApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchCompat_android_thumb = global::SampleApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchCompat_showText = global::SampleApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchCompat_splitTrack = global::SampleApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchCompat_switchMinWidth = global::SampleApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchCompat_switchPadding = global::SampleApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchCompat_switchTextAppearance = global::SampleApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchCompat_thumbTextPadding = global::SampleApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchCompat_thumbTint = global::SampleApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchCompat_thumbTintMode = global::SampleApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchCompat_track = global::SampleApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchCompat_trackTint = global::SampleApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchCompat_trackTintMode = global::SampleApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreference = global::SampleApp.Droid.Resource.Styleable.SwitchPreference;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreferenceCompat = global::SampleApp.Droid.Resource.Styleable.SwitchPreferenceCompat;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState = global::SampleApp.Droid.Resource.Styleable.SwitchPreferenceCompat_android_disableDependentsState;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff = global::SampleApp.Droid.Resource.Styleable.SwitchPreferenceCompat_android_summaryOff;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn = global::SampleApp.Droid.Resource.Styleable.SwitchPreferenceCompat_android_summaryOn;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff = global::SampleApp.Droid.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOff;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn = global::SampleApp.Droid.Resource.Styleable.SwitchPreferenceCompat_android_switchTextOn;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState = global::SampleApp.Droid.Resource.Styleable.SwitchPreferenceCompat_disableDependentsState;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreferenceCompat_summaryOff = global::SampleApp.Droid.Resource.Styleable.SwitchPreferenceCompat_summaryOff;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreferenceCompat_summaryOn = global::SampleApp.Droid.Resource.Styleable.SwitchPreferenceCompat_summaryOn;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreferenceCompat_switchTextOff = global::SampleApp.Droid.Resource.Styleable.SwitchPreferenceCompat_switchTextOff;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreferenceCompat_switchTextOn = global::SampleApp.Droid.Resource.Styleable.SwitchPreferenceCompat_switchTextOn;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreference_android_disableDependentsState = global::SampleApp.Droid.Resource.Styleable.SwitchPreference_android_disableDependentsState;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreference_android_summaryOff = global::SampleApp.Droid.Resource.Styleable.SwitchPreference_android_summaryOff;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreference_android_summaryOn = global::SampleApp.Droid.Resource.Styleable.SwitchPreference_android_summaryOn;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreference_android_switchTextOff = global::SampleApp.Droid.Resource.Styleable.SwitchPreference_android_switchTextOff;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreference_android_switchTextOn = global::SampleApp.Droid.Resource.Styleable.SwitchPreference_android_switchTextOn;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreference_disableDependentsState = global::SampleApp.Droid.Resource.Styleable.SwitchPreference_disableDependentsState;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreference_summaryOff = global::SampleApp.Droid.Resource.Styleable.SwitchPreference_summaryOff;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreference_summaryOn = global::SampleApp.Droid.Resource.Styleable.SwitchPreference_summaryOn;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreference_switchTextOff = global::SampleApp.Droid.Resource.Styleable.SwitchPreference_switchTextOff;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.SwitchPreference_switchTextOn = global::SampleApp.Droid.Resource.Styleable.SwitchPreference_switchTextOn;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabItem = global::SampleApp.Droid.Resource.Styleable.TabItem;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabItem_android_icon = global::SampleApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabItem_android_layout = global::SampleApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabItem_android_text = global::SampleApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout = global::SampleApp.Droid.Resource.Styleable.TabLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabBackground = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabContentStart = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabGravity = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabIconTint = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabIconTintMode = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabIndicator = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabIndicatorColor = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabIndicatorGravity = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabIndicatorHeight = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabInlineLabel = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabMaxWidth = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabMinWidth = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabMode = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabPadding = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabPaddingBottom = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabPaddingEnd = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabPaddingStart = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabPaddingTop = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabRippleColor = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabSelectedTextColor = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabTextAppearance = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabTextColor = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TabLayout_tabUnboundedRipple = global::SampleApp.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance = global::SampleApp.Droid.Resource.Styleable.TextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_android_fontFamily = global::SampleApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_android_shadowColor = global::SampleApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_android_shadowDx = global::SampleApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_android_shadowDy = global::SampleApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_android_shadowRadius = global::SampleApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_android_textColor = global::SampleApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_android_textColorHint = global::SampleApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_android_textColorLink = global::SampleApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_android_textFontWeight = global::SampleApp.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_android_textSize = global::SampleApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_android_textStyle = global::SampleApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_android_typeface = global::SampleApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_fontFamily = global::SampleApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_fontVariationSettings = global::SampleApp.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_textAllCaps = global::SampleApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextAppearance_textLocale = global::SampleApp.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout = global::SampleApp.Droid.Resource.Styleable.TextInputLayout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_android_hint = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_android_textColorHint = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_boxStrokeColor = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_counterEnabled = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_counterMaxLength = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_counterTextAppearance = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_errorEnabled = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_errorTextAppearance = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_helperText = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_helperTextEnabled = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_hintEnabled = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_hintTextAppearance = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_passwordToggleTint = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::SampleApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ThemeEnforcement = global::SampleApp.Droid.Resource.Styleable.ThemeEnforcement;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::SampleApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::SampleApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::SampleApp.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar = global::SampleApp.Droid.Resource.Styleable.Toolbar;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_android_gravity = global::SampleApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_android_minHeight = global::SampleApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_buttonGravity = global::SampleApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_collapseContentDescription = global::SampleApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_collapseIcon = global::SampleApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_contentInsetEnd = global::SampleApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::SampleApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_contentInsetLeft = global::SampleApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_contentInsetRight = global::SampleApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_contentInsetStart = global::SampleApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::SampleApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_logo = global::SampleApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_logoDescription = global::SampleApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_maxButtonHeight = global::SampleApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_menu = global::SampleApp.Droid.Resource.Styleable.Toolbar_menu;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_navigationContentDescription = global::SampleApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_navigationIcon = global::SampleApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_popupTheme = global::SampleApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_subtitle = global::SampleApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_subtitleTextAppearance = global::SampleApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_subtitleTextColor = global::SampleApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_title = global::SampleApp.Droid.Resource.Styleable.Toolbar_title;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_titleMargin = global::SampleApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_titleMarginBottom = global::SampleApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_titleMarginEnd = global::SampleApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_titleMargins = global::SampleApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_titleMarginStart = global::SampleApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_titleMarginTop = global::SampleApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_titleTextAppearance = global::SampleApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.Toolbar_titleTextColor = global::SampleApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.View = global::SampleApp.Droid.Resource.Styleable.View;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ViewBackgroundHelper = global::SampleApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ViewBackgroundHelper_android_background = global::SampleApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::SampleApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::SampleApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ViewStubCompat = global::SampleApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ViewStubCompat_android_id = global::SampleApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ViewStubCompat_android_inflatedId = global::SampleApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.ViewStubCompat_android_layout = global::SampleApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.View_android_focusable = global::SampleApp.Droid.Resource.Styleable.View_android_focusable;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.View_android_theme = global::SampleApp.Droid.Resource.Styleable.View_android_theme;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.View_paddingEnd = global::SampleApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.View_paddingStart = global::SampleApp.Droid.Resource.Styleable.View_paddingStart;
+			global::MvvmCross.Plugin.Color.Resource.Styleable.View_theme = global::SampleApp.Droid.Resource.Styleable.View_theme;
 		}
 		
 		public partial class Animation
@@ -19548,37 +22427,37 @@ namespace SampleApp.Droid
 			public const int btn_radio_on_to_off_mtrl_animation = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int btn_shadow = 2131230825;
+			public const int button_selector = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int button_selector = 2131230826;
+			public const int checkmark = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int checkmark = 2131230827;
+			public const int design_bottom_navigation_item_background = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int design_bottom_navigation_item_background = 2131230828;
+			public const int design_fab_background = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int design_fab_background = 2131230829;
+			public const int design_ic_visibility = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int design_ic_visibility = 2131230830;
+			public const int design_ic_visibility_off = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int design_ic_visibility_off = 2131230831;
+			public const int design_password_eye = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int design_password_eye = 2131230832;
+			public const int design_snackbar_background = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int design_snackbar_background = 2131230833;
+			public const int Edittext_bg = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int Edittext_bg = 2131230834;
+			public const int email = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int email = 2131230835;
+			public const int error = 2131230835;
 			
 			// aapt resource value: 0x7F080074
 			public const int foreground = 2131230836;
@@ -19727,50 +22606,59 @@ namespace SampleApp.Droid
 			// aapt resource value: 0x7F0800A4
 			public const int preference_list_divider_material = 2131230884;
 			
-			// aapt resource value: 0x7F0800AA
-			public const int roundedbg = 2131230890;
-			
 			// aapt resource value: 0x7F0800AB
-			public const int roundedbgdark = 2131230891;
+			public const int roundedbg = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int roundedbtn_left = 2131230892;
+			public const int roundedbgdark = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int roundedbtn_right = 2131230893;
-			
-			// aapt resource value: 0x7F0800A5
-			public const int rounded_buttonView = 2131230885;
-			
-			// aapt resource value: 0x7F0800A6
-			public const int rounded_edittextView = 2131230886;
-			
-			// aapt resource value: 0x7F0800A7
-			public const int rounded_searchLayout = 2131230887;
-			
-			// aapt resource value: 0x7F0800A8
-			public const int rounded_searchView = 2131230888;
-			
-			// aapt resource value: 0x7F0800A9
-			public const int rounded_statusView = 2131230889;
+			public const int roundedbtn_left = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int search_icon = 2131230894;
+			public const int roundedbtn_right = 2131230894;
+			
+			// aapt resource value: 0x7F0800A5
+			public const int rounded_buttonshadow = 2131230885;
+			
+			// aapt resource value: 0x7F0800A6
+			public const int rounded_buttonView = 2131230886;
+			
+			// aapt resource value: 0x7F0800A7
+			public const int rounded_edittextView = 2131230887;
+			
+			// aapt resource value: 0x7F0800A8
+			public const int rounded_searchLayout = 2131230888;
+			
+			// aapt resource value: 0x7F0800A9
+			public const int rounded_searchView = 2131230889;
+			
+			// aapt resource value: 0x7F0800AA
+			public const int rounded_statusView = 2131230890;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int shadow = 2131230895;
+			public const int search_icon = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int splash = 2131230896;
+			public const int shadow = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int test_custom_background = 2131230897;
+			public const int shadow_t = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int tooltip_frame_dark = 2131230898;
+			public const int splash = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int tooltip_frame_light = 2131230899;
+			public const int status_shadow = 2131230899;
+			
+			// aapt resource value: 0x7F0800B4
+			public const int test_custom_background = 2131230900;
+			
+			// aapt resource value: 0x7F0800B5
+			public const int tooltip_frame_dark = 2131230901;
+			
+			// aapt resource value: 0x7F0800B6
+			public const int tooltip_frame_light = 2131230902;
 			
 			static Drawable()
 			{
@@ -20042,625 +22930,613 @@ namespace SampleApp.Droid
 			public const int bounce = 2131361883;
 			
 			// aapt resource value: 0x7F0A005C
-			public const int btn_destroy = 2131361884;
+			public const int button1 = 2131361884;
 			
 			// aapt resource value: 0x7F0A005D
-			public const int button1 = 2131361885;
+			public const int button2 = 2131361885;
 			
 			// aapt resource value: 0x7F0A005E
-			public const int button2 = 2131361886;
+			public const int buttonPanel = 2131361886;
 			
 			// aapt resource value: 0x7F0A005F
-			public const int buttonPanel = 2131361887;
+			public const int cache_measures = 2131361887;
 			
 			// aapt resource value: 0x7F0A0060
-			public const int cache_measures = 2131361888;
+			public const int cancel_action = 2131361888;
 			
 			// aapt resource value: 0x7F0A0061
-			public const int cancel_action = 2131361889;
+			public const int cancel_button = 2131361889;
 			
 			// aapt resource value: 0x7F0A0062
-			public const int cancel_button = 2131361890;
+			public const int center = 2131361890;
 			
 			// aapt resource value: 0x7F0A0063
-			public const int center = 2131361891;
+			public const int center_horizontal = 2131361891;
 			
 			// aapt resource value: 0x7F0A0064
-			public const int center_horizontal = 2131361892;
+			public const int center_vertical = 2131361892;
 			
 			// aapt resource value: 0x7F0A0065
-			public const int center_vertical = 2131361893;
+			public const int chain = 2131361893;
 			
 			// aapt resource value: 0x7F0A0066
-			public const int chain = 2131361894;
+			public const int chains = 2131361894;
 			
 			// aapt resource value: 0x7F0A0067
-			public const int chains = 2131361895;
+			public const int checkbox = 2131361895;
 			
 			// aapt resource value: 0x7F0A0068
-			public const int checkbox = 2131361896;
+			public const int @checked = 2131361896;
 			
 			// aapt resource value: 0x7F0A0069
-			public const int @checked = 2131361897;
+			public const int chip = 2131361897;
 			
 			// aapt resource value: 0x7F0A006A
-			public const int chip = 2131361898;
+			public const int chip1 = 2131361898;
 			
 			// aapt resource value: 0x7F0A006B
-			public const int chip1 = 2131361899;
+			public const int chip2 = 2131361899;
 			
 			// aapt resource value: 0x7F0A006C
-			public const int chip2 = 2131361900;
+			public const int chip3 = 2131361900;
 			
 			// aapt resource value: 0x7F0A006D
-			public const int chip3 = 2131361901;
+			public const int chip_group = 2131361901;
 			
 			// aapt resource value: 0x7F0A006E
-			public const int chip_group = 2131361902;
+			public const int chronometer = 2131361902;
 			
 			// aapt resource value: 0x7F0A006F
-			public const int chronometer = 2131361903;
+			public const int circle_center = 2131361903;
 			
 			// aapt resource value: 0x7F0A0070
-			public const int circle_center = 2131361904;
+			public const int clear_text = 2131361904;
 			
 			// aapt resource value: 0x7F0A0071
-			public const int clear_text = 2131361905;
+			public const int clip_horizontal = 2131361905;
 			
 			// aapt resource value: 0x7F0A0072
-			public const int clip_horizontal = 2131361906;
+			public const int clip_vertical = 2131361906;
 			
 			// aapt resource value: 0x7F0A0073
-			public const int clip_vertical = 2131361907;
+			public const int clockwise = 2131361907;
 			
 			// aapt resource value: 0x7F0A0074
-			public const int clockwise = 2131361908;
+			public const int collapseActionView = 2131361908;
 			
 			// aapt resource value: 0x7F0A0075
-			public const int collapseActionView = 2131361909;
+			public const int confirm_button = 2131361909;
 			
 			// aapt resource value: 0x7F0A0076
-			public const int confirm_button = 2131361910;
+			public const int container = 2131361910;
 			
 			// aapt resource value: 0x7F0A0077
-			public const int container = 2131361911;
+			public const int content = 2131361911;
 			
 			// aapt resource value: 0x7F0A0078
-			public const int content = 2131361912;
+			public const int contentPanel = 2131361912;
 			
 			// aapt resource value: 0x7F0A0079
-			public const int contentPanel = 2131361913;
+			public const int contiguous = 2131361913;
 			
 			// aapt resource value: 0x7F0A007A
-			public const int content_frame = 2131361914;
+			public const int coordinator = 2131361914;
 			
 			// aapt resource value: 0x7F0A007B
-			public const int contiguous = 2131361915;
+			public const int cos = 2131361915;
 			
 			// aapt resource value: 0x7F0A007C
-			public const int coordinator = 2131361916;
-			
-			// aapt resource value: 0x7F0A007D
-			public const int cos = 2131361917;
-			
-			// aapt resource value: 0x7F0A007E
-			public const int counterclockwise = 2131361918;
+			public const int counterclockwise = 2131361916;
 			
 			// aapt resource value: 0x7F0A0003
 			public const int CTRL = 2131361795;
 			
+			// aapt resource value: 0x7F0A007D
+			public const int custom = 2131361917;
+			
+			// aapt resource value: 0x7F0A007E
+			public const int customPanel = 2131361918;
+			
 			// aapt resource value: 0x7F0A007F
-			public const int custom = 2131361919;
+			public const int cut = 2131361919;
 			
 			// aapt resource value: 0x7F0A0080
-			public const int customPanel = 2131361920;
+			public const int date_picker_actions = 2131361920;
 			
 			// aapt resource value: 0x7F0A0081
-			public const int cut = 2131361921;
+			public const int decelerate = 2131361921;
 			
 			// aapt resource value: 0x7F0A0082
-			public const int date_picker_actions = 2131361922;
+			public const int decelerateAndComplete = 2131361922;
 			
 			// aapt resource value: 0x7F0A0083
-			public const int decelerate = 2131361923;
+			public const int decor_content_parent = 2131361923;
 			
 			// aapt resource value: 0x7F0A0084
-			public const int decelerateAndComplete = 2131361924;
+			public const int default_activity_button = 2131361924;
 			
 			// aapt resource value: 0x7F0A0085
-			public const int decor_content_parent = 2131361925;
+			public const int deltaRelative = 2131361925;
 			
 			// aapt resource value: 0x7F0A0086
-			public const int default_activity_button = 2131361926;
+			public const int dependency_ordering = 2131361926;
 			
 			// aapt resource value: 0x7F0A0087
-			public const int deltaRelative = 2131361927;
+			public const int design_bottom_sheet = 2131361927;
 			
 			// aapt resource value: 0x7F0A0088
-			public const int dependency_ordering = 2131361928;
+			public const int design_menu_item_action_area = 2131361928;
 			
 			// aapt resource value: 0x7F0A0089
-			public const int design_bottom_sheet = 2131361929;
+			public const int design_menu_item_action_area_stub = 2131361929;
 			
 			// aapt resource value: 0x7F0A008A
-			public const int design_menu_item_action_area = 2131361930;
+			public const int design_menu_item_text = 2131361930;
 			
 			// aapt resource value: 0x7F0A008B
-			public const int design_menu_item_action_area_stub = 2131361931;
+			public const int design_navigation_view = 2131361931;
 			
 			// aapt resource value: 0x7F0A008C
-			public const int design_menu_item_text = 2131361932;
+			public const int dialog_button = 2131361932;
 			
 			// aapt resource value: 0x7F0A008D
-			public const int design_navigation_view = 2131361933;
+			public const int dimensions = 2131361933;
 			
 			// aapt resource value: 0x7F0A008E
-			public const int dialog_button = 2131361934;
+			public const int direct = 2131361934;
 			
 			// aapt resource value: 0x7F0A008F
-			public const int dimensions = 2131361935;
+			public const int disableHome = 2131361935;
 			
 			// aapt resource value: 0x7F0A0090
-			public const int direct = 2131361936;
+			public const int disablePostScroll = 2131361936;
 			
 			// aapt resource value: 0x7F0A0091
-			public const int disableHome = 2131361937;
+			public const int disableScroll = 2131361937;
 			
 			// aapt resource value: 0x7F0A0092
-			public const int disablePostScroll = 2131361938;
+			public const int disjoint = 2131361938;
 			
 			// aapt resource value: 0x7F0A0093
-			public const int disableScroll = 2131361939;
+			public const int dragDown = 2131361939;
 			
 			// aapt resource value: 0x7F0A0094
-			public const int disjoint = 2131361940;
+			public const int dragEnd = 2131361940;
 			
 			// aapt resource value: 0x7F0A0095
-			public const int dragDown = 2131361941;
+			public const int dragLeft = 2131361941;
 			
 			// aapt resource value: 0x7F0A0096
-			public const int dragEnd = 2131361942;
+			public const int dragRight = 2131361942;
 			
 			// aapt resource value: 0x7F0A0097
-			public const int dragLeft = 2131361943;
+			public const int dragStart = 2131361943;
 			
 			// aapt resource value: 0x7F0A0098
-			public const int dragRight = 2131361944;
+			public const int dragUp = 2131361944;
 			
 			// aapt resource value: 0x7F0A0099
-			public const int dragStart = 2131361945;
+			public const int dropdown_menu = 2131361945;
 			
 			// aapt resource value: 0x7F0A009A
-			public const int dragUp = 2131361946;
+			public const int easeIn = 2131361946;
 			
 			// aapt resource value: 0x7F0A009B
-			public const int drawer_layout = 2131361947;
+			public const int easeInOut = 2131361947;
 			
 			// aapt resource value: 0x7F0A009C
-			public const int dropdown_menu = 2131361948;
-			
-			// aapt resource value: 0x7F0A009D
-			public const int easeIn = 2131361949;
-			
-			// aapt resource value: 0x7F0A009E
-			public const int easeInOut = 2131361950;
-			
-			// aapt resource value: 0x7F0A009F
-			public const int easeOut = 2131361951;
-			
-			// aapt resource value: 0x7F0A00A3
-			public const int edittext1 = 2131361955;
+			public const int easeOut = 2131361948;
 			
 			// aapt resource value: 0x7F0A00A0
-			public const int editText11 = 2131361952;
+			public const int edittext1 = 2131361952;
 			
-			// aapt resource value: 0x7F0A00A4
-			public const int edittext2 = 2131361956;
+			// aapt resource value: 0x7F0A009D
+			public const int editText11 = 2131361949;
 			
 			// aapt resource value: 0x7F0A00A1
-			public const int editText9 = 2131361953;
+			public const int edittext2 = 2131361953;
+			
+			// aapt resource value: 0x7F0A009E
+			public const int editText9 = 2131361950;
+			
+			// aapt resource value: 0x7F0A009F
+			public const int edit_query = 2131361951;
 			
 			// aapt resource value: 0x7F0A00A2
-			public const int edit_query = 2131361954;
+			public const int elastic = 2131361954;
+			
+			// aapt resource value: 0x7F0A00A3
+			public const int end = 2131361955;
+			
+			// aapt resource value: 0x7F0A00A4
+			public const int endToStart = 2131361956;
 			
 			// aapt resource value: 0x7F0A00A5
-			public const int elastic = 2131361957;
+			public const int end_padder = 2131361957;
 			
 			// aapt resource value: 0x7F0A00A6
-			public const int end = 2131361958;
+			public const int enterAlways = 2131361958;
 			
 			// aapt resource value: 0x7F0A00A7
-			public const int endToStart = 2131361959;
+			public const int enterAlwaysCollapsed = 2131361959;
 			
 			// aapt resource value: 0x7F0A00A8
-			public const int end_padder = 2131361960;
-			
-			// aapt resource value: 0x7F0A00A9
-			public const int enterAlways = 2131361961;
+			public const int exitUntilCollapsed = 2131361960;
 			
 			// aapt resource value: 0x7F0A00AA
-			public const int enterAlwaysCollapsed = 2131361962;
+			public const int expanded_menu = 2131361962;
+			
+			// aapt resource value: 0x7F0A00A9
+			public const int expand_activities_button = 2131361961;
 			
 			// aapt resource value: 0x7F0A00AB
-			public const int exitUntilCollapsed = 2131361963;
-			
-			// aapt resource value: 0x7F0A00AD
-			public const int expanded_menu = 2131361965;
+			public const int fade = 2131361963;
 			
 			// aapt resource value: 0x7F0A00AC
-			public const int expand_activities_button = 2131361964;
-			
-			// aapt resource value: 0x7F0A00AE
-			public const int fade = 2131361966;
+			public const int fill = 2131361964;
 			
 			// aapt resource value: 0x7F0A00AF
-			public const int fill = 2131361967;
+			public const int filled = 2131361967;
 			
-			// aapt resource value: 0x7F0A00B2
-			public const int filled = 2131361970;
+			// aapt resource value: 0x7F0A00AD
+			public const int fill_horizontal = 2131361965;
+			
+			// aapt resource value: 0x7F0A00AE
+			public const int fill_vertical = 2131361966;
 			
 			// aapt resource value: 0x7F0A00B0
-			public const int fill_horizontal = 2131361968;
+			public const int fitToContents = 2131361968;
 			
 			// aapt resource value: 0x7F0A00B1
-			public const int fill_vertical = 2131361969;
+			public const int @fixed = 2131361969;
+			
+			// aapt resource value: 0x7F0A00B2
+			public const int flip = 2131361970;
 			
 			// aapt resource value: 0x7F0A00B3
-			public const int fitToContents = 2131361971;
+			public const int floating = 2131361971;
 			
 			// aapt resource value: 0x7F0A00B4
-			public const int @fixed = 2131361972;
+			public const int forever = 2131361972;
 			
 			// aapt resource value: 0x7F0A00B5
-			public const int flip = 2131361973;
-			
-			// aapt resource value: 0x7F0A00B6
-			public const int floating = 2131361974;
-			
-			// aapt resource value: 0x7F0A00B7
-			public const int forever = 2131361975;
-			
-			// aapt resource value: 0x7F0A00B8
-			public const int fragment_container_view_tag = 2131361976;
+			public const int fragment_container_view_tag = 2131361973;
 			
 			// aapt resource value: 0x7F0A0004
 			public const int FUNCTION = 2131361796;
 			
-			// aapt resource value: 0x7F0A00B9
-			public const int ghost_view = 2131361977;
+			// aapt resource value: 0x7F0A00B6
+			public const int ghost_view = 2131361974;
 			
-			// aapt resource value: 0x7F0A00BA
-			public const int gone = 2131361978;
+			// aapt resource value: 0x7F0A00B7
+			public const int gone = 2131361975;
+			
+			// aapt resource value: 0x7F0A00B8
+			public const int graph = 2131361976;
+			
+			// aapt resource value: 0x7F0A00B9
+			public const int graph_wrap = 2131361977;
 			
 			// aapt resource value: 0x7F0A00BB
-			public const int graph = 2131361979;
+			public const int grouping = 2131361979;
 			
 			// aapt resource value: 0x7F0A00BC
-			public const int graph_wrap = 2131361980;
+			public const int groups = 2131361980;
 			
-			// aapt resource value: 0x7F0A00BE
-			public const int grouping = 2131361982;
-			
-			// aapt resource value: 0x7F0A00BF
-			public const int groups = 2131361983;
+			// aapt resource value: 0x7F0A00BA
+			public const int group_divider = 2131361978;
 			
 			// aapt resource value: 0x7F0A00BD
-			public const int group_divider = 2131361981;
+			public const int guideline = 2131361981;
+			
+			// aapt resource value: 0x7F0A00BE
+			public const int header_title = 2131361982;
+			
+			// aapt resource value: 0x7F0A00BF
+			public const int hideable = 2131361983;
 			
 			// aapt resource value: 0x7F0A00C0
-			public const int guideline = 2131361984;
+			public const int home = 2131361984;
 			
 			// aapt resource value: 0x7F0A00C1
-			public const int header_title = 2131361985;
+			public const int homeAsUp = 2131361985;
 			
 			// aapt resource value: 0x7F0A00C2
-			public const int hideable = 2131361986;
+			public const int honorRequest = 2131361986;
 			
 			// aapt resource value: 0x7F0A00C3
-			public const int home = 2131361987;
+			public const int icon = 2131361987;
 			
 			// aapt resource value: 0x7F0A00C4
-			public const int homeAsUp = 2131361988;
+			public const int icon_frame = 2131361988;
 			
 			// aapt resource value: 0x7F0A00C5
-			public const int honorRequest = 2131361989;
+			public const int icon_group = 2131361989;
 			
 			// aapt resource value: 0x7F0A00C6
-			public const int icon = 2131361990;
+			public const int ifRoom = 2131361990;
 			
 			// aapt resource value: 0x7F0A00C7
-			public const int icon_frame = 2131361991;
+			public const int ignore = 2131361991;
 			
 			// aapt resource value: 0x7F0A00C8
-			public const int icon_group = 2131361992;
+			public const int ignoreRequest = 2131361992;
 			
 			// aapt resource value: 0x7F0A00C9
-			public const int ifRoom = 2131361993;
+			public const int image = 2131361993;
 			
 			// aapt resource value: 0x7F0A00CA
-			public const int ignore = 2131361994;
+			public const int image1 = 2131361994;
 			
 			// aapt resource value: 0x7F0A00CB
-			public const int ignoreRequest = 2131361995;
+			public const int image2 = 2131361995;
 			
 			// aapt resource value: 0x7F0A00CC
-			public const int image = 2131361996;
+			public const int imageView1 = 2131361996;
 			
 			// aapt resource value: 0x7F0A00CD
-			public const int image1 = 2131361997;
+			public const int imageView2 = 2131361997;
 			
 			// aapt resource value: 0x7F0A00CE
-			public const int image2 = 2131361998;
+			public const int imageView3 = 2131361998;
 			
 			// aapt resource value: 0x7F0A00CF
-			public const int imageView1 = 2131361999;
+			public const int imgbtn_onboard = 2131361999;
 			
 			// aapt resource value: 0x7F0A00D0
-			public const int imageView2 = 2131362000;
+			public const int info = 2131362000;
 			
 			// aapt resource value: 0x7F0A00D1
-			public const int imageView3 = 2131362001;
+			public const int invisible = 2131362001;
 			
 			// aapt resource value: 0x7F0A00D2
-			public const int imgbtn_onboard = 2131362002;
+			public const int inward = 2131362002;
 			
 			// aapt resource value: 0x7F0A00D3
-			public const int info = 2131362003;
+			public const int italic = 2131362003;
 			
 			// aapt resource value: 0x7F0A00D4
-			public const int invisible = 2131362004;
+			public const int item_touch_helper_previous_elevation = 2131362004;
 			
 			// aapt resource value: 0x7F0A00D5
-			public const int inward = 2131362005;
+			public const int jumpToEnd = 2131362005;
 			
 			// aapt resource value: 0x7F0A00D6
-			public const int italic = 2131362006;
-			
-			// aapt resource value: 0x7F0A00D7
-			public const int item_touch_helper_previous_elevation = 2131362007;
+			public const int jumpToStart = 2131362006;
 			
 			// aapt resource value: 0x7F0A00D8
-			public const int jumpToEnd = 2131362008;
+			public const int labeled = 2131362008;
+			
+			// aapt resource value: 0x7F0A00D7
+			public const int labelGroup = 2131362007;
 			
 			// aapt resource value: 0x7F0A00D9
-			public const int jumpToStart = 2131362009;
-			
-			// aapt resource value: 0x7F0A00DB
-			public const int labeled = 2131362011;
+			public const int largeLabel = 2131362009;
 			
 			// aapt resource value: 0x7F0A00DA
-			public const int labelGroup = 2131362010;
+			public const int layout = 2131362010;
+			
+			// aapt resource value: 0x7F0A00DB
+			public const int left = 2131362011;
 			
 			// aapt resource value: 0x7F0A00DC
-			public const int largeLabel = 2131362012;
+			public const int leftToRight = 2131362012;
 			
 			// aapt resource value: 0x7F0A00DD
-			public const int layout = 2131362013;
+			public const int line1 = 2131362013;
 			
 			// aapt resource value: 0x7F0A00DE
-			public const int left = 2131362014;
+			public const int line3 = 2131362014;
 			
 			// aapt resource value: 0x7F0A00DF
-			public const int leftToRight = 2131362015;
+			public const int linear = 2131362015;
 			
 			// aapt resource value: 0x7F0A00E0
-			public const int line1 = 2131362016;
+			public const int linearLayout1 = 2131362016;
 			
 			// aapt resource value: 0x7F0A00E1
-			public const int line3 = 2131362017;
+			public const int linearLayout2 = 2131362017;
 			
 			// aapt resource value: 0x7F0A00E2
-			public const int linear = 2131362018;
+			public const int linearLayout3 = 2131362018;
 			
 			// aapt resource value: 0x7F0A00E3
-			public const int linearLayout1 = 2131362019;
+			public const int linearLayout4 = 2131362019;
 			
 			// aapt resource value: 0x7F0A00E4
-			public const int linearLayout2 = 2131362020;
+			public const int linearLayout5 = 2131362020;
 			
 			// aapt resource value: 0x7F0A00E5
-			public const int linearLayout3 = 2131362021;
+			public const int linearLayout6 = 2131362021;
 			
 			// aapt resource value: 0x7F0A00E6
-			public const int linearLayout4 = 2131362022;
+			public const int linearLayout7 = 2131362022;
 			
 			// aapt resource value: 0x7F0A00E7
-			public const int linearLayout5 = 2131362023;
+			public const int linearLayout8 = 2131362023;
 			
 			// aapt resource value: 0x7F0A00E8
-			public const int linearLayout6 = 2131362024;
+			public const int listMode = 2131362024;
 			
 			// aapt resource value: 0x7F0A00E9
-			public const int linearLayout7 = 2131362025;
+			public const int list_item = 2131362025;
 			
 			// aapt resource value: 0x7F0A00EA
-			public const int linearLayout8 = 2131362026;
+			public const int loadingImage = 2131362026;
 			
 			// aapt resource value: 0x7F0A00EB
-			public const int listMode = 2131362027;
+			public const int loadingProgressBar = 2131362027;
 			
 			// aapt resource value: 0x7F0A00EC
-			public const int list_item = 2131362028;
+			public const int loadingProgressWheel = 2131362028;
 			
 			// aapt resource value: 0x7F0A00ED
-			public const int loadingImage = 2131362029;
+			public const int masked = 2131362029;
 			
 			// aapt resource value: 0x7F0A00EE
-			public const int loadingProgressBar = 2131362030;
+			public const int material_clock_display = 2131362030;
 			
 			// aapt resource value: 0x7F0A00EF
-			public const int loadingProgressWheel = 2131362031;
+			public const int material_clock_face = 2131362031;
 			
 			// aapt resource value: 0x7F0A00F0
-			public const int main_frame = 2131362032;
+			public const int material_clock_hand = 2131362032;
 			
 			// aapt resource value: 0x7F0A00F1
-			public const int masked = 2131362033;
+			public const int material_clock_period_am_button = 2131362033;
 			
 			// aapt resource value: 0x7F0A00F2
-			public const int material_clock_display = 2131362034;
+			public const int material_clock_period_pm_button = 2131362034;
 			
 			// aapt resource value: 0x7F0A00F3
-			public const int material_clock_face = 2131362035;
+			public const int material_clock_period_toggle = 2131362035;
 			
 			// aapt resource value: 0x7F0A00F4
-			public const int material_clock_hand = 2131362036;
+			public const int material_hour_text_input = 2131362036;
 			
 			// aapt resource value: 0x7F0A00F5
-			public const int material_clock_period_am_button = 2131362037;
+			public const int material_hour_tv = 2131362037;
 			
 			// aapt resource value: 0x7F0A00F6
-			public const int material_clock_period_pm_button = 2131362038;
+			public const int material_label = 2131362038;
 			
 			// aapt resource value: 0x7F0A00F7
-			public const int material_clock_period_toggle = 2131362039;
+			public const int material_minute_text_input = 2131362039;
 			
 			// aapt resource value: 0x7F0A00F8
-			public const int material_hour_text_input = 2131362040;
+			public const int material_minute_tv = 2131362040;
 			
 			// aapt resource value: 0x7F0A00F9
-			public const int material_hour_tv = 2131362041;
+			public const int material_textinput_timepicker = 2131362041;
 			
 			// aapt resource value: 0x7F0A00FA
-			public const int material_label = 2131362042;
+			public const int material_timepicker_cancel_button = 2131362042;
 			
 			// aapt resource value: 0x7F0A00FB
-			public const int material_minute_text_input = 2131362043;
+			public const int material_timepicker_container = 2131362043;
 			
 			// aapt resource value: 0x7F0A00FC
-			public const int material_minute_tv = 2131362044;
+			public const int material_timepicker_edit_text = 2131362044;
 			
 			// aapt resource value: 0x7F0A00FD
-			public const int material_textinput_timepicker = 2131362045;
+			public const int material_timepicker_mode_button = 2131362045;
 			
 			// aapt resource value: 0x7F0A00FE
-			public const int material_timepicker_cancel_button = 2131362046;
+			public const int material_timepicker_ok_button = 2131362046;
 			
 			// aapt resource value: 0x7F0A00FF
-			public const int material_timepicker_container = 2131362047;
+			public const int material_timepicker_view = 2131362047;
 			
 			// aapt resource value: 0x7F0A0100
-			public const int material_timepicker_edit_text = 2131362048;
+			public const int material_value_index = 2131362048;
 			
 			// aapt resource value: 0x7F0A0101
-			public const int material_timepicker_mode_button = 2131362049;
+			public const int media_actions = 2131362049;
 			
 			// aapt resource value: 0x7F0A0102
-			public const int material_timepicker_ok_button = 2131362050;
-			
-			// aapt resource value: 0x7F0A0103
-			public const int material_timepicker_view = 2131362051;
-			
-			// aapt resource value: 0x7F0A0104
-			public const int material_value_index = 2131362052;
-			
-			// aapt resource value: 0x7F0A0105
-			public const int media_actions = 2131362053;
-			
-			// aapt resource value: 0x7F0A0106
-			public const int message = 2131362054;
+			public const int message = 2131362050;
 			
 			// aapt resource value: 0x7F0A0005
 			public const int META = 2131361797;
 			
+			// aapt resource value: 0x7F0A0103
+			public const int middle = 2131362051;
+			
+			// aapt resource value: 0x7F0A0104
+			public const int mini = 2131362052;
+			
+			// aapt resource value: 0x7F0A0105
+			public const int month_grid = 2131362053;
+			
+			// aapt resource value: 0x7F0A0106
+			public const int month_navigation_bar = 2131362054;
+			
 			// aapt resource value: 0x7F0A0107
-			public const int middle = 2131362055;
+			public const int month_navigation_fragment_toggle = 2131362055;
 			
 			// aapt resource value: 0x7F0A0108
-			public const int mini = 2131362056;
+			public const int month_navigation_next = 2131362056;
 			
 			// aapt resource value: 0x7F0A0109
-			public const int month_grid = 2131362057;
+			public const int month_navigation_previous = 2131362057;
 			
 			// aapt resource value: 0x7F0A010A
-			public const int month_navigation_bar = 2131362058;
+			public const int month_title = 2131362058;
 			
 			// aapt resource value: 0x7F0A010B
-			public const int month_navigation_fragment_toggle = 2131362059;
+			public const int motion_base = 2131362059;
 			
 			// aapt resource value: 0x7F0A010C
-			public const int month_navigation_next = 2131362060;
-			
-			// aapt resource value: 0x7F0A010D
-			public const int month_navigation_previous = 2131362061;
+			public const int mtrl_anchor_parent = 2131362060;
 			
 			// aapt resource value: 0x7F0A010E
-			public const int month_title = 2131362062;
+			public const int mtrl_calendar_days_of_week = 2131362062;
+			
+			// aapt resource value: 0x7F0A010D
+			public const int mtrl_calendar_day_selector_frame = 2131362061;
 			
 			// aapt resource value: 0x7F0A010F
-			public const int motion_base = 2131362063;
+			public const int mtrl_calendar_frame = 2131362063;
 			
 			// aapt resource value: 0x7F0A0110
-			public const int mtrl_anchor_parent = 2131362064;
-			
-			// aapt resource value: 0x7F0A0112
-			public const int mtrl_calendar_days_of_week = 2131362066;
+			public const int mtrl_calendar_main_pane = 2131362064;
 			
 			// aapt resource value: 0x7F0A0111
-			public const int mtrl_calendar_day_selector_frame = 2131362065;
+			public const int mtrl_calendar_months = 2131362065;
+			
+			// aapt resource value: 0x7F0A0112
+			public const int mtrl_calendar_selection_frame = 2131362066;
 			
 			// aapt resource value: 0x7F0A0113
-			public const int mtrl_calendar_frame = 2131362067;
+			public const int mtrl_calendar_text_input_frame = 2131362067;
 			
 			// aapt resource value: 0x7F0A0114
-			public const int mtrl_calendar_main_pane = 2131362068;
+			public const int mtrl_calendar_year_selector_frame = 2131362068;
 			
 			// aapt resource value: 0x7F0A0115
-			public const int mtrl_calendar_months = 2131362069;
+			public const int mtrl_card_checked_layer_id = 2131362069;
 			
 			// aapt resource value: 0x7F0A0116
-			public const int mtrl_calendar_selection_frame = 2131362070;
+			public const int mtrl_child_content_container = 2131362070;
 			
 			// aapt resource value: 0x7F0A0117
-			public const int mtrl_calendar_text_input_frame = 2131362071;
+			public const int mtrl_internal_children_alpha_tag = 2131362071;
 			
 			// aapt resource value: 0x7F0A0118
-			public const int mtrl_calendar_year_selector_frame = 2131362072;
+			public const int mtrl_motion_snapshot_view = 2131362072;
 			
 			// aapt resource value: 0x7F0A0119
-			public const int mtrl_card_checked_layer_id = 2131362073;
+			public const int mtrl_picker_fullscreen = 2131362073;
 			
 			// aapt resource value: 0x7F0A011A
-			public const int mtrl_child_content_container = 2131362074;
+			public const int mtrl_picker_header = 2131362074;
 			
 			// aapt resource value: 0x7F0A011B
-			public const int mtrl_internal_children_alpha_tag = 2131362075;
+			public const int mtrl_picker_header_selection_text = 2131362075;
 			
 			// aapt resource value: 0x7F0A011C
-			public const int mtrl_motion_snapshot_view = 2131362076;
+			public const int mtrl_picker_header_title_and_selection = 2131362076;
 			
 			// aapt resource value: 0x7F0A011D
-			public const int mtrl_picker_fullscreen = 2131362077;
+			public const int mtrl_picker_header_toggle = 2131362077;
 			
 			// aapt resource value: 0x7F0A011E
-			public const int mtrl_picker_header = 2131362078;
+			public const int mtrl_picker_text_input_date = 2131362078;
 			
 			// aapt resource value: 0x7F0A011F
-			public const int mtrl_picker_header_selection_text = 2131362079;
+			public const int mtrl_picker_text_input_range_end = 2131362079;
 			
 			// aapt resource value: 0x7F0A0120
-			public const int mtrl_picker_header_title_and_selection = 2131362080;
+			public const int mtrl_picker_text_input_range_start = 2131362080;
 			
 			// aapt resource value: 0x7F0A0121
-			public const int mtrl_picker_header_toggle = 2131362081;
+			public const int mtrl_picker_title_text = 2131362081;
 			
 			// aapt resource value: 0x7F0A0122
-			public const int mtrl_picker_text_input_date = 2131362082;
+			public const int mtrl_view_tag_bottom_padding = 2131362082;
 			
 			// aapt resource value: 0x7F0A0123
-			public const int mtrl_picker_text_input_range_end = 2131362083;
-			
-			// aapt resource value: 0x7F0A0124
-			public const int mtrl_picker_text_input_range_start = 2131362084;
-			
-			// aapt resource value: 0x7F0A0125
-			public const int mtrl_picker_title_text = 2131362085;
-			
-			// aapt resource value: 0x7F0A0126
-			public const int mtrl_view_tag_bottom_padding = 2131362086;
-			
-			// aapt resource value: 0x7F0A0127
-			public const int multiply = 2131362087;
+			public const int multiply = 2131362083;
 			
 			// aapt resource value: 0x7F0A0006
 			public const int MvvmCrossTagId = 2131361798;
@@ -20668,257 +23544,230 @@ namespace SampleApp.Droid
 			// aapt resource value: 0x7F0A0007
 			public const int MvxBindingTagUnique = 2131361799;
 			
-			// aapt resource value: 0x7F0A012A
-			public const int navigation_frame = 2131362090;
+			// aapt resource value: 0x7F0A0126
+			public const int navigation_header_container = 2131362086;
 			
-			// aapt resource value: 0x7F0A012B
-			public const int navigation_header_container = 2131362091;
+			// aapt resource value: 0x7F0A0124
+			public const int nav_items = 2131362084;
 			
-			// aapt resource value: 0x7F0A012C
-			public const int navigation_view = 2131362092;
+			// aapt resource value: 0x7F0A0125
+			public const int nav_people = 2131362085;
 			
-			// aapt resource value: 0x7F0A0128
-			public const int nav_items = 2131362088;
+			// aapt resource value: 0x7F0A0127
+			public const int never = 2131362087;
 			
 			// aapt resource value: 0x7F0A0129
-			public const int nav_people = 2131362089;
+			public const int none = 2131362089;
+			
+			// aapt resource value: 0x7F0A012A
+			public const int normal = 2131362090;
+			
+			// aapt resource value: 0x7F0A0128
+			public const int noScroll = 2131362088;
+			
+			// aapt resource value: 0x7F0A012B
+			public const int notification_background = 2131362091;
+			
+			// aapt resource value: 0x7F0A012C
+			public const int notification_main_column = 2131362092;
 			
 			// aapt resource value: 0x7F0A012D
-			public const int never = 2131362093;
-			
-			// aapt resource value: 0x7F0A012F
-			public const int none = 2131362095;
-			
-			// aapt resource value: 0x7F0A0130
-			public const int normal = 2131362096;
-			
-			// aapt resource value: 0x7F0A012E
-			public const int noScroll = 2131362094;
-			
-			// aapt resource value: 0x7F0A0131
-			public const int notification_background = 2131362097;
-			
-			// aapt resource value: 0x7F0A0132
-			public const int notification_main_column = 2131362098;
-			
-			// aapt resource value: 0x7F0A0133
-			public const int notification_main_column_container = 2131362099;
+			public const int notification_main_column_container = 2131362093;
 			
 			// aapt resource value: 0x7F0A0008
 			public const int NO_DEBUG = 2131361800;
 			
+			// aapt resource value: 0x7F0A012E
+			public const int off = 2131362094;
+			
+			// aapt resource value: 0x7F0A012F
+			public const int on = 2131362095;
+			
+			// aapt resource value: 0x7F0A0130
+			public const int outline = 2131362096;
+			
+			// aapt resource value: 0x7F0A0131
+			public const int outward = 2131362097;
+			
+			// aapt resource value: 0x7F0A0132
+			public const int packed = 2131362098;
+			
+			// aapt resource value: 0x7F0A0133
+			public const int parallax = 2131362099;
+			
 			// aapt resource value: 0x7F0A0134
-			public const int off = 2131362100;
+			public const int parent = 2131362100;
 			
 			// aapt resource value: 0x7F0A0135
-			public const int on = 2131362101;
+			public const int parentPanel = 2131362101;
 			
 			// aapt resource value: 0x7F0A0136
-			public const int outline = 2131362102;
+			public const int parentRelative = 2131362102;
 			
 			// aapt resource value: 0x7F0A0137
-			public const int outward = 2131362103;
+			public const int parent_matrix = 2131362103;
 			
 			// aapt resource value: 0x7F0A0138
-			public const int packed = 2131362104;
+			public const int password_toggle = 2131362104;
 			
 			// aapt resource value: 0x7F0A0139
-			public const int parallax = 2131362105;
+			public const int path = 2131362105;
 			
 			// aapt resource value: 0x7F0A013A
-			public const int parent = 2131362106;
+			public const int pathRelative = 2131362106;
 			
 			// aapt resource value: 0x7F0A013B
-			public const int parentPanel = 2131362107;
+			public const int peekHeight = 2131362107;
 			
 			// aapt resource value: 0x7F0A013C
-			public const int parentRelative = 2131362108;
+			public const int percent = 2131362108;
 			
 			// aapt resource value: 0x7F0A013D
-			public const int parent_matrix = 2131362109;
+			public const int pin = 2131362109;
 			
 			// aapt resource value: 0x7F0A013E
-			public const int password_toggle = 2131362110;
+			public const int position = 2131362110;
 			
 			// aapt resource value: 0x7F0A013F
-			public const int path = 2131362111;
+			public const int postLayout = 2131362111;
 			
 			// aapt resource value: 0x7F0A0140
-			public const int pathRelative = 2131362112;
+			public const int progress_circular = 2131362112;
 			
 			// aapt resource value: 0x7F0A0141
-			public const int peekHeight = 2131362113;
+			public const int progress_horizontal = 2131362113;
 			
 			// aapt resource value: 0x7F0A0142
-			public const int people_recycler_view = 2131362114;
+			public const int radio = 2131362114;
 			
 			// aapt resource value: 0x7F0A0143
-			public const int percent = 2131362115;
+			public const int ratio = 2131362115;
 			
 			// aapt resource value: 0x7F0A0144
-			public const int person_back = 2131362116;
+			public const int rectangles = 2131362116;
 			
 			// aapt resource value: 0x7F0A0145
-			public const int person_collapsing = 2131362117;
+			public const int recyclerView1 = 2131362117;
 			
 			// aapt resource value: 0x7F0A0146
-			public const int pin = 2131362118;
+			public const int recycler_view = 2131362118;
 			
 			// aapt resource value: 0x7F0A0147
-			public const int position = 2131362119;
+			public const int reverseSawtooth = 2131362119;
 			
 			// aapt resource value: 0x7F0A0148
-			public const int postLayout = 2131362120;
+			public const int right = 2131362120;
 			
 			// aapt resource value: 0x7F0A0149
-			public const int profile_appbar = 2131362121;
+			public const int rightToLeft = 2131362121;
 			
 			// aapt resource value: 0x7F0A014A
-			public const int profile_image = 2131362122;
+			public const int right_icon = 2131362122;
 			
 			// aapt resource value: 0x7F0A014B
-			public const int progress_circular = 2131362123;
+			public const int right_side = 2131362123;
 			
 			// aapt resource value: 0x7F0A014C
-			public const int progress_horizontal = 2131362124;
+			public const int rounded = 2131362124;
 			
 			// aapt resource value: 0x7F0A014D
-			public const int radio = 2131362125;
+			public const int row_index_key = 2131362125;
 			
 			// aapt resource value: 0x7F0A014E
-			public const int ratio = 2131362126;
+			public const int save_image_matrix = 2131362126;
 			
 			// aapt resource value: 0x7F0A014F
-			public const int rectangles = 2131362127;
+			public const int save_non_transition_alpha = 2131362127;
 			
 			// aapt resource value: 0x7F0A0150
-			public const int recyclerView1 = 2131362128;
+			public const int save_scale_type = 2131362128;
 			
 			// aapt resource value: 0x7F0A0151
-			public const int recycler_view = 2131362129;
+			public const int sawtooth = 2131362129;
 			
 			// aapt resource value: 0x7F0A0152
-			public const int refresher = 2131362130;
+			public const int scale = 2131362130;
 			
 			// aapt resource value: 0x7F0A0153
-			public const int reverseSawtooth = 2131362131;
+			public const int screen = 2131362131;
 			
 			// aapt resource value: 0x7F0A0154
-			public const int right = 2131362132;
-			
-			// aapt resource value: 0x7F0A0155
-			public const int rightToLeft = 2131362133;
-			
-			// aapt resource value: 0x7F0A0156
-			public const int right_icon = 2131362134;
-			
-			// aapt resource value: 0x7F0A0157
-			public const int right_side = 2131362135;
+			public const int scroll = 2131362132;
 			
 			// aapt resource value: 0x7F0A0158
-			public const int rounded = 2131362136;
+			public const int scrollable = 2131362136;
+			
+			// aapt resource value: 0x7F0A0155
+			public const int scrollIndicatorDown = 2131362133;
+			
+			// aapt resource value: 0x7F0A0156
+			public const int scrollIndicatorUp = 2131362134;
+			
+			// aapt resource value: 0x7F0A0157
+			public const int scrollView = 2131362135;
 			
 			// aapt resource value: 0x7F0A0159
-			public const int row_index_key = 2131362137;
+			public const int searchView1 = 2131362137;
 			
 			// aapt resource value: 0x7F0A015A
-			public const int save_image_matrix = 2131362138;
+			public const int search_badge = 2131362138;
 			
 			// aapt resource value: 0x7F0A015B
-			public const int save_non_transition_alpha = 2131362139;
+			public const int search_bar = 2131362139;
 			
 			// aapt resource value: 0x7F0A015C
-			public const int save_scale_type = 2131362140;
+			public const int search_button = 2131362140;
 			
 			// aapt resource value: 0x7F0A015D
-			public const int sawtooth = 2131362141;
+			public const int search_close_btn = 2131362141;
 			
 			// aapt resource value: 0x7F0A015E
-			public const int scale = 2131362142;
+			public const int search_edit_frame = 2131362142;
 			
 			// aapt resource value: 0x7F0A015F
-			public const int screen = 2131362143;
+			public const int search_go_btn = 2131362143;
 			
 			// aapt resource value: 0x7F0A0160
-			public const int screen_background = 2131362144;
+			public const int search_mag_icon = 2131362144;
 			
 			// aapt resource value: 0x7F0A0161
-			public const int scroll = 2131362145;
-			
-			// aapt resource value: 0x7F0A0165
-			public const int scrollable = 2131362149;
+			public const int search_plate = 2131362145;
 			
 			// aapt resource value: 0x7F0A0162
-			public const int scrollIndicatorDown = 2131362146;
+			public const int search_src_text = 2131362146;
 			
 			// aapt resource value: 0x7F0A0163
-			public const int scrollIndicatorUp = 2131362147;
+			public const int search_voice_btn = 2131362147;
 			
 			// aapt resource value: 0x7F0A0164
-			public const int scrollView = 2131362148;
+			public const int seekbar = 2131362148;
 			
-			// aapt resource value: 0x7F0A0166
-			public const int searchView1 = 2131362150;
+			// aapt resource value: 0x7F0A0165
+			public const int seekbar_value = 2131362149;
 			
 			// aapt resource value: 0x7F0A0167
-			public const int search_badge = 2131362151;
+			public const int selected = 2131362151;
 			
 			// aapt resource value: 0x7F0A0168
-			public const int search_bar = 2131362152;
+			public const int selection_type = 2131362152;
 			
-			// aapt resource value: 0x7F0A0169
-			public const int search_button = 2131362153;
-			
-			// aapt resource value: 0x7F0A016A
-			public const int search_close_btn = 2131362154;
-			
-			// aapt resource value: 0x7F0A016B
-			public const int search_edit_frame = 2131362155;
-			
-			// aapt resource value: 0x7F0A016C
-			public const int search_go_btn = 2131362156;
-			
-			// aapt resource value: 0x7F0A016D
-			public const int search_mag_icon = 2131362157;
-			
-			// aapt resource value: 0x7F0A016E
-			public const int search_plate = 2131362158;
-			
-			// aapt resource value: 0x7F0A016F
-			public const int search_src_text = 2131362159;
-			
-			// aapt resource value: 0x7F0A0170
-			public const int search_voice_btn = 2131362160;
-			
-			// aapt resource value: 0x7F0A0171
-			public const int seekbar = 2131362161;
-			
-			// aapt resource value: 0x7F0A0172
-			public const int seekbar_value = 2131362162;
-			
-			// aapt resource value: 0x7F0A0174
-			public const int selected = 2131362164;
-			
-			// aapt resource value: 0x7F0A0175
-			public const int selection_type = 2131362165;
-			
-			// aapt resource value: 0x7F0A0173
-			public const int select_dialog_listview = 2131362163;
+			// aapt resource value: 0x7F0A0166
+			public const int select_dialog_listview = 2131362150;
 			
 			// aapt resource value: 0x7F0A0009
 			public const int SHIFT = 2131361801;
 			
-			// aapt resource value: 0x7F0A0176
-			public const int shortcut = 2131362166;
+			// aapt resource value: 0x7F0A0169
+			public const int shortcut = 2131362153;
 			
-			// aapt resource value: 0x7F0A0177
-			public const int showCustom = 2131362167;
+			// aapt resource value: 0x7F0A016A
+			public const int showCustom = 2131362154;
 			
-			// aapt resource value: 0x7F0A0178
-			public const int showHome = 2131362168;
+			// aapt resource value: 0x7F0A016B
+			public const int showHome = 2131362155;
 			
-			// aapt resource value: 0x7F0A0179
-			public const int showTitle = 2131362169;
+			// aapt resource value: 0x7F0A016C
+			public const int showTitle = 2131362156;
 			
 			// aapt resource value: 0x7F0A000A
 			public const int SHOW_ALL = 2131361802;
@@ -20929,260 +23778,260 @@ namespace SampleApp.Droid
 			// aapt resource value: 0x7F0A000C
 			public const int SHOW_PROGRESS = 2131361804;
 			
+			// aapt resource value: 0x7F0A016D
+			public const int sin = 2131362157;
+			
+			// aapt resource value: 0x7F0A016E
+			public const int skipCollapsed = 2131362158;
+			
+			// aapt resource value: 0x7F0A016F
+			public const int slide = 2131362159;
+			
+			// aapt resource value: 0x7F0A0170
+			public const int smallLabel = 2131362160;
+			
+			// aapt resource value: 0x7F0A0171
+			public const int snackbar_action = 2131362161;
+			
+			// aapt resource value: 0x7F0A0172
+			public const int snackbar_text = 2131362162;
+			
+			// aapt resource value: 0x7F0A0173
+			public const int snap = 2131362163;
+			
+			// aapt resource value: 0x7F0A0174
+			public const int snapMargins = 2131362164;
+			
+			// aapt resource value: 0x7F0A0175
+			public const int spacer = 2131362165;
+			
+			// aapt resource value: 0x7F0A0176
+			public const int spinner = 2131362166;
+			
+			// aapt resource value: 0x7F0A0177
+			public const int spline = 2131362167;
+			
+			// aapt resource value: 0x7F0A0178
+			public const int split_action_bar = 2131362168;
+			
+			// aapt resource value: 0x7F0A0179
+			public const int spread = 2131362169;
+			
 			// aapt resource value: 0x7F0A017A
-			public const int sin = 2131362170;
+			public const int spread_inside = 2131362170;
 			
 			// aapt resource value: 0x7F0A017B
-			public const int skipCollapsed = 2131362171;
+			public const int square = 2131362171;
 			
 			// aapt resource value: 0x7F0A017C
-			public const int slide = 2131362172;
+			public const int src_atop = 2131362172;
 			
 			// aapt resource value: 0x7F0A017D
-			public const int smallLabel = 2131362173;
+			public const int src_in = 2131362173;
 			
 			// aapt resource value: 0x7F0A017E
-			public const int snackbar_action = 2131362174;
+			public const int src_over = 2131362174;
 			
 			// aapt resource value: 0x7F0A017F
-			public const int snackbar_text = 2131362175;
+			public const int standard = 2131362175;
 			
 			// aapt resource value: 0x7F0A0180
-			public const int snap = 2131362176;
+			public const int start = 2131362176;
 			
 			// aapt resource value: 0x7F0A0181
-			public const int snapMargins = 2131362177;
+			public const int startHorizontal = 2131362177;
 			
 			// aapt resource value: 0x7F0A0182
-			public const int spacer = 2131362178;
+			public const int startToEnd = 2131362178;
 			
 			// aapt resource value: 0x7F0A0183
-			public const int spinner = 2131362179;
+			public const int startVertical = 2131362179;
 			
 			// aapt resource value: 0x7F0A0184
-			public const int spline = 2131362180;
+			public const int staticLayout = 2131362180;
 			
 			// aapt resource value: 0x7F0A0185
-			public const int split_action_bar = 2131362181;
+			public const int staticPostLayout = 2131362181;
 			
 			// aapt resource value: 0x7F0A0186
-			public const int spread = 2131362182;
+			public const int status_bar_latest_event_content = 2131362182;
 			
 			// aapt resource value: 0x7F0A0187
-			public const int spread_inside = 2131362183;
+			public const int stop = 2131362183;
 			
 			// aapt resource value: 0x7F0A0188
-			public const int square = 2131362184;
+			public const int stretch = 2131362184;
 			
 			// aapt resource value: 0x7F0A0189
-			public const int src_atop = 2131362185;
+			public const int submenuarrow = 2131362185;
 			
 			// aapt resource value: 0x7F0A018A
-			public const int src_in = 2131362186;
+			public const int submit_area = 2131362186;
 			
 			// aapt resource value: 0x7F0A018B
-			public const int src_over = 2131362187;
-			
-			// aapt resource value: 0x7F0A018C
-			public const int standard = 2131362188;
-			
-			// aapt resource value: 0x7F0A018D
-			public const int start = 2131362189;
-			
-			// aapt resource value: 0x7F0A018E
-			public const int startHorizontal = 2131362190;
-			
-			// aapt resource value: 0x7F0A018F
-			public const int startToEnd = 2131362191;
-			
-			// aapt resource value: 0x7F0A0190
-			public const int startVertical = 2131362192;
-			
-			// aapt resource value: 0x7F0A0191
-			public const int staticLayout = 2131362193;
-			
-			// aapt resource value: 0x7F0A0192
-			public const int staticPostLayout = 2131362194;
-			
-			// aapt resource value: 0x7F0A0193
-			public const int status_bar_latest_event_content = 2131362195;
-			
-			// aapt resource value: 0x7F0A0194
-			public const int stop = 2131362196;
-			
-			// aapt resource value: 0x7F0A0195
-			public const int stretch = 2131362197;
-			
-			// aapt resource value: 0x7F0A0196
-			public const int submenuarrow = 2131362198;
-			
-			// aapt resource value: 0x7F0A0197
-			public const int submit_area = 2131362199;
-			
-			// aapt resource value: 0x7F0A0198
-			public const int switchWidget = 2131362200;
+			public const int switchWidget = 2131362187;
 			
 			// aapt resource value: 0x7F0A000D
 			public const int SYM = 2131361805;
 			
+			// aapt resource value: 0x7F0A018C
+			public const int tabMode = 2131362188;
+			
+			// aapt resource value: 0x7F0A018D
+			public const int tag_accessibility_actions = 2131362189;
+			
+			// aapt resource value: 0x7F0A018E
+			public const int tag_accessibility_clickable_spans = 2131362190;
+			
+			// aapt resource value: 0x7F0A018F
+			public const int tag_accessibility_heading = 2131362191;
+			
+			// aapt resource value: 0x7F0A0190
+			public const int tag_accessibility_pane_title = 2131362192;
+			
+			// aapt resource value: 0x7F0A0191
+			public const int tag_screen_reader_focusable = 2131362193;
+			
+			// aapt resource value: 0x7F0A0192
+			public const int tag_transition_group = 2131362194;
+			
+			// aapt resource value: 0x7F0A0193
+			public const int tag_unhandled_key_event_manager = 2131362195;
+			
+			// aapt resource value: 0x7F0A0194
+			public const int tag_unhandled_key_listeners = 2131362196;
+			
+			// aapt resource value: 0x7F0A0195
+			public const int test_checkbox_android_button_tint = 2131362197;
+			
+			// aapt resource value: 0x7F0A0196
+			public const int test_checkbox_app_button_tint = 2131362198;
+			
+			// aapt resource value: 0x7F0A0197
+			public const int test_radiobutton_android_button_tint = 2131362199;
+			
+			// aapt resource value: 0x7F0A0198
+			public const int test_radiobutton_app_button_tint = 2131362200;
+			
 			// aapt resource value: 0x7F0A0199
-			public const int tabMode = 2131362201;
+			public const int text = 2131362201;
 			
 			// aapt resource value: 0x7F0A019A
-			public const int tag_accessibility_actions = 2131362202;
+			public const int text2 = 2131362202;
 			
 			// aapt resource value: 0x7F0A019B
-			public const int tag_accessibility_clickable_spans = 2131362203;
-			
-			// aapt resource value: 0x7F0A019C
-			public const int tag_accessibility_heading = 2131362204;
-			
-			// aapt resource value: 0x7F0A019D
-			public const int tag_accessibility_pane_title = 2131362205;
-			
-			// aapt resource value: 0x7F0A019E
-			public const int tag_screen_reader_focusable = 2131362206;
-			
-			// aapt resource value: 0x7F0A019F
-			public const int tag_transition_group = 2131362207;
-			
-			// aapt resource value: 0x7F0A01A0
-			public const int tag_unhandled_key_event_manager = 2131362208;
-			
-			// aapt resource value: 0x7F0A01A1
-			public const int tag_unhandled_key_listeners = 2131362209;
-			
-			// aapt resource value: 0x7F0A01A2
-			public const int test_checkbox_android_button_tint = 2131362210;
-			
-			// aapt resource value: 0x7F0A01A3
-			public const int test_checkbox_app_button_tint = 2131362211;
-			
-			// aapt resource value: 0x7F0A01A4
-			public const int test_radiobutton_android_button_tint = 2131362212;
-			
-			// aapt resource value: 0x7F0A01A5
-			public const int test_radiobutton_app_button_tint = 2131362213;
-			
-			// aapt resource value: 0x7F0A01A6
-			public const int text = 2131362214;
-			
-			// aapt resource value: 0x7F0A01A7
-			public const int text2 = 2131362215;
-			
-			// aapt resource value: 0x7F0A01A8
-			public const int textEnd = 2131362216;
-			
-			// aapt resource value: 0x7F0A01C0
-			public const int textinput_counter = 2131362240;
-			
-			// aapt resource value: 0x7F0A01C1
-			public const int textinput_error = 2131362241;
-			
-			// aapt resource value: 0x7F0A01C2
-			public const int textinput_helper_text = 2131362242;
-			
-			// aapt resource value: 0x7F0A01C3
-			public const int textinput_placeholder = 2131362243;
-			
-			// aapt resource value: 0x7F0A01C4
-			public const int textinput_prefix_text = 2131362244;
-			
-			// aapt resource value: 0x7F0A01C5
-			public const int textinput_suffix_text = 2131362245;
-			
-			// aapt resource value: 0x7F0A01A9
-			public const int textSpacerNoButtons = 2131362217;
-			
-			// aapt resource value: 0x7F0A01AA
-			public const int textSpacerNoTitle = 2131362218;
-			
-			// aapt resource value: 0x7F0A01AB
-			public const int textStart = 2131362219;
-			
-			// aapt resource value: 0x7F0A01AC
-			public const int textTop = 2131362220;
-			
-			// aapt resource value: 0x7F0A01AD
-			public const int textView1 = 2131362221;
-			
-			// aapt resource value: 0x7F0A01AE
-			public const int textView10 = 2131362222;
-			
-			// aapt resource value: 0x7F0A01AF
-			public const int textView2 = 2131362223;
-			
-			// aapt resource value: 0x7F0A01B0
-			public const int textView3 = 2131362224;
-			
-			// aapt resource value: 0x7F0A01B1
-			public const int textView4 = 2131362225;
-			
-			// aapt resource value: 0x7F0A01B2
-			public const int textView5 = 2131362226;
+			public const int textEnd = 2131362203;
 			
 			// aapt resource value: 0x7F0A01B3
-			public const int textView6 = 2131362227;
+			public const int textinput_counter = 2131362227;
 			
 			// aapt resource value: 0x7F0A01B4
-			public const int textView7 = 2131362228;
+			public const int textinput_error = 2131362228;
 			
 			// aapt resource value: 0x7F0A01B5
-			public const int textView8 = 2131362229;
+			public const int textinput_helper_text = 2131362229;
 			
 			// aapt resource value: 0x7F0A01B6
-			public const int textViewStatus = 2131362230;
+			public const int textinput_placeholder = 2131362230;
 			
 			// aapt resource value: 0x7F0A01B7
-			public const int text_clientname = 2131362231;
+			public const int textinput_prefix_text = 2131362231;
 			
 			// aapt resource value: 0x7F0A01B8
-			public const int text_clientnum = 2131362232;
+			public const int textinput_suffix_text = 2131362232;
+			
+			// aapt resource value: 0x7F0A019C
+			public const int textSpacerNoButtons = 2131362204;
+			
+			// aapt resource value: 0x7F0A019D
+			public const int textSpacerNoTitle = 2131362205;
+			
+			// aapt resource value: 0x7F0A019E
+			public const int textStart = 2131362206;
+			
+			// aapt resource value: 0x7F0A019F
+			public const int textTop = 2131362207;
+			
+			// aapt resource value: 0x7F0A01A0
+			public const int textView1 = 2131362208;
+			
+			// aapt resource value: 0x7F0A01A1
+			public const int textView10 = 2131362209;
+			
+			// aapt resource value: 0x7F0A01A2
+			public const int textView2 = 2131362210;
+			
+			// aapt resource value: 0x7F0A01A3
+			public const int textView3 = 2131362211;
+			
+			// aapt resource value: 0x7F0A01A4
+			public const int textView4 = 2131362212;
+			
+			// aapt resource value: 0x7F0A01A5
+			public const int textView5 = 2131362213;
+			
+			// aapt resource value: 0x7F0A01A6
+			public const int textView6 = 2131362214;
+			
+			// aapt resource value: 0x7F0A01A7
+			public const int textView7 = 2131362215;
+			
+			// aapt resource value: 0x7F0A01A8
+			public const int textView8 = 2131362216;
+			
+			// aapt resource value: 0x7F0A01A9
+			public const int textViewStatus = 2131362217;
+			
+			// aapt resource value: 0x7F0A01AA
+			public const int text_clientname = 2131362218;
+			
+			// aapt resource value: 0x7F0A01AB
+			public const int text_clientnum = 2131362219;
+			
+			// aapt resource value: 0x7F0A01AC
+			public const int text_date = 2131362220;
+			
+			// aapt resource value: 0x7F0A01AD
+			public const int text_input_end_icon = 2131362221;
+			
+			// aapt resource value: 0x7F0A01AE
+			public const int text_input_error_icon = 2131362222;
+			
+			// aapt resource value: 0x7F0A01AF
+			public const int text_input_start_icon = 2131362223;
+			
+			// aapt resource value: 0x7F0A01B0
+			public const int text_propid = 2131362224;
+			
+			// aapt resource value: 0x7F0A01B1
+			public const int text_propnum = 2131362225;
+			
+			// aapt resource value: 0x7F0A01B2
+			public const int text_status = 2131362226;
 			
 			// aapt resource value: 0x7F0A01B9
-			public const int text_date = 2131362233;
+			public const int time = 2131362233;
 			
 			// aapt resource value: 0x7F0A01BA
-			public const int text_input_end_icon = 2131362234;
+			public const int title = 2131362234;
 			
 			// aapt resource value: 0x7F0A01BB
-			public const int text_input_error_icon = 2131362235;
+			public const int titleDividerNoCustom = 2131362235;
 			
 			// aapt resource value: 0x7F0A01BC
-			public const int text_input_start_icon = 2131362236;
+			public const int title_template = 2131362236;
 			
 			// aapt resource value: 0x7F0A01BD
-			public const int text_propid = 2131362237;
+			public const int toggle = 2131362237;
 			
 			// aapt resource value: 0x7F0A01BE
-			public const int text_propnum = 2131362238;
+			public const int toolbar = 2131362238;
 			
 			// aapt resource value: 0x7F0A01BF
-			public const int text_status = 2131362239;
+			public const int top = 2131362239;
 			
-			// aapt resource value: 0x7F0A01C6
-			public const int time = 2131362246;
-			
-			// aapt resource value: 0x7F0A01C7
-			public const int title = 2131362247;
-			
-			// aapt resource value: 0x7F0A01C8
-			public const int titleDividerNoCustom = 2131362248;
-			
-			// aapt resource value: 0x7F0A01C9
-			public const int title_template = 2131362249;
-			
-			// aapt resource value: 0x7F0A01CA
-			public const int toggle = 2131362250;
-			
-			// aapt resource value: 0x7F0A01CB
-			public const int toolbar = 2131362251;
-			
-			// aapt resource value: 0x7F0A01CC
-			public const int top = 2131362252;
-			
-			// aapt resource value: 0x7F0A01CD
-			public const int topPanel = 2131362253;
+			// aapt resource value: 0x7F0A01C0
+			public const int topPanel = 2131362240;
 			
 			// aapt resource value: 0x7F0A000E
 			public const int TOP_END = 2131361806;
@@ -21190,92 +24039,89 @@ namespace SampleApp.Droid
 			// aapt resource value: 0x7F0A000F
 			public const int TOP_START = 2131361807;
 			
+			// aapt resource value: 0x7F0A01C1
+			public const int touch_outside = 2131362241;
+			
+			// aapt resource value: 0x7F0A01C2
+			public const int transitionToEnd = 2131362242;
+			
+			// aapt resource value: 0x7F0A01C3
+			public const int transitionToStart = 2131362243;
+			
+			// aapt resource value: 0x7F0A01C4
+			public const int transition_current_scene = 2131362244;
+			
+			// aapt resource value: 0x7F0A01C5
+			public const int transition_layout_save = 2131362245;
+			
+			// aapt resource value: 0x7F0A01C6
+			public const int transition_position = 2131362246;
+			
+			// aapt resource value: 0x7F0A01C7
+			public const int transition_scene_layoutid_cache = 2131362247;
+			
+			// aapt resource value: 0x7F0A01C8
+			public const int transition_transform = 2131362248;
+			
+			// aapt resource value: 0x7F0A01C9
+			public const int triangle = 2131362249;
+			
+			// aapt resource value: 0x7F0A01CA
+			public const int txt_name = 2131362250;
+			
+			// aapt resource value: 0x7F0A01CB
+			public const int @unchecked = 2131362251;
+			
+			// aapt resource value: 0x7F0A01CC
+			public const int uniform = 2131362252;
+			
+			// aapt resource value: 0x7F0A01CD
+			public const int unlabeled = 2131362253;
+			
 			// aapt resource value: 0x7F0A01CE
-			public const int touch_outside = 2131362254;
+			public const int up = 2131362254;
 			
 			// aapt resource value: 0x7F0A01CF
-			public const int transitionToEnd = 2131362255;
-			
-			// aapt resource value: 0x7F0A01D0
-			public const int transitionToStart = 2131362256;
-			
-			// aapt resource value: 0x7F0A01D1
-			public const int transition_current_scene = 2131362257;
-			
-			// aapt resource value: 0x7F0A01D2
-			public const int transition_layout_save = 2131362258;
-			
-			// aapt resource value: 0x7F0A01D3
-			public const int transition_position = 2131362259;
-			
-			// aapt resource value: 0x7F0A01D4
-			public const int transition_scene_layoutid_cache = 2131362260;
-			
-			// aapt resource value: 0x7F0A01D5
-			public const int transition_transform = 2131362261;
-			
-			// aapt resource value: 0x7F0A01D6
-			public const int triangle = 2131362262;
-			
-			// aapt resource value: 0x7F0A01D7
-			public const int txt_name = 2131362263;
-			
-			// aapt resource value: 0x7F0A01D8
-			public const int @unchecked = 2131362264;
-			
-			// aapt resource value: 0x7F0A01D9
-			public const int uniform = 2131362265;
-			
-			// aapt resource value: 0x7F0A01DA
-			public const int unlabeled = 2131362266;
-			
-			// aapt resource value: 0x7F0A01DB
-			public const int up = 2131362267;
-			
-			// aapt resource value: 0x7F0A01DC
-			public const int useLogo = 2131362268;
-			
-			// aapt resource value: 0x7F0A01DD
-			public const int username = 2131362269;
+			public const int useLogo = 2131362255;
 			
 			// aapt resource value: 0x7F0A0010
 			public const int View1 = 2131361808;
 			
-			// aapt resource value: 0x7F0A01DE
-			public const int view1 = 2131362270;
+			// aapt resource value: 0x7F0A01D0
+			public const int view1 = 2131362256;
 			
-			// aapt resource value: 0x7F0A01DF
-			public const int view2 = 2131362271;
+			// aapt resource value: 0x7F0A01D1
+			public const int view2 = 2131362257;
 			
-			// aapt resource value: 0x7F0A01E0
-			public const int view_offset_helper = 2131362272;
+			// aapt resource value: 0x7F0A01D2
+			public const int view_offset_helper = 2131362258;
 			
-			// aapt resource value: 0x7F0A01E1
-			public const int view_tree_lifecycle_owner = 2131362273;
+			// aapt resource value: 0x7F0A01D3
+			public const int view_tree_lifecycle_owner = 2131362259;
 			
-			// aapt resource value: 0x7F0A01E2
-			public const int view_tree_saved_state_registry_owner = 2131362274;
+			// aapt resource value: 0x7F0A01D4
+			public const int view_tree_saved_state_registry_owner = 2131362260;
 			
-			// aapt resource value: 0x7F0A01E3
-			public const int visible = 2131362275;
+			// aapt resource value: 0x7F0A01D5
+			public const int visible = 2131362261;
 			
-			// aapt resource value: 0x7F0A01E4
-			public const int visible_removing_fragment_view_tag = 2131362276;
+			// aapt resource value: 0x7F0A01D6
+			public const int visible_removing_fragment_view_tag = 2131362262;
 			
-			// aapt resource value: 0x7F0A01E6
-			public const int withinBounds = 2131362278;
+			// aapt resource value: 0x7F0A01D8
+			public const int withinBounds = 2131362264;
 			
-			// aapt resource value: 0x7F0A01E5
-			public const int withText = 2131362277;
+			// aapt resource value: 0x7F0A01D7
+			public const int withText = 2131362263;
 			
-			// aapt resource value: 0x7F0A01E7
-			public const int wrap = 2131362279;
+			// aapt resource value: 0x7F0A01D9
+			public const int wrap = 2131362265;
 			
-			// aapt resource value: 0x7F0A01E8
-			public const int wrap_content = 2131362280;
+			// aapt resource value: 0x7F0A01DA
+			public const int wrap_content = 2131362266;
 			
-			// aapt resource value: 0x7F0A01E9
-			public const int zero_corner_chip = 2131362281;
+			// aapt resource value: 0x7F0A01DB
+			public const int zero_corner_chip = 2131362267;
 			
 			static Id()
 			{
@@ -21554,331 +24400,313 @@ namespace SampleApp.Droid
 			public const int expand_button = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int FirstView = 2131558446;
+			public const int image_frame = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int image_frame = 2131558447;
+			public const int Item_ClientList = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int Item_ClientList = 2131558448;
+			public const int item_name = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int item_name = 2131558449;
+			public const int ListItem_View = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int ListItem_View = 2131558450;
+			public const int loading = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int loading = 2131558451;
+			public const int loadingimage = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int loadingimage = 2131558452;
+			public const int loadingprogress = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int loadingprogress = 2131558453;
+			public const int Login = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int Login = 2131558454;
-			
-			// aapt resource value: 0x7F0D0037
-			public const int MainView = 2131558455;
-			
-			// aapt resource value: 0x7F0D0038
-			public const int material_chip_input_combo = 2131558456;
-			
-			// aapt resource value: 0x7F0D003D
-			public const int material_clockface_textview = 2131558461;
-			
-			// aapt resource value: 0x7F0D003E
-			public const int material_clockface_view = 2131558462;
-			
-			// aapt resource value: 0x7F0D0039
-			public const int material_clock_display = 2131558457;
-			
-			// aapt resource value: 0x7F0D003A
-			public const int material_clock_display_divider = 2131558458;
+			public const int material_chip_input_combo = 2131558454;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int material_clock_period_toggle = 2131558459;
+			public const int material_clockface_textview = 2131558459;
 			
 			// aapt resource value: 0x7F0D003C
-			public const int material_clock_period_toggle_land = 2131558460;
+			public const int material_clockface_view = 2131558460;
 			
-			// aapt resource value: 0x7F0D003F
-			public const int material_radial_view_group = 2131558463;
+			// aapt resource value: 0x7F0D0037
+			public const int material_clock_display = 2131558455;
 			
-			// aapt resource value: 0x7F0D0040
-			public const int material_textinput_timepicker = 2131558464;
+			// aapt resource value: 0x7F0D0038
+			public const int material_clock_display_divider = 2131558456;
 			
-			// aapt resource value: 0x7F0D0043
-			public const int material_timepicker = 2131558467;
+			// aapt resource value: 0x7F0D0039
+			public const int material_clock_period_toggle = 2131558457;
 			
-			// aapt resource value: 0x7F0D0044
-			public const int material_timepicker_dialog = 2131558468;
+			// aapt resource value: 0x7F0D003A
+			public const int material_clock_period_toggle_land = 2131558458;
 			
-			// aapt resource value: 0x7F0D0045
-			public const int material_timepicker_textinput_display = 2131558469;
+			// aapt resource value: 0x7F0D003D
+			public const int material_radial_view_group = 2131558461;
+			
+			// aapt resource value: 0x7F0D003E
+			public const int material_textinput_timepicker = 2131558462;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int material_time_chip = 2131558465;
+			public const int material_timepicker = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int material_time_input = 2131558466;
+			public const int material_timepicker_dialog = 2131558466;
+			
+			// aapt resource value: 0x7F0D0043
+			public const int material_timepicker_textinput_display = 2131558467;
+			
+			// aapt resource value: 0x7F0D003F
+			public const int material_time_chip = 2131558463;
+			
+			// aapt resource value: 0x7F0D0040
+			public const int material_time_input = 2131558464;
+			
+			// aapt resource value: 0x7F0D0044
+			public const int mtrl_alert_dialog = 2131558468;
+			
+			// aapt resource value: 0x7F0D0045
+			public const int mtrl_alert_dialog_actions = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int MenuView = 2131558470;
+			public const int mtrl_alert_dialog_title = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int mtrl_alert_dialog = 2131558471;
+			public const int mtrl_alert_select_dialog_item = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int mtrl_alert_dialog_actions = 2131558472;
+			public const int mtrl_alert_select_dialog_multichoice = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int mtrl_alert_dialog_title = 2131558473;
+			public const int mtrl_alert_select_dialog_singlechoice = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int mtrl_alert_select_dialog_item = 2131558474;
-			
-			// aapt resource value: 0x7F0D004B
-			public const int mtrl_alert_select_dialog_multichoice = 2131558475;
+			public const int mtrl_calendar_day = 2131558474;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int mtrl_alert_select_dialog_singlechoice = 2131558476;
+			public const int mtrl_calendar_days_of_week = 2131558476;
+			
+			// aapt resource value: 0x7F0D004B
+			public const int mtrl_calendar_day_of_week = 2131558475;
 			
 			// aapt resource value: 0x7F0D004D
-			public const int mtrl_calendar_day = 2131558477;
-			
-			// aapt resource value: 0x7F0D004F
-			public const int mtrl_calendar_days_of_week = 2131558479;
+			public const int mtrl_calendar_horizontal = 2131558477;
 			
 			// aapt resource value: 0x7F0D004E
-			public const int mtrl_calendar_day_of_week = 2131558478;
-			
-			// aapt resource value: 0x7F0D0050
-			public const int mtrl_calendar_horizontal = 2131558480;
+			public const int mtrl_calendar_month = 2131558478;
 			
 			// aapt resource value: 0x7F0D0051
-			public const int mtrl_calendar_month = 2131558481;
+			public const int mtrl_calendar_months = 2131558481;
 			
-			// aapt resource value: 0x7F0D0054
-			public const int mtrl_calendar_months = 2131558484;
+			// aapt resource value: 0x7F0D004F
+			public const int mtrl_calendar_month_labeled = 2131558479;
+			
+			// aapt resource value: 0x7F0D0050
+			public const int mtrl_calendar_month_navigation = 2131558480;
 			
 			// aapt resource value: 0x7F0D0052
-			public const int mtrl_calendar_month_labeled = 2131558482;
+			public const int mtrl_calendar_vertical = 2131558482;
 			
 			// aapt resource value: 0x7F0D0053
-			public const int mtrl_calendar_month_navigation = 2131558483;
+			public const int mtrl_calendar_year = 2131558483;
+			
+			// aapt resource value: 0x7F0D0054
+			public const int mtrl_layout_snackbar = 2131558484;
 			
 			// aapt resource value: 0x7F0D0055
-			public const int mtrl_calendar_vertical = 2131558485;
+			public const int mtrl_layout_snackbar_include = 2131558485;
 			
 			// aapt resource value: 0x7F0D0056
-			public const int mtrl_calendar_year = 2131558486;
+			public const int mtrl_picker_actions = 2131558486;
 			
 			// aapt resource value: 0x7F0D0057
-			public const int mtrl_layout_snackbar = 2131558487;
+			public const int mtrl_picker_dialog = 2131558487;
 			
 			// aapt resource value: 0x7F0D0058
-			public const int mtrl_layout_snackbar_include = 2131558488;
+			public const int mtrl_picker_fullscreen = 2131558488;
 			
 			// aapt resource value: 0x7F0D0059
-			public const int mtrl_picker_actions = 2131558489;
+			public const int mtrl_picker_header_dialog = 2131558489;
 			
 			// aapt resource value: 0x7F0D005A
-			public const int mtrl_picker_dialog = 2131558490;
+			public const int mtrl_picker_header_fullscreen = 2131558490;
 			
 			// aapt resource value: 0x7F0D005B
-			public const int mtrl_picker_fullscreen = 2131558491;
+			public const int mtrl_picker_header_selection_text = 2131558491;
 			
 			// aapt resource value: 0x7F0D005C
-			public const int mtrl_picker_header_dialog = 2131558492;
+			public const int mtrl_picker_header_title_text = 2131558492;
 			
 			// aapt resource value: 0x7F0D005D
-			public const int mtrl_picker_header_fullscreen = 2131558493;
+			public const int mtrl_picker_header_toggle = 2131558493;
 			
 			// aapt resource value: 0x7F0D005E
-			public const int mtrl_picker_header_selection_text = 2131558494;
+			public const int mtrl_picker_text_input_date = 2131558494;
 			
 			// aapt resource value: 0x7F0D005F
-			public const int mtrl_picker_header_title_text = 2131558495;
+			public const int mtrl_picker_text_input_date_range = 2131558495;
 			
 			// aapt resource value: 0x7F0D0060
-			public const int mtrl_picker_header_toggle = 2131558496;
+			public const int notification_action = 2131558496;
 			
 			// aapt resource value: 0x7F0D0061
-			public const int mtrl_picker_text_input_date = 2131558497;
+			public const int notification_action_tombstone = 2131558497;
 			
 			// aapt resource value: 0x7F0D0062
-			public const int mtrl_picker_text_input_date_range = 2131558498;
+			public const int notification_media_action = 2131558498;
 			
 			// aapt resource value: 0x7F0D0063
-			public const int navigation_header = 2131558499;
+			public const int notification_media_cancel_action = 2131558499;
 			
 			// aapt resource value: 0x7F0D0064
-			public const int notification_action = 2131558500;
+			public const int notification_template_big_media = 2131558500;
 			
 			// aapt resource value: 0x7F0D0065
-			public const int notification_action_tombstone = 2131558501;
+			public const int notification_template_big_media_custom = 2131558501;
 			
 			// aapt resource value: 0x7F0D0066
-			public const int notification_media_action = 2131558502;
+			public const int notification_template_big_media_narrow = 2131558502;
 			
 			// aapt resource value: 0x7F0D0067
-			public const int notification_media_cancel_action = 2131558503;
+			public const int notification_template_big_media_narrow_custom = 2131558503;
 			
 			// aapt resource value: 0x7F0D0068
-			public const int notification_template_big_media = 2131558504;
+			public const int notification_template_custom_big = 2131558504;
 			
 			// aapt resource value: 0x7F0D0069
-			public const int notification_template_big_media_custom = 2131558505;
+			public const int notification_template_icon_group = 2131558505;
 			
 			// aapt resource value: 0x7F0D006A
-			public const int notification_template_big_media_narrow = 2131558506;
+			public const int notification_template_lines_media = 2131558506;
 			
 			// aapt resource value: 0x7F0D006B
-			public const int notification_template_big_media_narrow_custom = 2131558507;
+			public const int notification_template_media = 2131558507;
 			
 			// aapt resource value: 0x7F0D006C
-			public const int notification_template_custom_big = 2131558508;
+			public const int notification_template_media_custom = 2131558508;
 			
 			// aapt resource value: 0x7F0D006D
-			public const int notification_template_icon_group = 2131558509;
+			public const int notification_template_part_chronometer = 2131558509;
 			
 			// aapt resource value: 0x7F0D006E
-			public const int notification_template_lines_media = 2131558510;
+			public const int notification_template_part_time = 2131558510;
 			
 			// aapt resource value: 0x7F0D006F
-			public const int notification_template_media = 2131558511;
+			public const int OrderDetail = 2131558511;
 			
 			// aapt resource value: 0x7F0D0070
-			public const int notification_template_media_custom = 2131558512;
+			public const int OrderList = 2131558512;
 			
 			// aapt resource value: 0x7F0D0071
-			public const int notification_template_part_chronometer = 2131558513;
+			public const int preference = 2131558513;
 			
 			// aapt resource value: 0x7F0D0072
-			public const int notification_template_part_time = 2131558514;
+			public const int preference_category = 2131558514;
 			
 			// aapt resource value: 0x7F0D0073
-			public const int OrderDetail = 2131558515;
+			public const int preference_category_material = 2131558515;
 			
 			// aapt resource value: 0x7F0D0074
-			public const int OrderList = 2131558516;
+			public const int preference_dialog_edittext = 2131558516;
 			
 			// aapt resource value: 0x7F0D0075
-			public const int PeopleView = 2131558517;
+			public const int preference_dropdown = 2131558517;
 			
 			// aapt resource value: 0x7F0D0076
-			public const int PersonView = 2131558518;
+			public const int preference_dropdown_material = 2131558518;
 			
 			// aapt resource value: 0x7F0D0077
-			public const int preference = 2131558519;
+			public const int preference_information = 2131558519;
 			
 			// aapt resource value: 0x7F0D0078
-			public const int preference_category = 2131558520;
+			public const int preference_information_material = 2131558520;
 			
 			// aapt resource value: 0x7F0D0079
-			public const int preference_category_material = 2131558521;
+			public const int preference_list_fragment = 2131558521;
 			
 			// aapt resource value: 0x7F0D007A
-			public const int preference_dialog_edittext = 2131558522;
+			public const int preference_material = 2131558522;
 			
 			// aapt resource value: 0x7F0D007B
-			public const int preference_dropdown = 2131558523;
+			public const int preference_recyclerview = 2131558523;
 			
 			// aapt resource value: 0x7F0D007C
-			public const int preference_dropdown_material = 2131558524;
+			public const int preference_widget_checkbox = 2131558524;
 			
 			// aapt resource value: 0x7F0D007D
-			public const int preference_information = 2131558525;
+			public const int preference_widget_seekbar = 2131558525;
 			
 			// aapt resource value: 0x7F0D007E
-			public const int preference_information_material = 2131558526;
+			public const int preference_widget_seekbar_material = 2131558526;
 			
 			// aapt resource value: 0x7F0D007F
-			public const int preference_list_fragment = 2131558527;
+			public const int preference_widget_switch = 2131558527;
 			
 			// aapt resource value: 0x7F0D0080
-			public const int preference_material = 2131558528;
+			public const int preference_widget_switch_compat = 2131558528;
 			
 			// aapt resource value: 0x7F0D0081
-			public const int preference_recyclerview = 2131558529;
+			public const int select_dialog_item_material = 2131558529;
 			
 			// aapt resource value: 0x7F0D0082
-			public const int preference_widget_checkbox = 2131558530;
+			public const int select_dialog_multichoice_material = 2131558530;
 			
 			// aapt resource value: 0x7F0D0083
-			public const int preference_widget_seekbar = 2131558531;
+			public const int select_dialog_singlechoice_material = 2131558531;
 			
 			// aapt resource value: 0x7F0D0084
-			public const int preference_widget_seekbar_material = 2131558532;
+			public const int SplashScreen = 2131558532;
 			
 			// aapt resource value: 0x7F0D0085
-			public const int preference_widget_switch = 2131558533;
+			public const int support_simple_spinner_dropdown_item = 2131558533;
 			
 			// aapt resource value: 0x7F0D0086
-			public const int preference_widget_switch_compat = 2131558534;
+			public const int test_action_chip = 2131558534;
 			
 			// aapt resource value: 0x7F0D0087
-			public const int select_dialog_item_material = 2131558535;
+			public const int test_chip_zero_corner_radius = 2131558535;
 			
 			// aapt resource value: 0x7F0D0088
-			public const int select_dialog_multichoice_material = 2131558536;
+			public const int test_design_checkbox = 2131558536;
 			
 			// aapt resource value: 0x7F0D0089
-			public const int select_dialog_singlechoice_material = 2131558537;
+			public const int test_design_radiobutton = 2131558537;
 			
 			// aapt resource value: 0x7F0D008A
-			public const int SplashScreen = 2131558538;
+			public const int test_reflow_chipgroup = 2131558538;
 			
 			// aapt resource value: 0x7F0D008B
-			public const int support_simple_spinner_dropdown_item = 2131558539;
+			public const int test_toolbar = 2131558539;
 			
 			// aapt resource value: 0x7F0D008C
-			public const int test_action_chip = 2131558540;
+			public const int test_toolbar_custom_background = 2131558540;
 			
 			// aapt resource value: 0x7F0D008D
-			public const int test_chip_zero_corner_radius = 2131558541;
+			public const int test_toolbar_elevation = 2131558541;
 			
 			// aapt resource value: 0x7F0D008E
-			public const int test_design_checkbox = 2131558542;
-			
-			// aapt resource value: 0x7F0D008F
-			public const int test_design_radiobutton = 2131558543;
-			
-			// aapt resource value: 0x7F0D0090
-			public const int test_reflow_chipgroup = 2131558544;
-			
-			// aapt resource value: 0x7F0D0091
-			public const int test_toolbar = 2131558545;
-			
-			// aapt resource value: 0x7F0D0092
-			public const int test_toolbar_custom_background = 2131558546;
+			public const int test_toolbar_surface = 2131558542;
 			
 			// aapt resource value: 0x7F0D0093
-			public const int test_toolbar_elevation = 2131558547;
+			public const int text_view_without_line_height = 2131558547;
+			
+			// aapt resource value: 0x7F0D008F
+			public const int text_view_with_line_height_from_appearance = 2131558543;
+			
+			// aapt resource value: 0x7F0D0090
+			public const int text_view_with_line_height_from_layout = 2131558544;
+			
+			// aapt resource value: 0x7F0D0091
+			public const int text_view_with_line_height_from_style = 2131558545;
+			
+			// aapt resource value: 0x7F0D0092
+			public const int text_view_with_theme_line_height = 2131558546;
 			
 			// aapt resource value: 0x7F0D0094
-			public const int test_toolbar_surface = 2131558548;
-			
-			// aapt resource value: 0x7F0D0099
-			public const int text_view_without_line_height = 2131558553;
-			
-			// aapt resource value: 0x7F0D0095
-			public const int text_view_with_line_height_from_appearance = 2131558549;
-			
-			// aapt resource value: 0x7F0D0096
-			public const int text_view_with_line_height_from_layout = 2131558550;
-			
-			// aapt resource value: 0x7F0D0097
-			public const int text_view_with_line_height_from_style = 2131558551;
-			
-			// aapt resource value: 0x7F0D0098
-			public const int text_view_with_theme_line_height = 2131558552;
-			
-			// aapt resource value: 0x7F0D009A
-			public const int toolbar_actionbar = 2131558554;
+			public const int toolbar_actionbar = 2131558548;
 			
 			static Layout()
 			{

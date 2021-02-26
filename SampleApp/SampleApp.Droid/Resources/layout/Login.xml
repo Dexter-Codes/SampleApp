@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:local="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -28,10 +29,10 @@
  android:background="@android:color/holo_green_dark" />
 <LinearLayout
     android:id="@+id/linearLayout1"
+    android:layout_below="@id/view2"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_centerHorizontal="true"
-    android:layout_centerVertical="true"
+    android:layout_marginTop="250px"
     android:orientation="vertical">
     <LinearLayout
     android:layout_width="fill_parent"
@@ -111,15 +112,17 @@
         android:textSize="@dimen/text_size"
 		local:MvxBind="Click LoginCommand"
 		android:layout_below="@id/linearLayout1"
-		android:background="@drawable/btn_shadow"
+		android:background="@drawable/rounded_buttonShadow"
         android:elevation="2dp"
         android:gravity="center"
         android:textAlignment="center"
         android:layout_marginTop="100px"
 		android:layout_marginLeft="218px"
-        android:layout_marginRight="210px"
+        android:layout_marginRight="218px"
+        android:layout_marginBottom="-100px"
 		/>
 	<View
+        android:layout_alignParentBottom="true"
 		android:layout_below="@id/button1"
 		android:background="@drawable/background"
 		android:layout_width="match_parent"

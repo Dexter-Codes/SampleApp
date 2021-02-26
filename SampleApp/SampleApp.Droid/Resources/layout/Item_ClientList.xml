@@ -1,32 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<android.support.v7.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:local="http://schemas.android.com/apk/res-auto"
-	android:layout_width="match_parent"
-	android:layout_height="wrap_content"
-	android:orientation="vertical"
-	>
-<com.google.android.material.card.MaterialCardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:local="http://schemas.android.com/apk/res-auto"
         android:id="@+id/imgbtn_onboard"      
         android:layout_width="match_parent"
-        android:layout_height="135px"
-        app:cardCornerRadius="17.38px"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="17px"
         android:layout_marginLeft="5px"
         android:layout_marginRight="5px"
-        android:layout_marginBottom="5px"
-        android:layout_marginTop="30px"
-        app:cardElevation="2dp"
-        app:strokeWidth="1px"
-        app:strokeColor="@color/card_border"
+        app:cardElevation="3dp"
+        app:cardMaxElevation="3.5dp"
+        app:cardUseCompatPadding="true"
         >
    
           <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="135px"
             android:orientation="horizontal"
+            android:background="@drawable/shadow"
             android:weightSum="3.8">
 
             <TextView
@@ -35,6 +27,7 @@
                 android:textColor="@color/text_bold"
                 android:fontFamily="@font/poppins_regular"
                 android:gravity="center"
+                android:layout_gravity="center"
                 android:textAlignment="center"
                 local:MvxBind="Text ClientName"
                 android:layout_width="0dp"
@@ -46,18 +39,18 @@
                 android:textColor="@color/text_green"
                 android:fontFamily="@font/poppins_medium"
                 android:gravity="center"
+                android:layout_gravity="center"
                 android:textAlignment="center"
                 local:MvxBind="Text ClientNumber"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.8"/>
+                android:layout_weight="1"/>
             <ImageView
                 android:layout_width="77px"
                 android:layout_height="77px"
-                android:layout_marginTop="29px"
                 android:src="@drawable/next"
-                android:layout_marginRight="40px"
-                android:layout_weight="0.5"/>
+                android:layout_gravity="center"
+                android:layout_marginRight="25px"
+                android:layout_weight="0.3"/>
         </LinearLayout>
-   </com.google.android.material.card.MaterialCardView>
-</RelativeLayout>
+   </android.support.v7.widget.CardView>
